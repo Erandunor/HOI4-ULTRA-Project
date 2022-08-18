@@ -1216,9 +1216,59 @@ guiTypes = {
 				orientation = center_up
 				origo = center_up
 			
+				instantTextBoxType = {
+					name = "armour_modules_subtitles_engine"
+					position = { x = -380 y = -50 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 4}
+					text = "ARMOUR_MODULES_TITLE_ENGINE"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
 				
+				instantTextBoxType = {
+					name = "armour_modules_subtitles_suspension"
+					position = { x = 0 y = -50 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 4}
+					text = "ARMOUR_MODULES_TITLE_SUSPENSION"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "armour_modules_subtitles_gun"
+					position = { x = 450 y = -50 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 4}
+					text = "ARMOUR_MODULES_TITLE_GUN"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "armour_modules_subtitles_armor"
+					position = { x = 800 y = -50 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 4}
+					text = "ARMOUR_MODULES_TITLE_ARMOR"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
 			}	
-
+	
 		}
 
 		containerWindowType = {
