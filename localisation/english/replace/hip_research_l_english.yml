@@ -209,3 +209,6 @@
  mtgnaval_aux_folder:0 "Naval Modules"
  mtgnaval_aux_folder_desc:0 "Research new modules to customize your ships."
  maritime_research:0 "Maritime Aircraft Research Speed:"
+ 
+ armour_modules_folder:0 "Armor Modules"
+ armour_modules_folder_desc:0 "Research new modules to customize your tanks."

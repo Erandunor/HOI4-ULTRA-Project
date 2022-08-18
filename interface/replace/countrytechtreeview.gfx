@@ -4,6 +4,12 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree//techtree_air_nav_tab.dds"
 		noOfFrames = 2		
 	}
+	
+	spriteType = {
+		name = "GFX_armour_modules_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_armour_modules_tab.dds"
+		noOfFrames = 2		
+	}
 
 	spriteType = {
 		name = "GFX_minor_armour_folder_tab"
@@ -87,6 +93,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_mtgnaval_aux_folder_icon"
 		textureFile = "gfx/interface/techtree/icons/mtgnaval_aux_folder_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_armour_modules_folder_icon"
+		textureFile = "gfx/interface/techtree/icons/armour_modules_folder_icon.dds"
 	}
 
 	spriteType = {
