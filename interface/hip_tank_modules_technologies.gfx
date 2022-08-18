@@ -1,0 +1,20 @@
+spriteTypes = {
+
+############################################################### Tank Radio ##########################################################################
+
+	#Early Tank Radio
+	SpriteType = {
+		name = "GFX_radio_tank_1_medium"
+		texturefile ="gfx/interface/technologies/tank_radio_module1.dds"
+	}
+	
+	
+############################################################### Tank Optics ##########################################################################
+
+	#Early Tank Optics
+	SpriteType = {
+		name = "GFX_optics_1_medium"
+		texturefile ="gfx/interface/technologies/tank_sight1.dds"
+	}
+
+}

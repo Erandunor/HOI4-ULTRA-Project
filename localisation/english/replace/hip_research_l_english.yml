@@ -225,3 +225,9 @@
  TITLE_RADIO_SUBTITLE_DESC:0 ""
  TITLE_OPTICS_SUBTITLE:0 "Optics"
  TITLE_OPTICS_SUBTITLE_desc:0 ""
+ 
+ radio_tank_1:0 "Early Tank Radio"
+ radio_tank_1_desc:0 ""
+ 
+ optics_1:0 "Early Tank Optics"
+ optics_1_desc:0 ""
