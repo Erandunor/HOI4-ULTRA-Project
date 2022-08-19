@@ -612,17 +612,17 @@ technologies = {
 
 			modifier = {
 				factor = 1.1
-				date > "1937.1.1"
+				date > "1941.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1938.1.1"
+				date > "1942.1.1"
 			}
 
 			modifier = {
 				factor = 1.1
-				date > "1939.1.1"
+				date > "1943.1.1"
 			}
 		}
 
@@ -638,6 +638,103 @@ technologies = {
 		folder = {
 			name = armour_modules_folder
 			position = { x = 0 y = @1944 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1945.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1946.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1947.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	#### GUNS !!! ####  All tank gun technologies starts there on a single point, then branch out by caliber categories
+	
+	tank_gun_tech_0 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			artillery_1 = 1
+		}
+		
+		path = { # 20mm
+			leads_to_tech = tank_light_gun_1_tech_1
+			research_cost_coeff = 1
+		}
+		
+		path = { # 40mm
+			leads_to_tech = tank_light_gun_2_tech_1
+			research_cost_coeff = 1
+		}
+		
+		path = { #50 mm
+			leads_to_tech = tank_medium_gun_1_tech_1
+			research_cost_coeff = 1
+		}
+		
+		path = { #57 mm
+			leads_to_tech = tank_medium_gun_2_tech_1
+			research_cost_coeff = 1
+		}
+		
+		path = { #75 mm
+			leads_to_tech = tank_medium_gun_3_tech_1
+			research_cost_coeff = 1
+		}
+		
+		path = { #90 mm
+			leads_to_tech = tank_heavy_gun_1_tech_1
+			research_cost_coeff = 1
+		}
+		
+		path = { #105 mm
+			leads_to_tech = tank_heavy_gun_2_tech_1
+			research_cost_coeff = 1
+		}
+		
+		path = { #125 mm
+			leads_to_tech = tank_super_heavy_gun_1_tech_1
+			research_cost_coeff = 1
+		}
+		
+		path = { #150 mm
+			leads_to_tech = tank_super_heavy_gun_2_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1934
+		folder = {
+			name = armour_modules_folder
+			position = { x = 0 y = @1934 }
 		}
 
 		ai_will_do = {
@@ -672,6 +769,1446 @@ technologies = {
 			armor
 		}
 	}
+	
+	#### 20 mm guns ####
+	
+	tank_light_gun_1_tech_1 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			
+		}
+		
+		path = {
+			leads_to_tech = tank_light_gun_1_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = armour_modules_folder
+			position = { x = -2 y = @1936 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	tank_light_gun_1_tech_2 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			
+		}
+		
+		path = {
+			
+		}
+
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = armour_modules_folder
+			position = { x = -2 y = @1941 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1942.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1943.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1944.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	#### 40 mm guns ####
+	
+	tank_light_gun_2_tech_1 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			anti_tank_1 = 1
+		}
+		
+		path = {
+			leads_to_tech = tank_light_gun_2_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = armour_modules_folder
+			position = { x = 0 y = @1936 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	tank_light_gun_2_tech_2 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			anti_tank_2 = 1
+		}
+		
+		path = {
+			
+		}
+
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = armour_modules_folder
+			position = { x = 0 y = @1940 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1941.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1942.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1943.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	#### 50 mm guns ####
+	
+	tank_medium_gun_1_tech_1 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			anti_tank_1 = 1
+		}
+		
+		path = {
+			leads_to_tech = tank_medium_gun_1_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = armour_modules_folder
+			position = { x = 2 y = @1936 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	tank_medium_gun_1_tech_2 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			anti_tank_2 = 1
+		}
+		
+		path = {
+			leads_to_tech = tank_medium_gun_1_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = armour_modules_folder
+			position = { x = 2 y = @1940 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1941.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1942.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1943.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	tank_medium_gun_1_tech_3 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			anti_tank_3 = 1
+		}
+		
+		path = {
+			
+		}
+
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = armour_modules_folder
+			position = { x = 2 y = @1943 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1943.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1944.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1945.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	#### 57 mm guns ####
+	
+	tank_medium_gun_2_tech_1 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			anti_tank_1 = 1
+		}
+		
+		path = {
+			leads_to_tech = tank_medium_gun_2_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = armour_modules_folder
+			position = { x = 4 y = @1936 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	tank_medium_gun_2_tech_2 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			anti_tank_2 = 1
+		}
+		
+		path = {
+			leads_to_tech = tank_medium_gun_2_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1939
+		folder = {
+			name = armour_modules_folder
+			position = { x = 4 y = @1939 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1940.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1941.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1942.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	tank_medium_gun_2_tech_3 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			anti_tank_3 = 1
+		}
+		
+		path = {
+			
+		}
+
+		research_cost = 1
+		start_year = 1942
+		folder = {
+			name = armour_modules_folder
+			position = { x = 4 y = @1942 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1943.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1944.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1945.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	#### 75 mm guns ####
+	
+	tank_medium_gun_3_tech_1 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			#anti_tank_1 = 1
+		}
+		
+		path = {
+			leads_to_tech = tank_medium_gun_3_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = armour_modules_folder
+			position = { x = 6 y = @1936 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	tank_medium_gun_3_tech_2 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			anti_tank_2 = 1
+		}
+		
+		path = {
+			leads_to_tech = tank_medium_gun_3_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = armour_modules_folder
+			position = { x = 6 y = @1940 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1941.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1942.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1943.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	tank_medium_gun_3_tech_3 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			anti_tank_2 = 1
+		}
+		
+		path = {
+			leads_to_tech = tank_medium_gun_3_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1943
+		folder = {
+			name = armour_modules_folder
+			position = { x = 6 y = @1943 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1944.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1945.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1946.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	tank_medium_gun_3_tech_4 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			anti_tank_3 = 1
+		}
+		
+		path = {
+			
+		}
+
+		research_cost = 1
+		start_year = 1945
+		folder = {
+			name = armour_modules_folder
+			position = { x = 6 y = @1945 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1946.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1947.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1948.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	#### 90 mm guns ####
+	
+	tank_heavy_gun_1_tech_1 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			artillery_1 = 1
+		}
+		
+		path = {
+			leads_to_tech = tank_heavy_gun_1_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = armour_modules_folder
+			position = { x = 8 y = @1936 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	tank_heavy_gun_1_tech_2 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			heavy_anti_tank_1 = 1
+		}
+		
+		path = {
+			leads_to_tech = tank_heavy_gun_1_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1943
+		folder = {
+			name = armour_modules_folder
+			position = { x = 8 y = @1943 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1943.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1944.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1945.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	tank_heavy_gun_1_tech_3 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			anti_tank_4 = 1
+		}
+		
+		path = {
+			leads_to_tech = tank_heavy_gun_1_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1945
+		folder = {
+			name = armour_modules_folder
+			position = { x = 8 y = @1945 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1945.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1946.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1947.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	tank_heavy_gun_1_tech_4 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			anti_tank_4 = 1
+		}
+		
+		path = {
+			
+		}
+
+		research_cost = 1
+		start_year = 1947
+		folder = {
+			name = armour_modules_folder
+			position = { x = 8 y = @1947 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1947.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1948.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1949.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	#### 105 mm guns ####
+	
+	tank_heavy_gun_2_tech_1 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			artillery_1 = 1
+		}
+		
+		path = {
+			leads_to_tech = tank_heavy_gun_2_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = armour_modules_folder
+			position = { x = 10 y = @1936 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	tank_heavy_gun_2_tech_2 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			heavy_anti_tank_1 = 1
+		}
+		
+		path = {
+			leads_to_tech = tank_heavy_gun_2_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1944
+		folder = {
+			name = armour_modules_folder
+			position = { x = 10 y = @1944 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1944.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1944.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1944.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	tank_heavy_gun_2_tech_3 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			heavy_anti_tank_2 = 1
+		}
+		
+		path = {
+			
+		}
+
+		research_cost = 1
+		start_year = 1947
+		folder = {
+			name = armour_modules_folder
+			position = { x = 10 y = @1947 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1947.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1948.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1948.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	#### 125 mm guns ####
+	
+	tank_super_heavy_gun_1_tech_1 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			heavy_artillery_1 = 1
+		}
+		
+		path = {
+			leads_to_tech = tank_super_heavy_gun_1_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = armour_modules_folder
+			position = { x = 12 y = @1936 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	tank_super_heavy_gun_1_tech_2 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			heavy_artillery_1 = 1
+		}
+		
+		path = {
+			leads_to_tech = tank_super_heavy_gun_1_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1942
+		folder = {
+			name = armour_modules_folder
+			position = { x = 12 y = @1942 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1943.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1944.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1945.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	tank_super_heavy_gun_1_tech_3 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			heavy_anti_tank_2 = 1
+		}
+		
+		path = {
+			
+		}
+
+		research_cost = 1
+		start_year = 1945
+		folder = {
+			name = armour_modules_folder
+			position = { x = 12 y = @1945 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1946.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1947.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1948.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	#### 150 mm guns ####
+	
+	tank_super_heavy_gun_2_tech_1 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			heavy_artillery_1 = 1
+		}
+		
+		path = {
+			leads_to_tech = tank_super_heavy_gun_2_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = armour_modules_folder
+			position = { x = 14 y = @1936 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	tank_super_heavy_gun_2_tech_2 = {
+	
+		enable_equipment_modules = {
+			
+		}
+		
+		dependencies = {
+			heavy_artillery_3 = 1
+		}
+		
+		path = {
+			
+		}
+
+		research_cost = 1
+		start_year = 1946
+		folder = {
+			name = armour_modules_folder
+			position = { x = 14 y = @1946 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1947.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1948.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1949.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
 
 
 }

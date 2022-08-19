@@ -98,6 +98,217 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
+############################################################### Tank Guns  ##########################################################################
+
+############################################################### Basic Gun  ##########################################################################
+	#Interwar gun
+	spriteType = {
+		name = "GFX_tank_gun_tech_0_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_small_cannon.dds"
+		legacy_lazy_load = no
+	}
+############################################################### 20mm Guns  ##########################################################################
+
+	#Improved 20 mm gun
+	spriteType = {
+		name = "GFX_tank_light_gun_1_tech_1_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_small_cannon.dds"
+		legacy_lazy_load = no
+	}
+	
+	#High Velocity 20 mm gun
+	spriteType = {
+		name = "GFX_tank_light_gun_1_tech_2_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_small_cannon_2.dds"
+		legacy_lazy_load = no
+	}
+
+############################################################### 40mm Guns  ##########################################################################
+
+	#Improved 40 mm gun
+	spriteType = {
+		name = "GFX_tank_light_gun_2_tech_1_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_small_cannon.dds"
+		legacy_lazy_load = no
+	}
+	
+	#High Velocity 40 mm gun
+	spriteType = {
+		name = "GFX_tank_light_gun_2_tech_2_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_small_cannon_2.dds"
+		legacy_lazy_load = no
+	}
+
+	
+############################################################### 50mm Guns  ##########################################################################	
+	
+	#50 mm gun
+	spriteType = {
+		name = "GFX_tank_medium_gun_1_tech_1_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_cannon.dds"
+		legacy_lazy_load = no
+	}
+	
+	#High Velocity 50 mm gun
+	spriteType = {
+		name = "GFX_tank_medium_gun_1_tech_2_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	#Ultra High Velocity 50 mm gun
+	spriteType = {
+		name = "GFX_tank_medium_gun_1_tech_3_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon_3.dds"
+		legacy_lazy_load = no
+	}
+	
+############################################################### 57mm Guns  ##########################################################################	
+	
+	#57 mm gun
+	spriteType = {
+		name = "GFX_tank_medium_gun_2_tech_1_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_cannon_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	#High Velocity 57 mm gun
+	spriteType = {
+		name = "GFX_tank_medium_gun_2_tech_2_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	#Ultra High Velocity 57 mm gun
+	spriteType = {
+		name = "GFX_tank_medium_gun_2_tech_3_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon_3.dds"
+		legacy_lazy_load = no
+	}
+		
+	
+	
+############################################################### 75mm Guns  ##########################################################################	
+	
+	#75mm Howitzer
+	spriteType = {
+		name = "GFX_tank_medium_gun_3_tech_1_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_howitzer.dds"
+		legacy_lazy_load = no
+	}
+	
+	#75mm Cannon
+	spriteType = {
+		name = "GFX_tank_medium_gun_3_tech_2_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_cannon.dds"
+		legacy_lazy_load = no
+	}
+	
+	#High Velocity 75mm Cannon
+	spriteType = {
+		name = "GFX_tank_medium_gun_3_tech_3_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	#Ultra High Velocity 75mm Cannon
+	spriteType = {
+		name = "GFX_tank_medium_gun_3_tech_4_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon_3.dds"
+		legacy_lazy_load = no
+	}
+	
+############################################################### 90mm Guns  ##########################################################################	
+	
+	#90mm Howitzer
+	spriteType = {
+		name = "GFX_tank_heavy_gun_1_tech_1_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_howitzer_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	#90mm Cannon
+	spriteType = {
+		name = "GFX_tank_heavy_gun_1_tech_2_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_cannon.dds"
+		legacy_lazy_load = no
+	}
+	
+	#High Velocity 90mm Cannon
+	spriteType = {
+		name = "GFX_tank_heavy_gun_1_tech_3_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	#Ultra High Velocity 90mm Cannon
+	spriteType = {
+		name = "GFX_tank_heavy_gun_1_tech_4_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon_3.dds"
+		legacy_lazy_load = no
+	}
+
+############################################################### 105mm Guns  ##########################################################################	
+	
+	#105mm Howitzer
+	spriteType = {
+		name = "GFX_tank_heavy_gun_2_tech_1_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_howitzer.dds"
+		legacy_lazy_load = no
+	}
+	
+	#105mm Cannon
+	spriteType = {
+		name = "GFX_tank_heavy_gun_2_tech_2_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_cannon_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	#High Velocity 105mm Cannon
+	spriteType = {
+		name = "GFX_tank_heavy_gun_2_tech_3_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon_2.dds"
+		legacy_lazy_load = no
+	}
+
+############################################################### 125mm Guns  ##########################################################################	
+	
+	#125mm Howitzer
+	spriteType = {
+		name = "GFX_tank_super_heavy_gun_1_tech_1_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_howitzer_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	#125mm Cannon
+	spriteType = {
+		name = "GFX_tank_super_heavy_gun_1_tech_2_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_super_heavy_cannon.dds"
+		legacy_lazy_load = no
+	}
+	
+	#High Velocity 125mm Cannon
+	spriteType = {
+		name = "GFX_tank_super_heavy_gun_1_tech_3_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon_2.dds"
+		legacy_lazy_load = no
+	}
+
+############################################################### 150mm Guns  ##########################################################################	
+	
+	#150mm Howitzer
+	spriteType = {
+		name = "GFX_tank_super_heavy_gun_2_tech_1_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_howitzer_2.dds"
+		legacy_lazy_load = no
+	}
+	
+	#150mm Cannon
+	spriteType = {
+		name = "GFX_tank_super_heavy_gun_2_tech_2_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_super_heavy_cannon.dds"
+		legacy_lazy_load = no
+	}
 	
 }
 

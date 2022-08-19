@@ -753,7 +753,7 @@ guiTypes = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
-					
+
 			containerWindowType = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
@@ -777,7 +777,7 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "armour_modules_year_right"
-					position = { x=10 y=140 }
+					position = { x= 10 y=140 }
 					size = { width = 80 height = 100%% }
 					orientation = upper_left
 
@@ -1218,7 +1218,7 @@ guiTypes = {
 			
 				instantTextBoxType = {
 					name = "armour_modules_subtitles_engine"
-					position = { x = -380 y = -50 }
+					position = { x = -350 y = -50 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 4}
@@ -1228,10 +1228,10 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
-				
+
 				instantTextBoxType = {
 					name = "armour_modules_subtitles_gun"
-					position = { x = 450 y = -50 }
+					position = { x = 450 y = -100 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 4}
@@ -1241,10 +1241,10 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
-				
+
 				instantTextBoxType = {
 					name = "armour_modules_subtitles_armor"
-					position = { x = 1340 y = -50 }
+					position = { x = 1400 y = -50 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 4}
@@ -1254,11 +1254,128 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
+				
+				instantTextBoxType = {
+					name = "armour_modules_subtitles_20mm"
+					position = { x = -60 y = 35 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 4}
+					text = "ARMOUR_MODULES_TITLE_20MM"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "armour_modules_subtitles_40mm"
+					position = { x = 55 y = -50 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 4}
+					text = "ARMOUR_MODULES_TITLE_40MM"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+		
+				instantTextBoxType = {
+					name = "armour_modules_subtitles_50mm"
+					position = { x = 210 y = 35 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 4}
+					text = "ARMOUR_MODULES_TITLE_50MM"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "armour_modules_subtitles_57mm"
+					position = { x = 330 y = 0 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 4}
+					text = "ARMOUR_MODULES_TITLE_57MM"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "armour_modules_subtitles_75mm"
+					position = { x = 470 y = 35 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 4}
+					text = "ARMOUR_MODULES_TITLE_75MM"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "armour_modules_subtitles_90mm"
+					position = { x = 610 y = 0 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 4}
+					text = "ARMOUR_MODULES_TITLE_90MM"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "armour_modules_subtitles_105mm"
+					position = { x = 740 y = 35 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 4}
+					text = "ARMOUR_MODULES_TITLE_105MM"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "armour_modules_subtitles_125mm"
+					position = { x = 880 y = 0 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 4}
+					text = "ARMOUR_MODULES_TITLE_125MM"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "armour_modules_subtitles_150mm"
+					position = { x = 1020 y = 35 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 4}
+					text = "ARMOUR_MODULES_TITLE_150MM"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
 			}
-	
+
 			gridboxtype = {
 				name = "gasoline_engine_1_tree"
-				position = { x = -440 y = 172 }
+				position = { x = -22% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1266,7 +1383,15 @@ guiTypes = {
 		
 			gridboxtype = {
 				name = "diesel_engine_1_tree"
-				position = { x = -440 y = 172 }
+				position = { x = -22% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			
+			gridboxtype = {
+				name = "tank_gun_tech_0_tree"
+				position = { x = 0 y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1274,15 +1399,15 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "armor_riveted_tree"
-				position = { x = 1350 y = 172 }
+				position = { x = 75% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-		
+	
 			gridboxtype = {
 				name = "armor_tech_1_tree"
-				position = { x = 1350 y = 172 }
+				position = { x = 75% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
