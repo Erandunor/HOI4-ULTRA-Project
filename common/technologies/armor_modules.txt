@@ -17,5 +17,386 @@
 
 technologies = {
 
+#### Engines ####
+
+	engine_tech_1 = {
+
+
+		path = {
+			leads_to_tech = engine_tech_2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1934
+		folder = {
+			name = armour_modules_folder
+			position = { x = -1 y = @1934 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1935.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1936.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+
+	engine_tech_2 = {
+
+
+		path = {
+			leads_to_tech = engine_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = armour_modules_folder
+			position = { x = -1 y = @1938 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+
+	engine_tech_3 = {
+
+
+		path = {
+			leads_to_tech = engine_tech_4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = armour_modules_folder
+			position = { x = -1 y = @1941 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+
+	engine_tech_4 = {
+
+		research_cost = 1
+		start_year = 1944
+		folder = {
+			name = armour_modules_folder
+			position = { x = -1 y = @1944 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+	
+	
+	### Armor ###
+	
+	armor_tech_1 = {
+		enable_equipment_modules = {
+			
+		}
+
+		path = {
+			leads_to_tech = armor_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1934
+		folder = {
+			name = armour_modules_folder
+			position = { x = 0 y = @1934 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+
+	armor_tech_2 = {
+
+		enable_equipment_modules = {
+			
+		}
+		path = {
+			leads_to_tech = armor_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = armour_modules_folder
+			position = { x = 0 y = @1938 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1940.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+
+	armor_tech_3 = {
+
+
+		path = {
+			leads_to_tech = armor_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1941
+		folder = {
+			name = armour_modules_folder
+			position = { x = 0 y = @1941 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+
+	armor_tech_4 = {
+
+		research_cost = 1
+		start_year = 1944
+		folder = {
+			name = armour_modules_folder
+			position = { x = 0 y = @1944 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1939.1.1"
+			}
+		}
+
+		categories = {
+			armor
+		}
+	}
+
 
 }

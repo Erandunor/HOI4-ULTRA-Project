@@ -1257,7 +1257,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "armour_modules_subtitles_armor"
-					position = { x = 800 y = -50 }
+					position = { x = 1415 y = -50 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 4}
@@ -1267,7 +1267,23 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
-			}	
+			}
+		
+			gridboxtype = {
+				name = "engine_tech_1_tree"
+				position = { x = -380 y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			
+			gridboxtype = {
+				name = "armor_tech_1_tree"
+				position = { x = 1350 y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
 	
 		}
 
