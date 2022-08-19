@@ -46,4 +46,59 @@ spriteTypes = {
 		name = "GFX_optics_5_medium"
 		texturefile ="gfx/interface/technologies/tank_sight5.dds"
 	}
+	
+	
+############################################################### Tank Engines ##########################################################################
+	
+	
+	SpriteType = {
+		name = "GFX_gasoline_engine_1_medium"
+		texturefile = "gfx/interface/technologies/nsb_engine_tech_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_gasoline_engine_2_medium"
+		texturefile = "gfx/interface/technologies/nsb_engine_tech_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_gasoline_engine_3_medium"
+		texturefile = "gfx/interface/technologies/nsb_engine_tech_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_diesel_engine_1_medium"
+		texturefile = "gfx/interface/technologies/engine_diesel.dds"
+	}
+	SpriteType = {
+		name = "GFX_diesel_engine_2_medium"
+		texturefile = "gfx/interface/technologies/engine_diesel.dds"
+	}
+	SpriteType = {
+		name = "GFX_diesel_engine_3_medium"
+		texturefile = "gfx/interface/technologies/engine_diesel.dds"
+	}
+	
+	
+############################################################### Tank Armor Types ##########################################################################
+
+	spriteType = {
+		name = "GFX_armor_riveted_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_armor_cast_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_cast_armor.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_armor_welded_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_welded_armor.dds"
+		legacy_lazy_load = no
+	}
+	
+	
 }
+
+
