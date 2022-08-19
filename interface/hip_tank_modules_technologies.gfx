@@ -2,19 +2,48 @@ spriteTypes = {
 
 ############################################################### Tank Radio ##########################################################################
 
-	#Early Tank Radio
+	#Basic Tank Radio
 	SpriteType = {
 		name = "GFX_radio_tank_1_medium"
 		texturefile ="gfx/interface/technologies/tank_radio_module1.dds"
+	}
+	#Improved Tank Radio
+	SpriteType = {
+		name = "GFX_radio_tank_2_medium"
+		texturefile ="gfx/interface/technologies/tank_radio_module2.dds"
+	}
+	#Advanced Tank Radio
+	SpriteType = {
+		name = "GFX_radio_tank_3_medium"
+		texturefile ="gfx/interface/technologies/tank_radio_module3.dds"
 	}
 	
 	
 ############################################################### Tank Optics ##########################################################################
 
-	#Early Tank Optics
+	#Basic Tank Optics
 	SpriteType = {
 		name = "GFX_optics_1_medium"
 		texturefile ="gfx/interface/technologies/tank_sight1.dds"
 	}
-
+	#Early Tank Optics
+	SpriteType = {
+		name = "GFX_optics_2_medium"
+		texturefile ="gfx/interface/technologies/tank_sight2.dds"
+	}
+	#Improved Tank Optics
+	SpriteType = {
+		name = "GFX_optics_3_medium"
+		texturefile ="gfx/interface/technologies/tank_sight3.dds"
+	}
+	#Advanced Tank Optics
+	SpriteType = {
+		name = "GFX_optics_4_medium"
+		texturefile ="gfx/interface/technologies/tank_sight4.dds"
+	}
+	#Modern Tank Optics
+	SpriteType = {
+		name = "GFX_optics_5_medium"
+		texturefile ="gfx/interface/technologies/tank_sight5.dds"
+	}
 }
