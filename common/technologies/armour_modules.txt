@@ -842,10 +842,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1941
+		start_year = 1940
 		folder = {
 			name = armour_modules_folder
-			position = { x = -2 y = @1941 }
+			position = { x = -2 y = @1940 }
 		}
 
 		ai_will_do = {
@@ -953,10 +953,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1940
+		start_year = 1939
 		folder = {
 			name = armour_modules_folder
-			position = { x = 0 y = @1940 }
+			position = { x = 0 y = @1939 }
 		}
 
 		ai_will_do = {
@@ -1010,10 +1010,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 1937
 		folder = {
 			name = armour_modules_folder
-			position = { x = 2 y = @1936 }
+			position = { x = 2 y = @1937 }
 		}
 
 		ai_will_do = {
@@ -1119,10 +1119,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1940
+		start_year = 1942
 		folder = {
 			name = armour_modules_folder
-			position = { x = 2 y = @1943 }
+			position = { x = 2 y = @1942 }
 		}
 
 		ai_will_do = {
@@ -1285,10 +1285,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1942
+		start_year = 1943
 		folder = {
 			name = armour_modules_folder
-			position = { x = 4 y = @1942 }
+			position = { x = 4 y = @1943 }
 		}
 
 		ai_will_do = {
@@ -1342,10 +1342,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 1937
 		folder = {
 			name = armour_modules_folder
-			position = { x = 6 y = @1936 }
+			position = { x = 6 y = @1937 }
 		}
 
 		ai_will_do = {
@@ -1452,10 +1452,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1943
+		start_year = 1942
 		folder = {
 			name = armour_modules_folder
-			position = { x = 6 y = @1943 }
+			position = { x = 6 y = @1942 }
 		}
 
 		ai_will_do = {
@@ -1506,10 +1506,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1945
+		start_year = 1944
 		folder = {
 			name = armour_modules_folder
-			position = { x = 6 y = @1945 }
+			position = { x = 6 y = @1944 }
 		}
 
 		ai_will_do = {
@@ -1618,10 +1618,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1943
+		start_year = 1939
 		folder = {
 			name = armour_modules_folder
-			position = { x = 8 y = @1943 }
+			position = { x = 8 y = @1939 }
 		}
 
 		ai_will_do = {
@@ -1673,10 +1673,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1945
+		start_year = 1943
 		folder = {
 			name = armour_modules_folder
-			position = { x = 8 y = @1945 }
+			position = { x = 8 y = @1943 }
 		}
 
 		ai_will_do = {
@@ -1727,10 +1727,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1947
+		start_year = 1946
 		folder = {
 			name = armour_modules_folder
-			position = { x = 8 y = @1947 }
+			position = { x = 8 y = @1946 }
 		}
 
 		ai_will_do = {
@@ -1784,10 +1784,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 1940
 		folder = {
 			name = armour_modules_folder
-			position = { x = 10 y = @1936 }
+			position = { x = 10 y = @1940 }
 		}
 
 		ai_will_do = {
@@ -1950,10 +1950,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 1938
 		folder = {
 			name = armour_modules_folder
-			position = { x = 12 y = @1936 }
+			position = { x = 12 y = @1938 }
 		}
 
 		ai_will_do = {
@@ -2059,10 +2059,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1945
+		start_year = 1946
 		folder = {
 			name = armour_modules_folder
-			position = { x = 12 y = @1945 }
+			position = { x = 12 y = @1946 }
 		}
 
 		ai_will_do = {
@@ -2116,10 +2116,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 1939
 		folder = {
 			name = armour_modules_folder
-			position = { x = 14 y = @1936 }
+			position = { x = 14 y = @1939 }
 		}
 
 		ai_will_do = {
@@ -2170,10 +2170,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1946
+		start_year = 1945
 		folder = {
 			name = armour_modules_folder
-			position = { x = 14 y = @1946 }
+			position = { x = 14 y = @1945 }
 		}
 
 		ai_will_do = {
