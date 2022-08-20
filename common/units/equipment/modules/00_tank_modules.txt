@@ -613,5 +613,51 @@ equipment_modules = {
 			
 		}
 	}
+	
+	######################################### GUNS TODO : expand each categories ###############################################
+	
+	tank_small_37_cannon_0 = {
+		abbreviation = "sc0"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	########## 20 mm ############
+	
+	tank_small_20_cannon_0 = {
+		abbreviation = "sc1"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
 
 }
