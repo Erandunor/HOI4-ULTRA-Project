@@ -2658,11 +2658,11 @@ country_event = {
 		
 		option = { 
 				name = finland.104.a
-					add_equipment_to_stockpile = {
-					type = infantry_equipment_1 #type of equipment, from file
-					amount = 5000 #amount
-					producer = ITA #Name of country that "built" the equipment
-					}
+					#add_equipment_to_stockpile = {
+					#type = infantry_equipment_1 #type of equipment, from file
+					#amount = 5000 #amount
+					#producer = ITA #Name of country that "built" the equipment
+					#}
 					add_equipment_to_stockpile = {
 					type = fighter_equipment_0
                     amount = 35
@@ -2691,11 +2691,11 @@ country_event = {
 		
 		option = { 
 				name = finland.105.a
-					add_equipment_to_stockpile = {
-					type = infantry_equipment_1 #type of equipment, from file
-					amount = 5000 #amount
-					producer = ITA #Name of country that "built" the equipment
-					}
+					#add_equipment_to_stockpile = {
+					#type = infantry_equipment_1 #type of equipment, from file
+					#amount = 5000 #amount
+					#producer = ITA #Name of country that "built" the equipment
+					#}
 					add_equipment_to_stockpile = {
 					type = fighter_equipment_0
                     amount = 35
@@ -2762,10 +2762,10 @@ country_event = {
 		option = { 
 				name = finland.107.a
 				add_equipment_to_stockpile = {
-					type = infantry_equipment_1 #type of equipment, from file
-					amount = 1500 #amount
-					producer = ENG #Name of country that "built" the equipment
-					}
+					#type = infantry_equipment_1 #type of equipment, from file
+					#amount = 1500 #amount
+					#producer = ENG #Name of country that "built" the equipment
+					#}
 					add_equipment_to_stockpile = {
 					type = fighter_equipment_0
                    amount = 54
