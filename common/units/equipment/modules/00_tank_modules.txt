@@ -639,7 +639,7 @@ equipment_modules = {
 	
 	########## 20 mm ############
 	
-	tank_small_20_cannon_0 = {
+	tank_small_20_cannon_1 = {
 		abbreviation = "sc1"
 		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret
@@ -659,5 +659,548 @@ equipment_modules = {
 			convert_cost_ic = 1.5
 		}
 	}
+	
+	tank_small_20_cannon_2 = {
+		abbreviation = "sc2"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		parent = tank_small_20_cannon_1
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	########## 37 mm ############
+	
+	tank_small_37_cannon_1 = {
+		abbreviation = "sc1"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		parent = tank_small_37_cannon_0
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	tank_small_37_cannon_2 = {
+		abbreviation = "sc2"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		parent = tank_small_37_cannon_1
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	########## 50 mm ############
+	
+	tank_medium_50_cannon_1 = {
+		abbreviation = "mc3"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	tank_medium_50_cannon_2 = {
+		abbreviation = "mc2"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		parent = tank_medium_50_cannon_1
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	tank_medium_50_cannon_3 = {
+		abbreviation = "mc3"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		parent = tank_medium_50_cannon_2
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	########## 57 mm ############
+	
+	tank_medium_57_cannon_1 = {
+		abbreviation = "mc1"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	tank_medium_57_cannon_2 = {
+		abbreviation = "mc2"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		parent = tank_medium_57_cannon_1
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	tank_medium_57_cannon_3 = {
+		abbreviation = "mc3"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		parent = tank_medium_57_cannon_2
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	########## 75 mm ############
+	
+	tank_medium_75_howitzer_1 = {
+		abbreviation = "mc1"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	tank_medium_75_cannon_2 = {
+		abbreviation = "mc2"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		parent = tank_medium_75_howitzer_1
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	tank_medium_75_cannon_3 = {
+		abbreviation = "mc3"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		parent = tank_medium_75_cannon_2
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	tank_medium_75_cannon_4 = {
+		abbreviation = "mc4"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		parent = tank_medium_75_cannon_3
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	########## 88 mm ############
+	
+	tank_heavy_88_howitzer_1 = {
+		abbreviation = "hc1"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	tank_heavy_88_cannon_2 = {
+		abbreviation = "hc2"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		parent = tank_heavy_88_howitzer_1
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	tank_heavy_88_cannon_3 = {
+		abbreviation = "hc3"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		parent = tank_heavy_88_cannon_2
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	tank_heavy_88_cannon_4 = {
+		abbreviation = "hc4"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		parent = tank_heavy_88_cannon_3
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	########## 105 mm ############
+	
+	tank_heavy_105_howitzer_1 = {
+		abbreviation = "hc1"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	tank_heavy_105_cannon_2 = {
+		abbreviation = "hc2"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		parent = tank_heavy_105_howitzer_1
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	tank_heavy_105_cannon_3 = {
+		abbreviation = "hc3"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		parent = tank_heavy_105_cannon_2
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	########## 125 mm ############
+	
+	tank_super_heavy_125_howitzer_1 = {
+		abbreviation = "sh1"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	tank_super_heavy_125_cannon_2 = {
+		abbreviation = "sh2"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		parent = tank_super_heavy_125_howitzer_1
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	tank_super_heavy_125_cannon_3 = {
+		abbreviation = "sh3"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		parent = tank_super_heavy_125_cannon_2
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	########## 150 mm ############
+	
+	tank_super_heavy_150_howitzer_1 = {
+		abbreviation = "sh1"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	tank_super_heavy_150_cannon_2 = {
+		abbreviation = "sh2"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		parent = tank_super_heavy_150_howitzer_1
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	
 
 }
