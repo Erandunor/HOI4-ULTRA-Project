@@ -3,8 +3,8 @@
 # Starting tech
 set_technology = {
 	basic_train = 1
-	infantry_weapons = 1
-	heavy_infantry_weapons = 1
+	infantry_guns = 1
+	infantry_heavy_base = 1
 }
 set_research_slots = 1
 init_default_logistics_and_women = yes

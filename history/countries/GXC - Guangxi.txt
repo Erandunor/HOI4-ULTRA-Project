@@ -7,8 +7,8 @@ set_war_support = 0.4
 # Starting tech
 set_technology = {
 	basic_train = 1
-	infantry_weapons = 1
-	heavy_infantry_weapons = 1
+	infantry_guns = 1
+	infantry_heavy_base = 1
 	mass_assault = 1
 	tech_support = 1
 }

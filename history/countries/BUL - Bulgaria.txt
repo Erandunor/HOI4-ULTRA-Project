@@ -8,8 +8,8 @@ set_convoys = 5 #VANILLA & DLC
 # Starting tech
 set_technology = {
 	basic_train = 1
-	infantry_weapons = 1
-	heavy_infantry_weapons = 1
+	infantry_guns = 1
+	infantry_heavy_base = 1
 	tech_support = 1		
 	tech_recon = 1
 	tech_engineers = 1
@@ -305,9 +305,9 @@ if = { #DLC
 }
 
 set_technology = { #VANILLA & DLC
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	heavy_infantry_weapons = 1
+	infantry_guns = 1
+	#infantry_weapons1 = 1
+	infantry_heavy_base = 1
 	tech_support = 1		
 	tech_engineers = 1
 	motorised_infantry = 1

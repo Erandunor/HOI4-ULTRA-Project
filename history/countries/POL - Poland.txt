@@ -48,9 +48,9 @@ add_ideas = {
 # Starting tech
 set_technology = {
 	basic_train = 1
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	heavy_infantry_weapons = 1
+	infantry_guns = 1
+	#infantry_weapons1 = 1
+	infantry_heavy_base = 1
 	tech_mountaineers = 1
 	tech_support = 1		
 	tech_engineers = 1
