@@ -66,15 +66,15 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_diesel_engine_1_medium"
-		texturefile = "gfx/interface/technologies/engine_diesel.dds"
+		texturefile = "gfx/interface/technologies/engine_icn_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_diesel_engine_2_medium"
-		texturefile = "gfx/interface/technologies/engine_diesel.dds"
+		texturefile = "gfx/interface/technologies/engine_icn_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_diesel_engine_3_medium"
-		texturefile = "gfx/interface/technologies/engine_diesel.dds"
+		texturefile = "gfx/interface/technologies/engine_icn_3.dds"
 	}
 	
 	
