@@ -89,6 +89,11 @@ technologies = {
 			engineer
 		}
 		
+		enable_equipment_modules = {
+			flamethrower
+			dozer_blade
+		}
+		
 		path = {
 			leads_to_tech = tech_engineers2
 			research_cost_coeff = 1
@@ -809,6 +814,11 @@ technologies = {
 			reliability_factor = 0.05
 			equipment_capture_factor = 0.015
 		}
+		
+		enable_equipment_modules = {
+			easy_maintenance
+		}
+		
 		path = {
 			leads_to_tech = tech_maintenance_company4
 			research_cost_coeff = 1
