@@ -47,6 +47,30 @@ spriteTypes = {
 		texturefile ="gfx/interface/technologies/tank_sight5.dds"
 	}
 	
+	#Early Tank Periscope
+	SpriteType = {
+		name = "GFX_periscope_1_medium"
+		texturefile ="gfx/interface/technologies/tankperiscope1.dds"
+	}
+	
+	#Improved Tank Periscope
+	SpriteType = {
+		name = "GFX_periscope_2_medium"
+		texturefile ="gfx/interface/technologies/tankperiscope2.dds"
+	}
+	
+	#Advanced Tank Periscope
+	SpriteType = {
+		name = "GFX_periscope_3_medium"
+		texturefile ="gfx/interface/technologies/tankperiscope3.dds"
+	}
+	
+	#Modern Tank Periscope
+	SpriteType = {
+		name = "GFX_periscope_4_medium"
+		texturefile ="gfx/interface/technologies/tankperiscope4.dds"
+	}
+	
 	
 ############################################################### Tank Engines ##########################################################################
 	
