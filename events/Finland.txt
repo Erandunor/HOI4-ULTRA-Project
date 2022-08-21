@@ -2761,7 +2761,7 @@ country_event = {
 		
 		option = { 
 				name = finland.107.a
-				add_equipment_to_stockpile = {
+				#add_equipment_to_stockpile = {
 					#type = infantry_equipment_1 #type of equipment, from file
 					#amount = 1500 #amount
 					#producer = ENG #Name of country that "built" the equipment
@@ -2803,7 +2803,7 @@ country_event = {
 				name = finland.108.a
 
 		}
-	}
+}
 	
 #French Support in Winter War
 country_event = {
@@ -2845,10 +2845,10 @@ country_event = {
 					add_opinion_modifier = {
 					target = ROOT
 					modifier = refused_help
-					}
 				}
 		}
 	}
+}
 
 #French send aid
 country_event = {
