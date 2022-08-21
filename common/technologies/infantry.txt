@@ -1176,7 +1176,7 @@ technologies = {
 			infantry_equipment_0
 		}	
 
-		research_cost = 1
+		research_cost = 4
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1225,7 +1225,7 @@ technologies = {
 			infantry_impr_bolt_action
 		}
 
-		research_cost = 1
+		research_cost = 3
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1249,7 +1249,7 @@ technologies = {
 			infantry_semi_auto
 		}	
 
-		research_cost = 1
+		research_cost = 4
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1288,7 +1288,7 @@ technologies = {
 			infantry_SMG
 		}	
 
-		research_cost = 1
+		research_cost = 3
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1327,7 +1327,7 @@ technologies = {
 			infantry_cheap_SMG
 		}	
 
-		research_cost = 1
+		research_cost = 2
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1351,7 +1351,7 @@ technologies = {
 			infantry_imp_SMG
 		}	
 
-		research_cost = 1
+		research_cost = 3
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1369,7 +1369,7 @@ technologies = {
 	
 	infantry_guns_intermediate = {
 
-		research_cost = 1
+		research_cost = 4
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1398,7 +1398,7 @@ technologies = {
 			infantry_semi_auto_carbine
 		}		
 
-		research_cost = 1
+		research_cost = 4
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1426,7 +1426,7 @@ technologies = {
             infantry_guns_intermediate = 1
         }
 
-		research_cost = 1
+		research_cost = 5
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1455,7 +1455,7 @@ technologies = {
 			infantry_battle_rifle
 		}	
 
-		research_cost = 1
+		research_cost = 5
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1484,7 +1484,7 @@ technologies = {
 			infantry_adv_battle_rifle
 		}	
 
-		research_cost = 1
+		research_cost = 6
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1508,7 +1508,7 @@ technologies = {
 			heavy_inf_bat_hmg
 		}	
 
-		research_cost = 1
+		research_cost = 3
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1550,7 +1550,7 @@ technologies = {
 			heavy_inf_bat_impr_hmg
 		}	
 
-		research_cost = 1
+		research_cost = 2
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1573,7 +1573,7 @@ technologies = {
 		}	
 
 
-		research_cost = 1
+		research_cost = 3
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1601,7 +1601,7 @@ technologies = {
 		}	
 
 
-		research_cost = 1
+		research_cost = 4
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1625,7 +1625,7 @@ technologies = {
 		}	
 
 
-		research_cost = 1
+		research_cost = 6
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1653,7 +1653,7 @@ technologies = {
 			heavy_inf_bat_impr_h_gpmg
 		}	
 
-		research_cost = 1
+		research_cost = 6
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1675,7 +1675,7 @@ technologies = {
 			heavy_inf_bat_h_hmg
 		}	
 
-		research_cost = 1
+		research_cost = 5
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1719,7 +1719,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 3
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1742,7 +1742,7 @@ technologies = {
 		}	
 
 
-		research_cost = 1
+		research_cost = 3
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1765,7 +1765,7 @@ technologies = {
 		}	
 
 
-		research_cost = 1
+		research_cost = 4
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1792,7 +1792,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 3
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1815,7 +1815,7 @@ technologies = {
 		}	
 
 
-		research_cost = 1
+		research_cost = 3
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1842,7 +1842,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 2
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1869,7 +1869,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 3
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1893,7 +1893,7 @@ technologies = {
 
 		
 
-		research_cost = 1
+		research_cost = 4
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1966,7 +1966,7 @@ technologies = {
 			heavy_inf_reg_light_ig
 		}
 
-		research_cost = 1
+		research_cost = 3
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1988,7 +1988,7 @@ technologies = {
 			heavy_inf_reg_heavy_ig
 		}
 
-		research_cost = 1
+		research_cost = 3
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -2010,7 +2010,7 @@ technologies = {
 			heavy_inf_bat_mortar_light
 		}
 
-		research_cost = 1
+		research_cost = 2
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -2032,7 +2032,7 @@ technologies = {
 			heavy_inf_bat_mortar_medium
 		}
 
-		research_cost = 1
+		research_cost = 3
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -2054,7 +2054,7 @@ technologies = {
 			heavy_inf_bat_mortar_heavy
 		}
 
-		research_cost = 1
+		research_cost = 4
 		start_year = 1918
 		folder = {
 			name = infantry_folder

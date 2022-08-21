@@ -71,8 +71,8 @@ guiTypes = {
 		# window with the equipment preview and the buttons to select the modules
 		containerWindowType = {
 			name = "equipment_modules"
-			position = { x=13 y=146 }
-			size = { width=512 height= 350}
+			position = { x=11 y=146 }
+			size = { width=520 height= 350}
 
 			background = {
 				name = "background"
@@ -90,24 +90,16 @@ guiTypes = {
 
 			}
 
-			@fixed_btn_mod_col_0 = 0
-			@fixed_btn_mod_col_1 = 110
-			@fixed_btn_mod_col_2 = 186
-			@fixed_btn_mod_col_3 = 262
-			@fixed_btn_mod_col_4 = 338
-			@fixed_btn_mod_col_5 = 414
-			@fixed_btn_mod_col_6 = 443
-			
-			@fixed_btn_mod_col_0_5 = 38
-			@fixed_btn_mod_col_1_5 = 148
-			@fixed_btn_mod_col_2_5 = 224
-			@fixed_btn_mod_col_3_5 = 300
-			@fixed_btn_mod_col_4_5 = 376
-			@fixed_btn_mod_col_5_5 = 452
-			@fixed_btn_mod_col_6_5 = 439
+			@fixed_btn_mod_col_0 = 2
+			@fixed_btn_mod_col_1 = 76
+			@fixed_btn_mod_col_2 = 150
+			@fixed_btn_mod_col_3 = 224
+			@fixed_btn_mod_col_4 = 298
+			@fixed_btn_mod_col_5 = 372
+			@fixed_btn_mod_col_6 = 446
 
-			@fixed_btn_mod_row_0 = 200
-			@fixed_btn_mod_row_1 = 250
+			@fixed_btn_mod_row_0 = 256
+			@fixed_btn_mod_row_1 = 304
 			@fixed_btn_mod_row_2 = 300
 
 			# Code checks this position to know if module is in upper or low row to
@@ -153,42 +145,42 @@ guiTypes = {
 
 			positionType = {
 				name = "pos_custom_module_slot_window_6"
-				position = { x=@fixed_btn_mod_col_0_5 y=@fixed_btn_mod_row_1 }
+				position = { x=@fixed_btn_mod_col_0 y=@fixed_btn_mod_row_1 }
 			}
 
 			positionType = {
 				name = "pos_custom_module_slot_window_7"
-				position = { x=@fixed_btn_mod_col_1_5 y=@fixed_btn_mod_row_1 }
+				position = { x=@fixed_btn_mod_col_1 y=@fixed_btn_mod_row_1 }
 			}
 
 			positionType = {
 				name = "pos_custom_module_slot_window_8"
-				position = { x=@fixed_btn_mod_col_2_5 y=@fixed_btn_mod_row_1 }
+				position = { x=@fixed_btn_mod_col_2 y=@fixed_btn_mod_row_1 }
 			}
 
 			positionType = {
 				name = "pos_custom_module_slot_window_9"
-				position = { x=@fixed_btn_mod_col_3_5 y=@fixed_btn_mod_row_1 }
+				position = { x=@fixed_btn_mod_col_3 y=@fixed_btn_mod_row_1 }
 			}
 
 			positionType = {
 				name = "pos_custom_module_slot_window_10"
-				position = { x=@fixed_btn_mod_col_4_5 y=@fixed_btn_mod_row_1 }
+				position = { x=@fixed_btn_mod_col_4 y=@fixed_btn_mod_row_1 }
 			}
 			
 			positionType = {
 				name = "pos_custom_module_slot_window_11"
-				position = { x=@fixed_btn_mod_col_5_5 y=@fixed_btn_mod_row_1 }
+				position = { x=@fixed_btn_mod_col_5 y=@fixed_btn_mod_row_1 }
 			}
 			
 			positionType = {
 				name = "pos_custom_module_slot_window_12"
-				position = { x=@fixed_btn_mod_col_3	y=@fixed_btn_mod_row_2 }
+				position = { x=@fixed_btn_mod_col_6	y=@fixed_btn_mod_row_0 }
 			}
 			
 			positionType = {
 				name = "pos_custom_module_slot_window_13"
-				position = { x=@fixed_btn_mod_col_4 y=@fixed_btn_mod_row_2 }
+				position = { x=@fixed_btn_mod_col_6 y=@fixed_btn_mod_row_1 }
 			}
 			
 			######################################################################
