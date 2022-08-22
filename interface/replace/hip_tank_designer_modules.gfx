@@ -1,0 +1,235 @@
+spriteTypes = {
+
+######################### Categories ##################################
+
+	spriteType = {
+		name = "GFX_EMI_tank_small_main_armament"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_machine_gun.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_main_armament_tier_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_small_main_armament.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_main_armament_tier_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_small_main_armament.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_main_armament_tier_3"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_medium_main_armament.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_main_armament_tier_4"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_medium_main_armament.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_main_armament_tier_5"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_medium_main_armament.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_main_armament_tier_6"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_heavy_main_armament.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_main_armament_tier_7"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_heavy_main_armament.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_main_armament_tier_8"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_super_heavy_main_armament.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_main_armament_tier_8"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_super_heavy_main_armament.dds"
+		legacy_lazy_load = no
+	}
+
+######################### Tank Guns #######################################
+
+########## Basic ###########
+
+
+	spriteType = {
+		name = "GFX_EMI_tank_small_37_cannon_0"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_small_cannon.dds"
+	}
+
+########### 20mm ############
+
+	spriteType = {
+		name = "GFX_EMI_tank_small_20_cannon_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_small_cannon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_small_20_cannon_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon.dds"
+	}
+
+########### 37mm ############
+
+	spriteType = {
+		name = "GFX_EMI_tank_small_37_cannon_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_small_cannon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_small_37_cannon_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon.dds"
+	}
+	
+########### 50mm ############
+
+	spriteType = {
+		name = "GFX_EMI_tank_medium_50_cannon_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_cannon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_medium_50_cannon_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_medium_50_cannon_3"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon.dds"
+	}
+	
+########### 57mm ############
+
+	spriteType = {
+		name = "GFX_EMI_tank_medium_57_cannon_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_cannon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_medium_57_cannon_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_medium_57_cannon_3"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon.dds"
+	}
+	
+########### 75mm ############
+
+	spriteType = {
+		name = "GFX_EMI_tank_medium_75_howitzer_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_howitzer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_medium_75_cannon_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_cannon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_medium_75_cannon_3"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_medium_75_cannon_4"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon.dds"
+	}
+	
+########### 88mm ############
+
+	spriteType = {
+		name = "GFX_EMI_tank_heavy_88_howitzer_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_howitzer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_heavy_88_cannon_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_cannon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_heavy_88_cannon_3"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_heavy_88_cannon_4"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon.dds"
+	}
+	
+########### 105mm ############
+
+	spriteType = {
+		name = "GFX_EMI_tank_heavy_105_howitzer_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_howitzer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_heavy_105_cannon_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_cannon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_heavy_105_cannon_3"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon.dds"
+	}
+	
+########### 125mm ############
+
+	spriteType = {
+		name = "GFX_EMI_tank_super_heavy_125_howitzer_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_howitzer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_super_heavy_125_cannon_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_super_heavy_cannon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_super_heavy_125_cannon_3"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon.dds"
+	}
+	
+########### 150mm ############
+
+	spriteType = {
+		name = "GFX_EMI_tank_super_heavy_150_howitzer_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_howitzer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_super_heavy_150_cannon_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_super_heavy_cannon.dds"
+	}
+	
+######################### Turrets - Nation Unique! #######################################
+
+
+#### Germany ####
+
+### Panzer I ###
+
+	spriteType = {
+		name = "GFX_EMI_tank_panzer_1_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_one_man_turret.dds"
+	}
+
+}

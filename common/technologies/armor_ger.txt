@@ -22,7 +22,7 @@ technologies = {
 		}
 		enable_equipments = {
 			ger_light_equipment_0
-			panzer_1_tank_chassis
+			panzer_1_light_tank_chassis
 		}
 		enable_equipment_modules = { 
 			tank_panzer_1_turret
