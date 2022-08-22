@@ -234,5 +234,15 @@ spriteTypes = {
 		name = "GFX_EMI_tank_panzer_2_turret"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_one_man_turret.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_panzer_3_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_three_man_turret.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_panzer_4_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_three_man_turret.dds"
+	}
 
 }
