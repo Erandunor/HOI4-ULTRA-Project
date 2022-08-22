@@ -762,7 +762,7 @@ equipment_modules = {
 	
 	tank_medium_57_cannon_1 = {
 		abbreviation = "mc1"
-		category = tank_main_armament_tier_3
+		category = tank_main_armament_tier_4
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -779,7 +779,7 @@ equipment_modules = {
 	
 	tank_medium_57_cannon_2 = {
 		abbreviation = "mc2"
-		category = tank_main_armament_tier_3
+		category = tank_main_armament_tier_4
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_medium_57_cannon_1
 		add_stats = {
