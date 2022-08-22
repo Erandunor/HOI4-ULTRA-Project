@@ -157,5 +157,17 @@ spriteTypes = {
 		name = "GFX_EMI_tank_super_heavy_150_cannon_2"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_super_heavy_cannon.dds"
 	}
+	
+######################### Turrets - Nation Unique! #######################################
+
+
+#### Germany ####
+
+### Panzer I ###
+
+	spriteType = {
+		name = "GFX_tank_module_panzer_1_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_one_man_turret.dds"
+	}
 
 }

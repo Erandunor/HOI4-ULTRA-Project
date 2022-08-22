@@ -22,6 +22,7 @@ technologies = {
 		}
 		enable_equipments = {
 			ger_light_equipment_0
+			panzer_1_tank_chassis
 		}
 		path = {
 			leads_to_tech = ger_light_1

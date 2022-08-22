@@ -63,3 +63,6 @@ tank_super_heavy_150_howitzer_1:0 "150mm Howitzer"
 tank_super_heavy_150_howitzer_1_desc:0 ""
 tank_super_heavy_150_cannon_2:0 "150mm Cannon"
 tank_super_heavy_150_cannon_2_desc:0 ""
+
+tank_panzer_1_turret:0 "Panzer I Turret"
+tank_panzer_1_turret_desc:0 ""
