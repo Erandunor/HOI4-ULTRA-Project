@@ -166,7 +166,7 @@ spriteTypes = {
 ### Panzer I ###
 
 	spriteType = {
-		name = "GFX_tank_module_panzer_1_turret"
+		name = "GFX_EMI_tank_panzer_1_turret"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_one_man_turret.dds"
 	}
 
