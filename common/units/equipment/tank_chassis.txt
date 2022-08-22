@@ -136,13 +136,13 @@ equipments = {
 			module = stabilizer
 			count < 2
 		}
-		default_modules = {
-			main_armament_slot = empty
-			turret_type_slot = empty
-			suspension_type_slot = empty
-			armor_type_slot = empty
-			engine_type_slot = empty
-		}
+		#default_modules = {
+		#	main_armament_slot = empty
+		#	turret_type_slot = empty
+		#	suspension_type_slot = empty
+		#	armor_type_slot = empty
+		#	engine_type_slot = empty
+		#}
 
 		fuel_consumption = 0
 		maximum_speed = 4
@@ -297,7 +297,7 @@ equipments = {
 		}
 		default_modules = {
 			main_armament_slot = empty
-			turret_type_slot = empty
+			turret_type_slot = tank_panzer_1_turret
 			suspension_type_slot = empty
 			armor_type_slot = empty
 			engine_type_slot = empty
@@ -451,7 +451,7 @@ equipments = {
 		}
 		default_modules = {
 			main_armament_slot = empty
-			turret_type_slot = empty
+			turret_type_slot = tank_panzer_2_turret
 			suspension_type_slot = empty
 			armor_type_slot = empty
 			engine_type_slot = empty
@@ -602,13 +602,13 @@ equipments = {
 			module = stabilizer
 			count < 2
 		}
-		default_modules = {
-			main_armament_slot = empty
-			turret_type_slot = empty
-			suspension_type_slot = empty
-			armor_type_slot = tank_empty
-			engine_type_slot = empty
-		}
+		#default_modules = {
+		#	main_armament_slot = empty
+		#	turret_type_slot = empty
+		#	suspension_type_slot = empty
+		#	armor_type_slot = tank_empty
+		#	engine_type_slot = empty
+		##}
 
 		fuel_consumption = 0
 		maximum_speed = 4
@@ -762,7 +762,7 @@ equipments = {
 		}
 		default_modules = {
 			main_armament_slot = empty
-			turret_type_slot = empty
+			turret_type_slot = tank_panzer_3_turret
 			suspension_type_slot = empty
 			armor_type_slot = empty
 			engine_type_slot = empty
@@ -906,7 +906,7 @@ equipments = {
 		}
 		default_modules = {
 			main_armament_slot = empty
-			turret_type_slot = empty
+			turret_type_slot = tank_panzer_4_turret
 			suspension_type_slot = empty
 			armor_type_slot = empty
 			engine_type_slot = empty
