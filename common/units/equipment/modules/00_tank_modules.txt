@@ -1095,9 +1095,28 @@ equipment_modules = {
 	
 	######################################### Turrets - unique to each tank! ###############################################
 	
+	#### Germany
+	
 	tank_panzer_1_turret = {
 		abbreviation = "pz1"
 		category = panzer_1_turret_type
+		sfx = sfx_ui_sd_module_turret
+		
+
+		add_stats = {
+			build_cost_ic = 1
+			
+		}
+		dismantle_cost_ic = 0.5
+		xp_cost = 2
+		multiply_stats = {
+			
+		}
+	}
+	
+	tank_panzer_2_turret = {
+		abbreviation = "pz2"
+		category = panzer_2_turret_type
 		sfx = sfx_ui_sd_module_turret
 		
 		allowed_module_categories = {
@@ -1115,7 +1134,6 @@ equipment_modules = {
 		multiply_stats = {
 			
 		}
-
 	}
 	
 	

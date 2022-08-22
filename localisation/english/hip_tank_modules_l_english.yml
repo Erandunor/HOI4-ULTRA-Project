@@ -64,8 +64,16 @@ tank_super_heavy_150_howitzer_1_desc:0 ""
 tank_super_heavy_150_cannon_2:0 "150mm Cannon"
 tank_super_heavy_150_cannon_2_desc:0 ""
 
+
+######### Turrets (unique) #########
+
+####Germany
+
 tank_panzer_1_turret:0 "Panzer I Turret"
 tank_panzer_1_turret_desc:0 ""
+
+tank_panzer_2_turret:0 "Panzer II Turret"
+tank_panzer_2_turret_desc:0 ""
 
 
 
@@ -87,4 +95,5 @@ EQ_MOD_CAT_tank_main_armament_tier_8_TITLE:0 "§RUltra-Heavy§! Main Armament"
 ### Turrets's Categories
 
 ## Germany
-EQ_MOD_CAT_panzer_1_turret_type_TITLE:0 "§GPanzer I§! §YTurret§!"
+EQ_MOD_CAT_panzer_1_turret_type_TITLE:0 "§CPanzer I§! §YTurret§!"
+EQ_MOD_CAT_panzer_2_turret_type_TITLE:0 "§CPanzer II§! §YTurret§!"

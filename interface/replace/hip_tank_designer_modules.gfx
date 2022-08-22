@@ -225,11 +225,14 @@ spriteTypes = {
 
 #### Germany ####
 
-### Panzer I ###
-
 	spriteType = {
 		name = "GFX_EMI_tank_panzer_1_turret"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_one_man_turret.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_panzer_2_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_one_man_turret.dds"
 	}
 
 }

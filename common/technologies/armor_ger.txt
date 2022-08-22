@@ -993,6 +993,10 @@ technologies = {
 		#Panzer II A
 		enable_equipments = {
 			ger_light_equipment_1
+			panzer_2_light_tank_chassis
+		}
+		enable_equipment_modules = { 
+			tank_panzer_2_turret
 		}
 		path = {
 			leads_to_tech = ger_light_2
