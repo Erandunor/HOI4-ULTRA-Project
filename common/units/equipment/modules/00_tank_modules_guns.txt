@@ -13,8 +13,8 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 
 		add_stats = {
-			soft_attack = 5.8
-			hard_attack = 1.6
+			soft_attack = 2.9
+			hard_attack = 0.8
 			ap_attack = 8
 			build_cost_ic = 1
 			maximum_speed = 0
@@ -35,10 +35,10 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 
 		add_stats = {
-			soft_attack = 0
-			hard_attack = 0
-			ap_attack = 0
-			build_cost_ic = 0
+			soft_attack = 1.7
+			hard_attack = 2.3
+			ap_attack = 16
+			build_cost_ic = 1
 			maximum_speed = 0
 			reliability = 0
 		}
@@ -56,10 +56,10 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 0
-			hard_attack = 0
-			ap_attack = 0
-			build_cost_ic = 0
+			soft_attack = 6.6
+			hard_attack = 2.3
+			ap_attack = 16
+			build_cost_ic = 1
 			maximum_speed = 0
 			reliability = 0
 		}
@@ -79,8 +79,8 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 13.7
-			hard_attack = 6.3
+			soft_attack = 6.8
+			hard_attack = 3.2
 			ap_attack = 18
 			build_cost_ic = 1
 			maximum_speed = 0
@@ -100,8 +100,8 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 16.7
-			hard_attack = 11.7
+			soft_attack = 8.3
+			hard_attack = 5.8
 			ap_attack = 32
 			build_cost_ic = 1
 			maximum_speed = 0
@@ -122,8 +122,8 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 15.4
-			hard_attack = 13.2
+			soft_attack = 7.7
+			hard_attack = 6.6
 			ap_attack = 35
 			build_cost_ic = 2
 			maximum_speed = 0
@@ -143,8 +143,8 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 17.6
-			hard_attack = 15.4
+			soft_attack = 8.8
+			hard_attack = 7.7
 			ap_attack = 39
 			build_cost_ic = 2
 			maximum_speed = 0
@@ -164,8 +164,8 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 18.2
-			hard_attack = 22.8
+			soft_attack = 9.1
+			hard_attack = 11.4
 			ap_attack = 54
 			build_cost_ic = 2
 			maximum_speed = 0
@@ -186,8 +186,8 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 0
-			hard_attack = 0
+			soft_attack = 6.6
+			hard_attack = 1.7
 			ap_attack = 0
 			build_cost_ic = 0
 			maximum_speed = 0
@@ -207,9 +207,9 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 0
-			hard_attack = 0
-			ap_attack = 0
+			soft_attack = 17.4
+			hard_attack = 12.2
+			ap_attack = 57
 			build_cost_ic = 0
 			maximum_speed = 0
 			reliability = 0
@@ -228,9 +228,9 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 0
-			hard_attack = 0
-			ap_attack = 0
+			soft_attack = 18.7
+			hard_attack = 31.1
+			ap_attack = 74
 			build_cost_ic = 0
 			maximum_speed = 0
 			reliability = 0
@@ -249,8 +249,8 @@ equipment_modules = {
 		forbid_equipment_type = anti_tank
 		
 		add_stats = {
-			soft_attack = 31.1
-			hard_attack = 9.3
+			soft_attack = 15.5
+			hard_attack = 4.1
 			ap_attack = 31
 			build_cost_ic = 3
 			maximum_speed = 0
@@ -270,8 +270,8 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 42.5
-			hard_attack = 21.4
+			soft_attack = 21.2
+			hard_attack = 11.7
 			ap_attack = 59
 			build_cost_ic = 3
 			maximum_speed = 0
@@ -291,8 +291,8 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 43.8
-			hard_attack = 39.5
+			soft_attack = 21.9
+			hard_attack = 19.7
 			ap_attack = 88
 			build_cost_ic = 3
 			maximum_speed = 0
@@ -312,8 +312,8 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 55.2
-			hard_attack = 62.4
+			soft_attack = 27.7
+			hard_attack = 31.2
 			ap_attack = 125
 			build_cost_ic = 0
 			maximum_speed = 0
@@ -354,8 +354,8 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 81.8
-			hard_attack = 43.6
+			soft_attack = 40.9
+			hard_attack = 21.8
 			ap_attack = 91
 			build_cost_ic = 5
 			maximum_speed = 0
@@ -375,8 +375,8 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 93.4
-			hard_attack = 55.4
+			soft_attack = 46.7
+			hard_attack = 27.7
 			ap_attack = 111
 			build_cost_ic = 5
 			maximum_speed = 0
@@ -396,8 +396,8 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 95.4
-			hard_attack = 94.1
+			soft_attack = 47.7
+			hard_attack = 47.1
 			ap_attack = 166
 			build_cost_ic = 6
 			maximum_speed = 0
@@ -417,10 +417,10 @@ equipment_modules = {
 		forbid_equipment_type = anti_tank
 		
 		add_stats = {
-			soft_attack = 0
-			hard_attack = 0
-			ap_attack = 0
-			build_cost_ic = 0
+			soft_attack = 30.0
+			hard_attack = 7.3
+			ap_attack = 46
+			build_cost_ic = 2
 			maximum_speed = 0
 			reliability = 0
 		}
@@ -438,10 +438,10 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 0
-			hard_attack = 0
-			ap_attack = 0
-			build_cost_ic = 0
+			soft_attack = 62.1
+			hard_attack = 38.5
+			ap_attack = 145
+			build_cost_ic = 5
 			maximum_speed = 0
 			reliability = 0
 		}
@@ -459,10 +459,10 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 0
-			hard_attack = 0
-			ap_attack = 0
-			build_cost_ic = 0
+			soft_attack = 79.1
+			hard_attack = 51.6
+			ap_attack = 178
+			build_cost_ic = 8
 			maximum_speed = 0
 			reliability = 0
 		}
@@ -480,10 +480,10 @@ equipment_modules = {
 		forbid_equipment_type = anti_tank
 		
 		add_stats = {
-			soft_attack = 0
-			hard_attack = 0
-			ap_attack = 0
-			build_cost_ic = 0
+			soft_attack = 34.6
+			hard_attack = 5.2
+			ap_attack = 37
+			build_cost_ic = 2
 			maximum_speed = 0
 			reliability = 0
 		}
@@ -501,10 +501,10 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 0
-			hard_attack = 0
-			ap_attack = 0
-			build_cost_ic = 0
+			soft_attack = 75.1
+			hard_attack = 35
+			ap_attack = 139
+			build_cost_ic = 5
 			maximum_speed = 0
 			reliability = 0
 		}
@@ -543,10 +543,10 @@ equipment_modules = {
 		forbid_equipment_type = anti_tank
 		
 		add_stats = {
-			soft_attack = 0
-			hard_attack = 0
-			ap_attack = 0
-			build_cost_ic = 0
+			soft_attack = 35.6
+			hard_attack = 9.8
+			ap_attack = 71
+			build_cost_ic = 9
 			maximum_speed = 0
 			reliability = 0
 		}
@@ -564,10 +564,10 @@ equipment_modules = {
 		forbid_equipment_type = rocket
 		
 		add_stats = {
-			soft_attack = 0
-			hard_attack = 0
-			ap_attack = 0
-			build_cost_ic = 0
+			soft_attack = 86.1
+			hard_attack = 42.4
+			ap_attack = 166
+			build_cost_ic = 10
 			maximum_speed = 0
 			reliability = 0
 		}

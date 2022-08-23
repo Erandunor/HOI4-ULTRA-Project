@@ -1,11 +1,11 @@
 ﻿l_english:
 
-tank_small_37_cannon_0:0 "37mm Basic gun"
+tank_small_37_cannon_0:0 "37mm Howitzer"
 tank_small_37_cannon_0_desc:0 ""
 
-tank_small_20_cannon_1:0 "20mm Improved Cannon"
+tank_small_20_cannon_1:0 "20mm Cannon"
 tank_small_20_cannon_1_desc:0 ""
-tank_small_20_cannon_2:0 "20mm High Velocity Cannon"
+tank_small_20_cannon_2:0 "20mm Autocannon"
 tank_small_20_cannon_2_desc:0 ""
 
 tank_small_37_cannon_1:0 "37mm Improved Cannon"
@@ -20,7 +20,7 @@ tank_medium_50_cannon_2_desc:0 ""
 tank_medium_50_cannon_3:0 "50mm Ultra High Velocity Cannon"
 tank_medium_50_cannon_3_desc:0 ""
 
-tank_medium_57_cannon_1:0 "57mm Cannon"
+tank_medium_57_cannon_1:0 "57mm Howitzer"
 tank_medium_57_cannon_1_desc:0 ""
 tank_medium_57_cannon_2:0 "57mm High Velocity Cannon"
 tank_medium_57_cannon_2_desc:0 ""

@@ -295,9 +295,9 @@
  tank_gun_tech_0:0 "Basic 37mm Cannon"
  tank_gun_tech_0_desc:0 "A small and cheap cannon, able to fire both anti-infantry and anti-armor rounds. Its small caliber limits its usefulness."
  
- tank_light_gun_1_tech_1:0 "Improved 20mm Cannon"
+ tank_light_gun_1_tech_1:0 "20mm Cannon"
  tank_light_gun_1_tech_1_desc:0 ""
- tank_light_gun_1_tech_2:0 "High Velocity 20mm Cannon"
+ tank_light_gun_1_tech_2:0 "20mm Autocannon"
  tank_light_gun_1_tech_2_desc:0 ""
  
  tank_light_gun_2_tech_1:0 "Improved 37-43mm Cannon"
