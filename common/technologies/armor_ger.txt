@@ -13,10 +13,18 @@
 @1946 = 24
 @1947 = 26
 @1948 = 28
+
+
 technologies = {
 	##Germany
+	
+	############################### No-designer
+	
 	ger_light_0 = {
 		#Panzer I
+		allow_branch = {
+			NOT = { has_dlc = "No Step Back" }
+		}
 		enable_subunits = {
 			light_tank_recon
 		}
@@ -3444,6 +3452,74 @@ technologies = {
 			major_technologies
 			armor
 			cat_heavy_armor
+		}
+	}
+	
+######################################### Tank Designer
+	
+	ger_light_tank_chassis_1 = { #Panzer I
+
+		allow_branch = {
+			has_dlc = "No Step Back"
+		}
+		enable_subunits = {
+			light_tank_recon
+		}
+		enable_equipments = {
+			tank_ger_light_chassis_1
+		}
+		enable_equipment_modules = {
+			tank_panzer_1_turret
+		}
+
+		path = {
+			#leads_to_tech = ger_light_tank_chassis_2
+			research_cost_coeff = 1
+		}
+
+		sub_technologies = {
+			
+		}
+
+		research_cost = 2.5
+		start_year = 1933
+		folder = {
+			name = ger_armour_folder
+			position = { 
+				x = 2 
+				y = @1934 
+			}
+		}
+
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 35
+				date > "1936.1.1"
+			}
+			modifier = {
+				factor = 35
+				date > "1937.1.1"
+			}
+			modifier = {
+				factor = 35
+				date > "1938.1.1"
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						original_tag = GER
+						has_country_flag = german_technologies_tree_flag
+					}
+				}
+			}
+		}
+		
+		categories = {
+			major_technologies
+			armor
+			cat_light_armor
 		}
 	}
 }
