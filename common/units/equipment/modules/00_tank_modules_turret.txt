@@ -1,0 +1,95 @@
+equipment_modules = {
+
+	######################################### Turrets - unique to each tank! ###############################################
+	
+	#### Germany
+	
+	tank_panzer_1_turret = {
+		abbreviation = "pz1"
+		category = panzer_1_turret_type
+		sfx = sfx_ui_sd_module_turret
+		
+
+		add_stats = {
+			build_cost_ic = 1
+			
+		}
+		dismantle_cost_ic = 0.5
+		xp_cost = 2
+		multiply_stats = {
+			
+		}
+	}
+	
+	tank_panzer_2_turret = {
+		abbreviation = "pz2"
+		category = panzer_2_turret_type
+		sfx = sfx_ui_sd_module_turret
+		
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_main_armament_tier_1
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 1
+			
+		}
+		dismantle_cost_ic = 0.5
+		xp_cost = 2
+		multiply_stats = {
+			
+		}
+	}
+	
+	tank_panzer_3_turret = {
+		abbreviation = "pz3"
+		category = panzer_3_turret_type
+		sfx = sfx_ui_sd_module_turret
+		
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_main_armament_tier_1
+				tank_main_armament_tier_2
+				tank_main_armament_tier_3
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 1
+			
+		}
+		dismantle_cost_ic = 0.5
+		xp_cost = 2
+		multiply_stats = {
+			
+		}
+	}
+	
+	tank_panzer_4_turret = {
+		abbreviation = "pz4"
+		category = panzer_4_turret_type
+		sfx = sfx_ui_sd_module_turret
+		
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_main_armament_tier_1
+				tank_main_armament_tier_2
+				tank_main_armament_tier_3
+				tank_main_armament_tier_4
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 1
+			
+		}
+		dismantle_cost_ic = 0.5
+		xp_cost = 2
+		multiply_stats = {
+			
+		}
+	}
+
+}

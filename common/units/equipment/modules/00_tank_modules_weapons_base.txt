@@ -1,0 +1,98 @@
+equipment_modules = {
+	############################### Misc Weapons #####################################
+	
+	tank_heavy_machine_gun = {
+		abbreviation = "hmg"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 5
+			hard_attack = 2
+			ap_attack = 10
+			build_cost_ic = 0.5
+
+		}
+		dismantle_cost_ic = 0.5
+
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 0.5
+		}
+		xp_cost = 1
+	}
+
+	flamethrower = { #Hans, hol den Flammenwerfer!
+		abbreviation = "flt"
+		category = tank_flamethrower
+		sfx = sfx_ui_sd_module_turret
+		#allow_equipment_type = flame
+
+		add_stats = {
+			soft_attack = 5
+			build_cost_ic = 0.5
+			reliability = -0.05
+		}
+		dismantle_cost_ic = 0.5
+
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 0.5
+		}
+		xp_cost = 1
+	}
+	
+	additional_machine_guns = {
+		abbreviation = "mg"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 2
+			defense = 2
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
+	
+	secondary_turret_hmg = {
+		abbreviation = "thmg"
+		category = tank_secondary_turret
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 1
+			reliability = -0.05
+			soft_attack = 3
+			hard_attack = 1
+			breakthrough = 1
+		}
+		xp_cost = 1
+		multiply_stats = {
+		}
+	}
+
+	secondary_turret_small_cannon = {
+		abbreviation = "tsc"
+		category = tank_secondary_turret
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 5
+			hard_attack = 3
+			build_cost_ic = 2
+			maximum_speed = -0.25
+			reliability = -0.1
+			breakthrough = 2
+		}
+		xp_cost = 1
+		multiply_stats = {
+			armor_value  = -0.05
+		}
+	}
+
+
+}
