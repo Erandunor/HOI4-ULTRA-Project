@@ -227,7 +227,7 @@ default = {
 }
 
 GER = {
-	light_tank_chassis_1 = {
+	tank_ger_light_chassis_1 = {
 		pool = {
 			limit = { has_dlc = "Death or Dishonor" }
 			weight = 2
@@ -262,7 +262,7 @@ GER = {
 		}
 	}
 
-	light_tank_chassis_2 = {
+	tank_ger_light_chassis_2 = {
 		pool = {
 			limit = { has_dlc = "Death or Dishonor" }
 			weight = 2
@@ -325,7 +325,7 @@ GER = {
 			}
 		}
 	}
-	medium_tank_chassis_0 = {
+	tank_ger_medium_chassis_1 = {
 		pool = {
 			icons = { 
 				GFX_GER_basic_medium_tank_medium
@@ -352,7 +352,7 @@ GER = {
 			}
 		}
 	}
-	medium_tank_chassis_1 = {
+	tank_ger_medium_chassis_2 = {
 		pool = {
 			limit = { has_dlc = "Death or Dishonor" }
 			weight = 2
