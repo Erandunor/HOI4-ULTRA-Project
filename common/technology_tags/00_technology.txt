@@ -126,7 +126,6 @@ technology_folders = {
 	armour_modules_folder = {
 		ledger = army
 		available = { 
-			has_dlc = "No Step Back"
 			OR = {
 				original_tag = FRA
 				original_tag = VIC
@@ -158,7 +157,6 @@ technology_folders = {
 	}
 	armour_folder = {
 		available = {
-			has_dlc = "No Step Back"
 			NOT = { 
 				OR = {
 					original_tag = FRA
@@ -194,7 +192,6 @@ technology_folders = {
 	fra_armour_folder = { 
 		
 		available = { 
-			has_dlc = "No Step Back"
 			OR = { 
 				original_tag = FRA
 				
@@ -206,7 +203,6 @@ technology_folders = {
 	ita_armour_folder = { 
 		
 		available = { 
-			has_dlc = "No Step Back"
 			OR = { 
 				original_tag = ITA
 				
@@ -218,7 +214,6 @@ technology_folders = {
 	jap_armour_folder = { 
 		
 		available = { 
-			has_dlc = "No Step Back"
 			OR = { 
 				original_tag = JAP
 				has_country_flag = japanese_technologies_tree_flag
@@ -229,7 +224,6 @@ technology_folders = {
 	ger_armour_folder = { 
 		
 		available = { 
-			has_dlc = "No Step Back"
 			OR = {
 				original_tag = GER
 				has_country_flag = german_technologies_tree_flag
@@ -240,7 +234,6 @@ technology_folders = {
 	sov_armour_folder = { 
 		
 		available = { 
-			has_dlc = "No Step Back"
 			OR = {
 				original_tag = SOV
 				has_country_flag = soviet_technologies_tree_flag
@@ -251,7 +244,6 @@ technology_folders = {
 	eng_armour_folder = { 
 		
 		available = { 
-			has_dlc = "No Step Back"
 			OR = {
 				original_tag = ENG
 				has_country_flag = british_technologies_tree_flag
@@ -262,7 +254,6 @@ technology_folders = {
 	usa_armour_folder = { 
 		
 		available = { 
-			has_dlc = "No Step Back"
 			OR = {
 				original_tag = USA
 				has_country_flag = unitedstates_technologies_tree_flag
@@ -273,7 +264,6 @@ technology_folders = {
 	pol_armour_folder = { 
 		
 		available = { 
-			has_dlc = "No Step Back"
 			original_tag = POL
 			NOT = {
 				OR = {
@@ -292,7 +282,6 @@ technology_folders = {
 	cze_armour_folder = { 
 		
 		available = { 
-			has_dlc = "No Step Back"
 			original_tag = CZE
 			NOT = {
 				OR = {
@@ -311,7 +300,6 @@ technology_folders = {
 	hun_armour_folder = { 
 		
 		available = { 
-			has_dlc = "No Step Back"
 			original_tag = HUN
 			NOT = {
 				OR = {
@@ -330,7 +318,6 @@ technology_folders = {
 	swe_armour_folder = { 
 		
 		available = { 
-		has_dlc = "No Step Back"
 			original_tag = SWE
 			NOT = {
 				OR = {
@@ -349,7 +336,6 @@ technology_folders = {
 	com_armour_folder = { 
 		
 		available = { 
-			has_dlc = "No Step Back"
 			OR = {
 				original_tag = CAN
 				original_tag = RAJ
