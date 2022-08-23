@@ -71,19 +71,25 @@ tank_super_heavy_150_cannon_2_desc:0 ""
 
 tank_panzer_1_turret:0 "Panzer I Turret"
 tank_panzer_1_turret_desc:0 ""
+tank_panzer_1_open_superstructure_turret:0 "Panzer I Open Superstructure"
+tank_panzer_1_open_superstructure_turret_desc:0 ""
 
 tank_panzer_2_turret:0 "Panzer II Turret"
 tank_panzer_2_turret_desc:0 ""
+tank_panzer_2_open_superstructure_turret:0 "Panzer II Open Superstructure"
+tank_panzer_2_open_superstructure_turret_desc:0 ""
 
 tank_panzer_3_turret:0 "Panzer III Turret"
 tank_panzer_3_turret_desc:0 ""
-
+tank_panzer_3_open_superstructure_turret:0 "Panzer III Open Superstructure"
+tank_panzer_3_open_superstructure_turret_desc:0 ""
 tank_panzer_3_fixed_superstructure_turret:0 "Panzer III Fixed Superstructure"
 tank_panzer_3_fixed_superstructure_turret_desc:0 ""
 
 tank_panzer_4_turret:0 "Panzer IV Turret"
 tank_panzer_4_turret_desc:0 ""
-
+tank_panzer_4_open_superstructure_turret:0 "Panzer IV Open Superstructure"
+tank_panzer_4_open_superstructure_turret_desc:0 ""
 tank_panzer_4_fixed_superstructure_turret:0 "Panzer IV Fixed Superstructure"
 tank_panzer_4_fixed_superstructure_turret_desc:0 ""
 

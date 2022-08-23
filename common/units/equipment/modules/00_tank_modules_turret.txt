@@ -10,6 +10,11 @@ equipment_modules = {
 		abbreviation = "pz1"
 		category = panzer_1_turret_type
 		sfx = sfx_ui_sd_module_turret
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_main_armament_tier_1
+			}
+		}
 		
 
 		add_stats = {
@@ -21,6 +26,46 @@ equipment_modules = {
 		multiply_stats = {
 			
 		}
+	}
+	
+	tank_panzer_1_open_superstructure_turret = {
+		abbreviation = "pz1"
+		category = panzer_1_turret_type
+		sfx = sfx_ui_sd_module_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_main_armament_tier_1
+				tank_main_armament_tier_2
+				tank_main_armament_tier_3
+				tank_main_armament_tier_4
+			}
+		}
+		allow_equipment_type = anti_tank
+		forbid_equipment_type = rocket
+		allow_equipment_type = anti_air
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
+		
+
+		xp_cost = 2
+		dismantle_cost_ic = 1
+		add_stats = {
+			build_cost_ic = 1.5
+			reliability = 0.2
+			defense = 3
+		}
+
+		multiply_stats = {
+			breakthrough = -0.25
+			hardness = -0.5
+		}
+
+		can_convert_from = {
+			module = panzer_1_turret_type
+			convert_cost_ic = 1.5
+		}
+
 	}
 	
 	# Panzer II
@@ -45,6 +90,46 @@ equipment_modules = {
 		multiply_stats = {
 			
 		}
+	}
+	
+	tank_panzer_2_open_superstructure_turret = {
+		abbreviation = "pz2"
+		category = panzer_2_turret_type
+		sfx = sfx_ui_sd_module_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_main_armament_tier_1
+				tank_main_armament_tier_2
+				tank_main_armament_tier_3
+				tank_main_armament_tier_4
+			}
+		}
+		allow_equipment_type = anti_tank
+		forbid_equipment_type = rocket
+		allow_equipment_type = anti_air
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
+		
+
+		xp_cost = 2
+		dismantle_cost_ic = 1
+		add_stats = {
+			build_cost_ic = 1.5
+			reliability = 0.2
+			defense = 3
+		}
+
+		multiply_stats = {
+			breakthrough = -0.25
+			hardness = -0.5
+		}
+
+		can_convert_from = {
+			module = panzer_2_turret_type
+			convert_cost_ic = 1.5
+		}
+
 	}
 	
 	# Panzer III
@@ -74,6 +159,48 @@ equipment_modules = {
 		multiply_stats = {
 			
 		}
+	}
+	
+	tank_panzer_3_open_superstructure_turret = {
+		abbreviation = "pz3"
+		category = panzer_3_turret_type
+		sfx = sfx_ui_sd_module_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_main_armament_tier_1
+				tank_main_armament_tier_2
+				tank_main_armament_tier_3
+				tank_main_armament_tier_4
+				tank_main_armament_tier_5
+				tank_main_armament_tier_6
+			}
+		}
+		allow_equipment_type = anti_tank
+		forbid_equipment_type = rocket
+		allow_equipment_type = anti_air
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
+		
+
+		xp_cost = 2
+		dismantle_cost_ic = 1
+		add_stats = {
+			build_cost_ic = 1.5
+			reliability = 0.2
+			defense = 3
+		}
+
+		multiply_stats = {
+			breakthrough = -0.25
+			hardness = -0.5
+		}
+
+		can_convert_from = {
+			module = panzer_3_turret_type
+			convert_cost_ic = 1.5
+		}
+
 	}
 	
 	tank_panzer_3_fixed_superstructure_turret = {
@@ -142,8 +269,51 @@ equipment_modules = {
 		}
 	}
 	
+	tank_panzer_4_open_superstructure_turret = {
+		abbreviation = "pz4"
+		category = panzer_4_turret_type
+		sfx = sfx_ui_sd_module_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_main_armament_tier_1
+				tank_main_armament_tier_2
+				tank_main_armament_tier_3
+				tank_main_armament_tier_4
+				tank_main_armament_tier_5
+				tank_main_armament_tier_6
+				tank_main_armament_tier_7
+			}
+		}
+		allow_equipment_type = anti_tank
+		forbid_equipment_type = rocket
+		allow_equipment_type = anti_air
+		allow_equipment_type = artillery
+		forbid_equipment_type_exact_match = armor
+		
+
+		xp_cost = 2
+		dismantle_cost_ic = 1
+		add_stats = {
+			build_cost_ic = 1.5
+			reliability = 0.2
+			defense = 3
+		}
+
+		multiply_stats = {
+			breakthrough = -0.25
+			hardness = -0.5
+		}
+
+		can_convert_from = {
+			module = panzer_4_turret_type
+			convert_cost_ic = 1.5
+		}
+
+	}
+	
 	tank_panzer_4_fixed_superstructure_turret = {
-		abbreviation = "stug"
+		abbreviation = "pz4"
 		category = panzer_4_turret_type
 		sfx = sfx_ui_sd_module_turret
 
