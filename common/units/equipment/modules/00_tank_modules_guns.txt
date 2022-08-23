@@ -9,8 +9,8 @@ equipment_modules = {
 		category = tank_main_armament_tier_1
 		sfx = sfx_ui_sd_module_turret
 		
-		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_tank
+		forbid_equipment_type = anti_air
 
 		add_stats = {
 			soft_attack = 2.9
@@ -33,6 +33,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 
 		add_stats = {
 			soft_attack = 1.7
@@ -54,6 +55,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 6.6
@@ -77,6 +79,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 6.8
@@ -98,6 +101,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 8.3
@@ -120,6 +124,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 7.7
@@ -141,6 +146,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 8.8
@@ -162,6 +168,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 9.1
@@ -182,8 +189,8 @@ equipment_modules = {
 		category = tank_main_armament_tier_4
 		sfx = sfx_ui_sd_module_turret
 		
-		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_tank
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 6.6
@@ -205,6 +212,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 17.4
@@ -226,6 +234,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 18.7
@@ -247,6 +256,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		forbid_equipment_type = anti_tank
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 15.5
@@ -268,6 +278,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 21.2
@@ -289,6 +300,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 21.9
@@ -310,6 +322,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 27.7
@@ -331,6 +344,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		forbid_equipment_type = anti_tank
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 0
@@ -352,6 +366,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 40.9
@@ -373,6 +388,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 46.7
@@ -394,6 +410,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 47.7
@@ -415,6 +432,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		forbid_equipment_type = anti_tank
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 30.0
@@ -436,6 +454,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 62.1
@@ -457,6 +476,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 79.1
@@ -478,6 +498,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		forbid_equipment_type = anti_tank
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 34.6
@@ -499,6 +520,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 75.1
@@ -520,6 +542,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 0
@@ -541,6 +564,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		forbid_equipment_type = anti_tank
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 35.6
@@ -562,6 +586,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = artillery
 		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_air
 		
 		add_stats = {
 			soft_attack = 86.1
