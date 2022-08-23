@@ -162,9 +162,8 @@ equipments = {
 	
 	######################################### Germany Lights ###########################################
 	
-	panzer_1_light_tank_chassis = { #panzer I
+	tank_ger_light_chassis_1 = { #panzer I
 		abbreviation = "pz1"
-		derived_variant_name = ger_light_equipment_0
 		visual_level = 0
 		year = 1922
 		archetype = light_tank_chassis
@@ -305,23 +304,22 @@ equipments = {
 		
 	}
 	
-	ghost_panzer_1_light_tank_chassis_1 = {
+	tank_ger_ghost_light_chassis_1 = {
 		year = 1936
 
 		archetype = light_tank_chassis
 		priority = 10
-		parent = panzer_1_light_tank_chassis
+		parent = tank_ger_light_chassis_1
 		visual_level = 0
 		is_convertable = no
 	}
 	
-	panzer_2_light_tank_chassis = { #panzer II
+	tank_ger_light_chassis_2 = { #panzer II
 		abbreviation = "pz2"
-		derived_variant_name = ger_light_equipment_1
 		visual_level = 0
 		year = 1937
 		archetype = light_tank_chassis
-		parent = ghost_panzer_1_light_tank_chassis_1
+		parent = tank_ger_ghost_light_chassis_1
 		priority = 2000
 		is_convertable = yes
 		
@@ -459,12 +457,12 @@ equipments = {
 		
 	}
 	
-	ghost_panzer_2_light_tank_chassis_1 = {
+	tank_ger_ghost_light_chassis_2 = {
 		year = 1936
 
 		archetype = light_tank_chassis
 		priority = 10
-		parent = panzer_2_light_tank_chassis
+		parent = tank_ger_light_chassis_2
 		visual_level = 0
 		is_convertable = no
 	}
@@ -626,13 +624,12 @@ equipments = {
 	
 	################################################# German Mediums #############################################
 	
-	panzer_3_medium_tank_chassis = { #panzer III
+	tank_ger_medium_chassis_1 = { #panzer III
 		abbreviation = "pz3"
-		derived_variant_name = ger_medium_equipment_1
 		visual_level = 0
 		year = 1938
 		archetype = medium_tank_chassis
-		parent = ghost_panzer_2_light_tank_chassis_1
+		parent = tank_ger_ghost_light_chassis_2
 		priority = 2000
 		is_convertable = yes
 		
@@ -770,13 +767,12 @@ equipments = {
 		
 	}
 	
-	panzer_4_medium_tank_chassis = { #panzer IV
+	tank_ger_medium_chassis_2 = { #panzer IV
 		abbreviation = "pz4"
-		derived_variant_name = ger_support_tank_equipment_1
 		visual_level = 0
 		year = 1938
 		archetype = medium_tank_chassis
-		parent = ghost_panzer_2_light_tank_chassis_1
+		parent = tank_ger_ghost_light_chassis_2
 		priority = 2000
 		is_convertable = yes
 		

@@ -1,24 +1,24 @@
 ﻿l_english:
 
-    panzer_1_light_tank_chassis:0 "1933  @GER  Light Tank"
-    GER_panzer_1_light_tank_chassis:0 "Panzerkampfwagen I Chassis"
-    panzer_1_light_tank_chassis_short:0 "Panzer I"
-    panzer_1_light_tank_chassis_desc:0 "The Panzerkampfwagen I was a light tank designed for training, armed with two MG13. Entering production in 1933, its armor was enough to stop small arms fire but its firepower was not suited for combat against tanks of any kind. Speed and reliability were excellent though, making the tank very suitable for the German Bewegungskrieg."
+    tank_ger_light_chassis_1:0 "1933  @GER  Light Tank"
+    GER_tank_ger_light_chassis_1:0 "Panzerkampfwagen I Chassis"
+    tank_ger_light_chassis_1_short:0 "Panzer I"
+    tank_ger_light_chassis_1_desc:0 "The Panzerkampfwagen I was a light tank designed for training, armed with two MG13. Entering production in 1933, its armor was enough to stop small arms fire but its firepower was not suited for combat against tanks of any kind. Speed and reliability were excellent though, making the tank very suitable for the German Bewegungskrieg."
     
-    panzer_2_light_tank_chassis:0 "1937  @GER  Light Tank"
-    GER_panzer_2_light_tank_chassis:0 "Panzerkampfwagen II Chassis"
-    panzer_2_light_tank_chassis_short:0 "Panzer II"
-    panzer_2_light_tank_chassis_desc:0 "The Panzerkampfwagen II A was armed with a 2-cm-KwK 30 L/55. Going into production in 1937, it was basically an enlarged and improved 1936 Panzer I able to pierce other light tanks. It featured good speed and reliability, making it well suited for Bewegungskrieg against unprepared opponents. It was meant to be the main tank of the early Panzer-Divisions."
+    tank_ger_light_chassis_2:0 "1937  @GER  Light Tank"
+    GER_tank_ger_light_chassis_2:0 "Panzerkampfwagen II Chassis"
+    tank_ger_light_chassis_2_short:0 "Panzer II"
+    tank_ger_light_chassis_2_desc:0 "The Panzerkampfwagen II A was armed with a 2-cm-KwK 30 L/55. Going into production in 1937, it was basically an enlarged and improved 1936 Panzer I able to pierce other light tanks. It featured good speed and reliability, making it well suited for Bewegungskrieg against unprepared opponents. It was meant to be the main tank of the early Panzer-Divisions."
 
-    panzer_3_medium_tank_chassis:0 "1938  @GER  Medium Tank"
-    GER_panzer_3_medium_tank_chassis:0 "Panzerkampfwagen III Chassis"
-    panzer_3_medium_tank_chassis_short:0 "Panzer III"
-    panzer_3_medium_tank_chassis_desc:0 "The Panzer III was a medium tank armed with a 3.7-cm-KwK 36 L/45, first entering full production in 1939. Quick, relatively lightly armed and armored the Panzer III was nonetheless an excellent vehicle setting the standard for optimal crew size for decades to come. With its 3-men-turret, intercom and radio system it allowed for superior coordination compared to other designs and coordinated high speed advances, the core of the German combined arms warfare."
+    tank_ger_medium_chassis_1:0 "1938  @GER  Medium Tank"
+    GER_tank_ger_medium_chassis_1:0 "Panzerkampfwagen III Chassis"
+    tank_ger_medium_chassis_1_short:0 "Panzer III"
+    tank_ger_medium_chassis_1_desc:0 "The Panzer III was a medium tank armed with a 3.7-cm-KwK 36 L/45, first entering full production in 1939. Quick, relatively lightly armed and armored the Panzer III was nonetheless an excellent vehicle setting the standard for optimal crew size for decades to come. With its 3-men-turret, intercom and radio system it allowed for superior coordination compared to other designs and coordinated high speed advances, the core of the German combined arms warfare."
 
-    panzer_4_medium_tank_chassis:0 "1938  @GER  Medium Tank"
-    GER_panzer_4_medium_tank_chassis:0 "Panzerkampfwagen IV Chassis"
-    panzer_4_medium_tank_chassis_short:0 "Panzer IV"
-    panzer_4_medium_tank_chassis_desc:0 "The Panzer IV H was a medium tank armed with a 7.5-cm-KwK 40 L/48. Since the G variant was still suffering from smaller Soviet anti-tank weapons, the Panzer IV H was outfitted with additional armored skirts, improving its survivability. Additionally the cannon barrel was lengthened somewhat to increase gun performance and the frontal armour significantly upgraded."
+    tank_ger_medium_chassis_2:0 "1938  @GER  Medium Tank"
+    GER_tank_ger_medium_chassis_2:0 "Panzerkampfwagen IV Chassis"
+    tank_ger_medium_chassis_2_short:0 "Panzer IV"
+    tank_ger_medium_chassis_2_desc:0 "The Panzer IV was a heavy medium tank armed with a 7.5-cm-KwK 37 L/24. With the first combat-capable version entering production in 1938, the Panzer IV supported the other tanks with anti-infantry fire from its short-barreled main gun, mostly firing high explosive ammunition. It was almost useless against other tanks though."
 
     
     

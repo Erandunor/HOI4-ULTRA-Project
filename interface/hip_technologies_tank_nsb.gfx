@@ -7,19 +7,19 @@ spriteTypes = {
 	
 	spriteType = { #Panzer I
 		name = "GFX_ger_light_tank_chassis_1_medium"
-		texturefile = "gfx/interface/technologies/ger_light_0_panzer1.dds"	
+		texturefile = "gfx/interface/technologies/GER_light_tank_chassis_1.dds"
 	}
 	spriteType = { #Panzer II
 		name = "GFX_ger_light_tank_chassis_2_medium"
-		texturefile = "gfx/interface/technologies/ger_light_1_panzer2a.dds"
+		texturefile = "gfx/interface/technologies/GER_light_tank_chassis_3.dds"
 	}	
 	spriteType = { #Panzer III
 		name = "GFX_ger_medium_tank_chassis_1_medium"
-		texturefile = "gfx/interface/technologies/ger_medium_1_panzer3a.dds"
+		texturefile = "gfx/interface/technologies/GER_medium_tank_chassis_1.dds"
 	}
 	spriteType = { #Panzer IV
-		name = "GFX_tank_ger_medium_chassis_2_medium"
-		texturefile = "gfx/interface/technologies/ger_support_1_panzer4a.dds"
+		name = "GFX_ger_medium_tank_chassis_2_medium"
+		texturefile = "gfx/interface/technologies/GER_medium_tank_chassis_2.dds"
 	}
 
 

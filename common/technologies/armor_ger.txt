@@ -3473,7 +3473,7 @@ technologies = {
 		}
 
 		path = {
-			#leads_to_tech = ger_light_tank_chassis_2
+			leads_to_tech = ger_light_tank_chassis_2
 			research_cost_coeff = 1
 		}
 
@@ -3486,7 +3486,7 @@ technologies = {
 		folder = {
 			name = ger_armour_folder
 			position = { 
-				x = 2 
+				x = 0
 				y = @1934 
 			}
 		}
@@ -3520,6 +3520,180 @@ technologies = {
 			major_technologies
 			armor
 			cat_light_armor
+		}
+	}
+	
+	ger_light_tank_chassis_2 = { #Panzer II
+
+		enable_equipments = {
+			tank_ger_light_chassis_2
+		}
+		enable_equipment_modules = {
+			tank_panzer_2_turret
+		}
+
+		path = {
+			leads_to_tech = ger_medium_tank_chassis_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ger_medium_tank_chassis_2
+			research_cost_coeff = 1
+		}
+
+		sub_technologies = {
+			
+		}
+
+		research_cost = 1.5
+		start_year = 1937
+		folder = {
+			name = ger_armour_folder
+			position = {
+				x = 0
+				y = @1937
+			}
+		}
+
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 35
+				date > "1937.1.1"
+			}
+			modifier = {
+				factor = 35
+				date > "1938.1.1"
+			}
+			modifier = {
+				factor = 35
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						original_tag = GER
+						has_country_flag = german_technologies_tree_flag
+					}
+				}
+			}
+		}
+		
+		categories = {
+			major_technologies
+			armor
+			cat_light_armor
+		}
+	}
+	
+	ger_medium_tank_chassis_1 = { #Panzer III
+
+		enable_equipments = {
+			tank_ger_medium_chassis_1
+		}
+		enable_equipment_modules = {
+			tank_panzer_3_turret
+		}
+
+		sub_technologies = {
+			
+		}
+
+		research_cost = 2.5
+		start_year = 1938
+		folder = {
+			name = ger_armour_folder
+			position = {
+				x = 5
+				y = @1938
+			}
+		}
+
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 35
+				date > "1938.1.1"
+			}
+			modifier = {
+				factor = 35
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 35
+				date > "1940.1.1"
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						original_tag = GER
+						has_country_flag = german_technologies_tree_flag
+					}
+				}
+			}
+		}
+		
+		categories = {
+			major_technologies
+			armor
+			cat_medium_armor
+		}
+	}
+	
+	ger_medium_tank_chassis_2 = { #Panzer IV
+
+		enable_equipments = {
+			tank_ger_medium_chassis_2
+		}
+		enable_equipment_modules = {
+			tank_panzer_4_turret
+		}
+
+		sub_technologies = {
+			
+		}
+
+		research_cost = 2.5
+		start_year = 1938
+		folder = {
+			name = ger_armour_folder
+			position = {
+				x = 11
+				y = @1938
+			}
+		}
+
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 35
+				date > "1938.1.1"
+			}
+			modifier = {
+				factor = 35
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 35
+				date > "1940.1.1"
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						original_tag = GER
+						has_country_flag = german_technologies_tree_flag
+					}
+				}
+			}
+		}
+		
+		categories = {
+			major_technologies
+			armor
+			cat_medium_armor
 		}
 	}
 }
