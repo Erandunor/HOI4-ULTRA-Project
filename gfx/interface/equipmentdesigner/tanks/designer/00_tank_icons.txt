@@ -255,6 +255,10 @@ GER = {
  				GFX_GER_light_ACC
  				GFX_GER_light_ACC_camo
  				GFX_GER_light_AA_tank_A
+				"gfx/interface/technologies/ger_light_0_panzer1.dds"
+				"gfx/interface/technologies/ger_light_1_aa_flakpanzer1.dds"
+				"gfx/interface/technologies/ger_light_1_spg_bison.dds"
+				"gfx/interface/technologies/ger_light_1_tdpanzerjäger1.dds"
 			 }
 			models = {
 				"GER_light_armor_entity"
@@ -291,6 +295,14 @@ GER = {
  				GFX_GER_light_BCC
  				GFX_GER_light_BCC_camo
  				GFX_GER_light_AA_tank_B
+				"gfx/interface/technologies/ger_light_1_panzer2a.dds"
+				"gfx/interface/technologies/ger_light_2_spg_geschützwagen2.dds"
+				"gfx/interface/technologies/ger_light_2_td_marder1.dds"
+				"gfx/interface/technologies/ger_light_2_panzer2f.dds"
+				"gfx/interface/technologies/ger_light_2_td_marder2.dds"
+				"gfx/interface/technologies/ger_light_4_panzer2luchs.dds"
+				"gfx/interface/technologies/ger_light_4_spg_wespe.dds"
+				"gfx/interface/technologies/ger_light_4_td_marder3.dds"
 			 }
 			models = {
 				"GER_light_armor_entity"
@@ -346,6 +358,16 @@ GER = {
  				GFX_GER_medium_ACC
  				GFX_GER_medium_ACC_camo
  				GFX_GER_medium_AA_A
+				"gfx/interface/technologies/ger_medium_1_panzer3a.dds"
+				"gfx/interface/technologies/ger_medium_2_panzer3f.dds"
+				"gfx/interface/technologies/ger_medium_3_5_td_stug3g.dds"
+				"gfx/interface/technologies/ger_medium_3_td_stug3f.dds"
+				"gfx/interface/technologies/ger_support_4_panzer3n.dds"
+				"gfx/interface/technologies/ger_assault_2_spg_stug3a.dds"
+				"gfx/interface/technologies/ger_assault_3_spg_slG-IIIb.dds"
+				"gfx/interface/technologies/ger_assault_3_spg_stug3g.dds"
+				"gfx/interface/technologies/ger_assault_4_spg_stuh42.dds"
+				"gfx/interface/technologies/ger_medium_3.dds"
 			 }
 			models = {
 				"GER_medium_armor_entity"
@@ -381,6 +403,17 @@ GER = {
  				GFX_GER_medium_ACC
  				GFX_GER_medium_ACC_camo
  				GFX_GER_medium_AA_A
+				"gfx/interface/technologies/ger_support_1_panzer4a.dds"
+				"gfx/interface/technologies/ger_support_2_panzer4e.dds"
+				"gfx/interface/technologies/ger_medium_4_aa_moebelwagen.dds"
+				"gfx/interface/technologies/ger_medium_4_aa_wirbelwind.dds"
+				"gfx/interface/technologies/ger_medium_4_spg_hummel.dds"
+				"gfx/interface/technologies/ger_medium_5_aa_ostwind.dds"
+				"gfx/interface/technologies/ger_medium_5_panzer4h.dds"
+				"gfx/interface/technologies/ger_medium_5_spg_sturmpanzer4.dds"
+				"gfx/interface/technologies/ger_medium_6_panzer4j.dds"
+				"gfx/interface/technologies/ger_medium_6_td_jagdpanzer4.dds"
+				"gfx/interface/technologies/GER_medium_panzer_ivf2.dds"
 			 }
 			models = {
 				
