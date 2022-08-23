@@ -225,24 +225,35 @@ spriteTypes = {
 
 #### Germany ####
 
-	spriteType = {
+
+	spriteType = { # Panzer I
 		name = "GFX_EMI_tank_panzer_1_turret"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_one_man_turret.dds"
 	}
 	
-	spriteType = {
+	spriteType = { # Panzer II
 		name = "GFX_EMI_tank_panzer_2_turret"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_one_man_turret.dds"
 	}
 	
-	spriteType = {
+	spriteType = { # Panzer III
 		name = "GFX_EMI_tank_panzer_3_turret"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_three_man_turret.dds"
 	}
 	
 	spriteType = {
+		name = "GFX_EMI_tank_panzer_3_fixed_superstructure_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_fixed_superstructure.dds"
+	}
+	
+	spriteType = { # Panzer IV
 		name = "GFX_EMI_tank_panzer_4_turret"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_three_man_turret.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_panzer_4_fixed_superstructure_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_fixed_superstructure.dds"
 	}
 
 }

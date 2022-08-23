@@ -8,6 +8,9 @@ equipment_modules = {
 		abbreviation = "sc0"
 		category = tank_main_armament_tier_1
 		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
 
 		add_stats = {
 			soft_attack = 5.8
@@ -27,6 +30,9 @@ equipment_modules = {
 		abbreviation = "sc1"
 		category = tank_main_armament_tier_1
 		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
 
 		add_stats = {
 			soft_attack = 0
@@ -45,6 +51,10 @@ equipment_modules = {
 		category = tank_main_armament_tier_1
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_small_20_cannon_1
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 0
 			hard_attack = 0
@@ -64,6 +74,10 @@ equipment_modules = {
 		category = tank_main_armament_tier_2
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_small_37_cannon_0
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 13.7
 			hard_attack = 6.3
@@ -81,6 +95,10 @@ equipment_modules = {
 		category = tank_main_armament_tier_2
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_small_37_cannon_1
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 16.7
 			hard_attack = 11.7
@@ -100,6 +118,9 @@ equipment_modules = {
 		category = tank_main_armament_tier_2
 		sfx = sfx_ui_sd_module_turret
 		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 15.4
 			hard_attack = 13.2
@@ -117,6 +138,10 @@ equipment_modules = {
 		category = tank_main_armament_tier_3
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_medium_50_cannon_1
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 17.6
 			hard_attack = 15.4
@@ -134,6 +159,10 @@ equipment_modules = {
 		category = tank_main_armament_tier_3
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_medium_50_cannon_2
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 18.2
 			hard_attack = 22.8
@@ -153,6 +182,9 @@ equipment_modules = {
 		category = tank_main_armament_tier_4
 		sfx = sfx_ui_sd_module_turret
 		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 0
 			hard_attack = 0
@@ -170,6 +202,10 @@ equipment_modules = {
 		category = tank_main_armament_tier_4
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_medium_57_cannon_1
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 0
 			hard_attack = 0
@@ -187,6 +223,10 @@ equipment_modules = {
 		category = tank_main_armament_tier_4
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_medium_57_cannon_2
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 0
 			hard_attack = 0
@@ -206,6 +246,8 @@ equipment_modules = {
 		category = tank_main_armament_tier_3
 		sfx = sfx_ui_sd_module_turret
 		
+		forbid_equipment_type = anti_tank
+		
 		add_stats = {
 			soft_attack = 31.1
 			hard_attack = 9.3
@@ -223,6 +265,10 @@ equipment_modules = {
 		category = tank_main_armament_tier_4
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_medium_75_howitzer_1
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 42.5
 			hard_attack = 21.4
@@ -240,6 +286,10 @@ equipment_modules = {
 		category = tank_main_armament_tier_4
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_medium_75_cannon_2
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 43.8
 			hard_attack = 39.5
@@ -257,6 +307,10 @@ equipment_modules = {
 		category = tank_main_armament_tier_5
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_medium_75_cannon_3
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 55.2
 			hard_attack = 62.4
@@ -276,6 +330,8 @@ equipment_modules = {
 		category = tank_main_armament_tier_4
 		sfx = sfx_ui_sd_module_turret
 		
+		forbid_equipment_type = anti_tank
+		
 		add_stats = {
 			soft_attack = 0
 			hard_attack = 0
@@ -293,6 +349,10 @@ equipment_modules = {
 		category = tank_main_armament_tier_5
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_heavy_88_howitzer_1
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 81.8
 			hard_attack = 43.6
@@ -310,6 +370,10 @@ equipment_modules = {
 		category = tank_main_armament_tier_6
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_heavy_88_cannon_2
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 93.4
 			hard_attack = 55.4
@@ -327,6 +391,10 @@ equipment_modules = {
 		category = tank_main_armament_tier_7
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_heavy_88_cannon_3
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 95.4
 			hard_attack = 94.1
@@ -346,6 +414,8 @@ equipment_modules = {
 		category = tank_main_armament_tier_4
 		sfx = sfx_ui_sd_module_turret
 		
+		forbid_equipment_type = anti_tank
+		
 		add_stats = {
 			soft_attack = 0
 			hard_attack = 0
@@ -363,6 +433,10 @@ equipment_modules = {
 		category = tank_main_armament_tier_7
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_heavy_105_howitzer_1
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 0
 			hard_attack = 0
@@ -380,6 +454,10 @@ equipment_modules = {
 		category = tank_main_armament_tier_7
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_heavy_105_cannon_2
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 0
 			hard_attack = 0
@@ -399,6 +477,8 @@ equipment_modules = {
 		category = tank_main_armament_tier_5
 		sfx = sfx_ui_sd_module_turret
 		
+		forbid_equipment_type = anti_tank
+		
 		add_stats = {
 			soft_attack = 0
 			hard_attack = 0
@@ -416,6 +496,10 @@ equipment_modules = {
 		category = tank_main_armament_tier_7
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_super_heavy_125_howitzer_1
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 0
 			hard_attack = 0
@@ -433,6 +517,10 @@ equipment_modules = {
 		category = tank_main_armament_tier_8
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_super_heavy_125_cannon_2
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 0
 			hard_attack = 0
@@ -452,6 +540,8 @@ equipment_modules = {
 		category = tank_main_armament_tier_5
 		sfx = sfx_ui_sd_module_turret
 		
+		forbid_equipment_type = anti_tank
+		
 		add_stats = {
 			soft_attack = 0
 			hard_attack = 0
@@ -469,6 +559,10 @@ equipment_modules = {
 		category = tank_main_armament_tier_8
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_super_heavy_150_howitzer_1
+		
+		forbid_equipment_type = artillery
+		forbid_equipment_type = rocket
+		
 		add_stats = {
 			soft_attack = 0
 			hard_attack = 0

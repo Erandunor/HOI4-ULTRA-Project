@@ -3594,6 +3594,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_panzer_3_turret
+			tank_panzer_3_fixed_superstructure_turret #to get its own tech/subtech later
 		}
 
 		sub_technologies = {
@@ -3649,6 +3650,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_panzer_4_turret
+			tank_panzer_4_fixed_superstructure_turret  #to get its own tech/subtech later
 		}
 
 		sub_technologies = {
