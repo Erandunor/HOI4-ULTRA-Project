@@ -1,6 +1,6 @@
 equipment_modules = {
 	
-	
+	### equipment_type = rocket is the designation for Assault Gun 
 	
 	######################################### GUNS TODO : expand each categories ###############################################
 	
@@ -54,7 +54,7 @@ equipment_modules = {
 		parent = tank_small_20_cannon_1
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_tank
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
@@ -78,7 +78,7 @@ equipment_modules = {
 		parent = tank_small_37_cannon_0
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_tank
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
@@ -100,7 +100,7 @@ equipment_modules = {
 		parent = tank_small_37_cannon_1
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
@@ -123,7 +123,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
@@ -145,7 +145,7 @@ equipment_modules = {
 		parent = tank_medium_50_cannon_1
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
@@ -167,7 +167,7 @@ equipment_modules = {
 		parent = tank_medium_50_cannon_2
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
@@ -211,7 +211,7 @@ equipment_modules = {
 		parent = tank_medium_57_cannon_1
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
@@ -233,7 +233,7 @@ equipment_modules = {
 		parent = tank_medium_57_cannon_2
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
@@ -277,7 +277,7 @@ equipment_modules = {
 		parent = tank_medium_75_howitzer_1
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
@@ -299,7 +299,7 @@ equipment_modules = {
 		parent = tank_medium_75_cannon_2
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
@@ -321,7 +321,7 @@ equipment_modules = {
 		parent = tank_medium_75_cannon_3
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
@@ -365,7 +365,7 @@ equipment_modules = {
 		parent = tank_heavy_88_howitzer_1
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
@@ -387,7 +387,7 @@ equipment_modules = {
 		parent = tank_heavy_88_cannon_2
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
@@ -409,7 +409,7 @@ equipment_modules = {
 		parent = tank_heavy_88_cannon_3
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
@@ -453,7 +453,7 @@ equipment_modules = {
 		parent = tank_heavy_105_howitzer_1
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
@@ -475,7 +475,7 @@ equipment_modules = {
 		parent = tank_heavy_105_cannon_2
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
@@ -519,7 +519,7 @@ equipment_modules = {
 		parent = tank_super_heavy_125_howitzer_1
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		forbid_equipment_type = anti_tank
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
@@ -541,7 +541,7 @@ equipment_modules = {
 		parent = tank_super_heavy_125_cannon_2
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
@@ -585,7 +585,7 @@ equipment_modules = {
 		parent = tank_super_heavy_150_howitzer_1
 		
 		forbid_equipment_type = artillery
-		forbid_equipment_type = rocket
+		
 		forbid_equipment_type = anti_air
 		
 		add_stats = {
