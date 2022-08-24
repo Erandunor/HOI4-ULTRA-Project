@@ -1,6 +1,14 @@
 spriteTypes = {
 
-######################### Categories ##################################
+######################### Radio ##################################
+
+	spriteType = {
+		name = "GFX_tank_module_radio_4"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_radio_3.dds"
+	}
+
+
+######################### Gun Categories ##################################
 
 	spriteType = {
 		name = "GFX_EMI_tank_small_main_armament"

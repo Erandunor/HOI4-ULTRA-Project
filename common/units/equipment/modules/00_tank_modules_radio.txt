@@ -48,6 +48,22 @@ equipment_modules = {
 			breakthrough = 0.45
 		}
 	}
+	
+	tank_radio_4 = {
+		abbreviation = "rad4"
+		category = tank_radio_module
+		parent = tank_radio_3
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 2.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			defense = 0.65
+			breakthrough = 0.45
+		}
+	}
 
 
 }

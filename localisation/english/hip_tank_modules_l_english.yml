@@ -135,3 +135,9 @@ EQ_MOD_CAT_panzer_1_turret_type_TITLE:0 "§CPanzer I§! §YTurret§!"
 EQ_MOD_CAT_panzer_2_turret_type_TITLE:0 "§CPanzer II§! §YTurret§!"
 EQ_MOD_CAT_panzer_3_turret_type_TITLE:0 "§CPanzer III§! §YTurret§!"
 EQ_MOD_CAT_panzer_4_turret_type_TITLE:0 "§CPanzer IV§! §YTurret§!"
+
+
+####### Radio #######
+
+tank_radio_4:0 "Modern Radio"
+tank_radio_4_desc:0 ""

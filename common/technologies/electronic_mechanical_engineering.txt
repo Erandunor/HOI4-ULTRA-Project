@@ -584,6 +584,10 @@ technologies = {
 			position = { x = -5 y = 22 }
 		}
 		
+		enable_equipment_modules = {
+			tank_radio_4
+		}
+		
 		start_year = 1946
 		
 		ai_will_do = {
