@@ -2,6 +2,9 @@ equipment_modules = {
 	
 	### equipment_type = rocket is the designation for Assault Gun 
 	
+	### Assault Guns and SPG might use the same guns but in a different way, so stats calculations are different!
+	# Every howitzer eligible for both AG and SPG should be clonned to have a version limited to SPG only (can't be used in normal tanks and AG). No need SPG variant under 75mm.
+	
 	######################################### GUNS TODO : expand each categories ###############################################
 	
 	tank_small_37_cannon_0 = {
@@ -11,6 +14,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = anti_tank
 		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
 
 		add_stats = {
 			soft_attack = 2.9
@@ -191,6 +195,7 @@ equipment_modules = {
 		
 		forbid_equipment_type = anti_tank
 		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
 		
 		add_stats = {
 			soft_attack = 6.6
@@ -257,6 +262,29 @@ equipment_modules = {
 		
 		forbid_equipment_type = anti_tank
 		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
+		
+		add_stats = {
+			soft_attack = 15.5
+			hard_attack = 4.1
+			ap_attack = 31
+			build_cost_ic = 3
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+	}
+	
+	tank_infantry_support_75_howitzer_SPG = {
+		abbreviation = "mc1"
+		category = tank_main_armament_tier_2
+		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = anti_tank
+		forbid_equipment_type = anti_air
+		forbid_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 		
 		add_stats = {
 			soft_attack = 15.5
@@ -277,6 +305,29 @@ equipment_modules = {
 		
 		forbid_equipment_type = anti_tank
 		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
+		
+		add_stats = {
+			soft_attack = 15.5
+			hard_attack = 4.1
+			ap_attack = 31
+			build_cost_ic = 3
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+	}
+	
+	tank_medium_75_howitzer_SPG = {
+		abbreviation = "mc1"
+		category = tank_main_armament_tier_3
+		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = anti_tank
+		forbid_equipment_type = anti_air
+		forbid_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 		
 		add_stats = {
 			soft_attack = 15.5
@@ -365,6 +416,29 @@ equipment_modules = {
 		
 		forbid_equipment_type = anti_tank
 		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
+		
+		add_stats = {
+			soft_attack = 0
+			hard_attack = 0
+			ap_attack = 0
+			build_cost_ic = 0
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+	}
+	
+	tank_heavy_88_howitzer_SPG = {
+		abbreviation = "hc1"
+		category = tank_main_armament_tier_4
+		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = anti_tank
+		forbid_equipment_type = anti_air
+		forbid_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 		
 		add_stats = {
 			soft_attack = 0
@@ -453,6 +527,29 @@ equipment_modules = {
 		
 		forbid_equipment_type = anti_tank
 		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
+		
+		add_stats = {
+			soft_attack = 30.0
+			hard_attack = 7.3
+			ap_attack = 46
+			build_cost_ic = 2
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+	}
+	
+	tank_heavy_105_howitzer_SPG = {
+		abbreviation = "hc1"
+		category = tank_main_armament_tier_4
+		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = anti_tank
+		forbid_equipment_type = anti_air
+		forbid_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 		
 		add_stats = {
 			soft_attack = 30.0
@@ -519,6 +616,29 @@ equipment_modules = {
 		
 		forbid_equipment_type = anti_tank
 		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
+		
+		add_stats = {
+			soft_attack = 34.6
+			hard_attack = 5.2
+			ap_attack = 37
+			build_cost_ic = 2
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+	}
+	
+	tank_super_heavy_125_howitzer_SPG = {
+		abbreviation = "sh1"
+		category = tank_main_armament_tier_5
+		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = anti_tank
+		forbid_equipment_type = anti_air
+		forbid_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 		
 		add_stats = {
 			soft_attack = 34.6
@@ -585,6 +705,29 @@ equipment_modules = {
 		
 		forbid_equipment_type = anti_tank
 		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
+		
+		add_stats = {
+			soft_attack = 35.6
+			hard_attack = 9.8
+			ap_attack = 71
+			build_cost_ic = 9
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+	}
+	
+	tank_infantry_support_150_howitzer_SPG = {
+		abbreviation = "sh1"
+		category = tank_main_armament_tier_4
+		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = anti_tank
+		forbid_equipment_type = anti_air
+		forbid_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 		
 		add_stats = {
 			soft_attack = 35.6
@@ -605,6 +748,29 @@ equipment_modules = {
 		
 		forbid_equipment_type = anti_tank
 		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
+		
+		add_stats = {
+			soft_attack = 35.6
+			hard_attack = 9.8
+			ap_attack = 71
+			build_cost_ic = 9
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+	}
+	
+	tank_super_heavy_150_howitzer_SPG = {
+		abbreviation = "sh1"
+		category = tank_main_armament_tier_5
+		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = anti_tank
+		forbid_equipment_type = anti_air
+		forbid_equipment_type = rocket
+		forbid_equipment_type_exact_match = armor
 		
 		add_stats = {
 			soft_attack = 35.6

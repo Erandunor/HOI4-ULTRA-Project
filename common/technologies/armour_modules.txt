@@ -1343,6 +1343,7 @@ technologies = {
 	
 		enable_equipment_modules = {
 			tank_medium_75_howitzer_1
+			tank_medium_75_howitzer_SPG
 		}
 		
 		dependencies = {
@@ -1569,6 +1570,7 @@ technologies = {
 	
 		enable_equipment_modules = {
 			tank_heavy_88_howitzer_1
+			tank_heavy_88_howitzer_SPG
 		}
 		
 		dependencies = {
@@ -1790,6 +1792,7 @@ technologies = {
 	
 		enable_equipment_modules = {
 			tank_heavy_105_howitzer_1
+			tank_heavy_105_howitzer_SPG
 		}
 		
 		dependencies = {
@@ -1956,6 +1959,7 @@ technologies = {
 	
 		enable_equipment_modules = {
 			tank_super_heavy_125_howitzer_1
+			tank_super_heavy_125_howitzer_SPG
 		}
 		
 		dependencies = {
@@ -2122,6 +2126,7 @@ technologies = {
 	
 		enable_equipment_modules = {
 			tank_super_heavy_150_howitzer_1
+			tank_super_heavy_150_howitzer_SPG
 		}
 		
 		dependencies = {

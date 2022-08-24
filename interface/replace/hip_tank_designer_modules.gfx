@@ -136,9 +136,19 @@ spriteTypes = {
 		name = "GFX_EMI_tank_infantry_support_75_howitzer"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_howitzer.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_infantry_support_75_howitzer_SPG"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_howitzer.dds"
+	}
 
 	spriteType = {
 		name = "GFX_EMI_tank_medium_75_howitzer_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_howitzer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_medium_75_howitzer_SPG"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_howitzer.dds"
 	}
 	
@@ -165,6 +175,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_EMI_tank_heavy_88_howitzer_SPG"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_howitzer.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_EMI_tank_heavy_88_cannon_2"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_cannon.dds"
 	}
@@ -187,6 +202,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_EMI_tank_heavy_105_howitzer_SPG"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_howitzer.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_EMI_tank_heavy_105_cannon_2"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_cannon.dds"
 	}
@@ -200,6 +220,11 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_EMI_tank_super_heavy_125_howitzer_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_howitzer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_super_heavy_125_howitzer_SPG"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_howitzer.dds"
 	}
 	
@@ -218,9 +243,19 @@ spriteTypes = {
 		name = "GFX_EMI_tank_infantry_support_150_howitzer"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_howitzer.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_infantry_support_150_howitzer_SPG"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_howitzer.dds"
+	}
 
 	spriteType = {
 		name = "GFX_EMI_tank_super_heavy_150_howitzer_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_howitzer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_super_heavy_150_howitzer_SPG"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_howitzer.dds"
 	}
 	
