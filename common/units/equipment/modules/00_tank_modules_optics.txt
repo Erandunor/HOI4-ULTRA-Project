@@ -16,7 +16,8 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			
+			soft_attack = 0
+			hard_attack = 0
 		}
 	}
 	
@@ -31,6 +32,8 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
+			soft_attack = 0.045
+			hard_attack = 0.045
 			
 		}
 	}
@@ -46,6 +49,8 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
+			soft_attack = 0.09
+			hard_attack = 0.09
 			
 		}
 	}
@@ -61,7 +66,8 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			
+			soft_attack = 0.135
+			hard_attack = 0.135
 		}
 	}
 	
@@ -92,7 +98,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			
+			breakthrough
 		}
 	}
 	
@@ -107,7 +113,10 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			
+			defense = 0.045
+			breakthrough = 0.045
+			#max_organisation = 0.01
+			#default_morale = 0.01
 		}
 	}
 	
@@ -122,6 +131,10 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
+			defense = 0.09
+			breakthrough = 0.09
+			#max_organisation = 0.02
+			#default_morale = 0.02
 			
 		}
 	}
@@ -137,7 +150,10 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			
+			defense = 0.135
+			breakthrough = 0.135
+			#max_organisation = 0.03
+			#default_morale = 0.03
 		}
 	}
 

@@ -454,7 +454,7 @@ equipment_modules = {
 	
 	tank_heavy_88_cannon_2 = {
 		abbreviation = "hc2"
-		category = tank_main_armament_tier_5
+		category = tank_main_armament_tier_6
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_heavy_88_howitzer_1
 		
