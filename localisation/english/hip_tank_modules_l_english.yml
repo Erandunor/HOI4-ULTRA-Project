@@ -128,6 +128,11 @@ EQ_MOD_CAT_tank_main_armament_tier_6_TITLE:0 "§OHeavy§! Main Armament"
 EQ_MOD_CAT_tank_main_armament_tier_7_TITLE:0 "§OSuper-Heavy§! Main Armament"
 EQ_MOD_CAT_tank_main_armament_tier_8_TITLE:0 "§RUltra-Heavy§! Main Armament"
 
+EQ_MOD_CAT_tank_main_armament_tier_2_SPG_TITLE:0 "§GMedium§! SPG Gun"
+EQ_MOD_CAT_tank_main_armament_tier_3_SPG_TITLE:0 "§YHeavy§! SPG Gun"
+EQ_MOD_CAT_tank_main_armament_tier_4_SPG_TITLE:0 "§OSuper-Heavy§! SPG Gun"
+EQ_MOD_CAT_tank_main_armament_tier_5_SPG_TITLE:0 "§RUltra-heavy§! SPG Gun"
+
 ### Turrets's Categories
 
 ## Germany

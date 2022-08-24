@@ -98,7 +98,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			breakthrough
+			
 		}
 	}
 	

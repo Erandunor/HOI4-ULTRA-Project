@@ -278,7 +278,7 @@ equipment_modules = {
 	
 	tank_infantry_support_75_howitzer_SPG = {
 		abbreviation = "mc1"
-		category = tank_main_armament_tier_2
+		category = tank_main_armament_tier_2_SPG
 		sfx = sfx_ui_sd_module_turret
 		
 		forbid_equipment_type = anti_tank
@@ -321,7 +321,7 @@ equipment_modules = {
 	
 	tank_medium_75_howitzer_SPG = {
 		abbreviation = "mc1"
-		category = tank_main_armament_tier_3
+		category = tank_main_armament_tier_3_SPG
 		sfx = sfx_ui_sd_module_turret
 		
 		forbid_equipment_type = anti_tank
@@ -432,7 +432,7 @@ equipment_modules = {
 	
 	tank_heavy_88_howitzer_SPG = {
 		abbreviation = "hc1"
-		category = tank_main_armament_tier_4
+		category = tank_main_armament_tier_4_SPG
 		sfx = sfx_ui_sd_module_turret
 		
 		forbid_equipment_type = anti_tank
@@ -543,7 +543,7 @@ equipment_modules = {
 	
 	tank_heavy_105_howitzer_SPG = {
 		abbreviation = "hc1"
-		category = tank_main_armament_tier_4
+		category = tank_main_armament_tier_4_SPG
 		sfx = sfx_ui_sd_module_turret
 		
 		forbid_equipment_type = anti_tank
@@ -632,7 +632,7 @@ equipment_modules = {
 	
 	tank_super_heavy_125_howitzer_SPG = {
 		abbreviation = "sh1"
-		category = tank_main_armament_tier_5
+		category = tank_main_armament_tier_5_SPG
 		sfx = sfx_ui_sd_module_turret
 		
 		forbid_equipment_type = anti_tank
@@ -721,7 +721,7 @@ equipment_modules = {
 	
 	tank_infantry_support_150_howitzer_SPG = {
 		abbreviation = "sh1"
-		category = tank_main_armament_tier_4
+		category = tank_main_armament_tier_4_SPG
 		sfx = sfx_ui_sd_module_turret
 		
 		forbid_equipment_type = anti_tank
@@ -764,7 +764,7 @@ equipment_modules = {
 	
 	tank_super_heavy_150_howitzer_SPG = {
 		abbreviation = "sh1"
-		category = tank_main_armament_tier_5
+		category = tank_main_armament_tier_5_SPG
 		sfx = sfx_ui_sd_module_turret
 		
 		forbid_equipment_type = anti_tank
