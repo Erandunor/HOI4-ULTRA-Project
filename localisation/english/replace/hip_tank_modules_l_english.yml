@@ -1,5 +1,29 @@
 ﻿l_english:
 
+##### Designer Slots #####
+
+
+EQ_MOD_SLOT_main_armament_slot_TITLE:0 "Main Armament"
+EQ_MOD_SLOT_turret_type_slot_TITLE:0 "Turret"
+EQ_MOD_SLOT_suspension_type_slot_TITLE:0 "Suspension"
+EQ_MOD_SLOT_armor_type_slot_TITLE:0 "Armor Type"
+EQ_MOD_SLOT_engine_type_slot_TITLE:0 "Engine Type"
+EQ_MOD_SLOT_special_type_slot_1_TITLE:0 "Special Features"
+EQ_MOD_SLOT_special_type_slot_2_TITLE:0 "Special Features"
+EQ_MOD_SLOT_special_type_slot_3_TITLE:0 "Special Features"
+EQ_MOD_SLOT_special_type_slot_4_TITLE:0 "Special Features"
+EQ_MOD_SLOT_special_type_slot_5_TITLE:0 "Special Features"
+EQ_MOD_SLOT_special_type_slot_6_TITLE:0 "Special Features"
+EQ_MOD_SLOT_special_type_slot_7_TITLE:0 "Special Features"
+EQ_MOD_SLOT_special_type_slot_8_TITLE:0 "Special Features"
+EQ_MOD_SLOT_special_type_slot_9_TITLE:0 "Special Features"
+EQ_MOD_SLOT_special_type_slot_10_TITLE:0 "Special Features"
+EQ_MOD_SLOT_special_type_slot_11_TITLE:0 "Special Features"
+EQ_MOD_SLOT_special_type_slot_12_TITLE:0 "Special Features"
+EQ_MOD_SLOT_special_type_slot_13_TITLE:0 "Special Features"
+
+##### Tank Guns #####
+
 tank_small_37_cannon_0:0 "37mm Howitzer"
 tank_small_37_cannon_0_desc:0 ""
 
