@@ -36,7 +36,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "icon_selection_container"
-			position = { x=340 y=70 }
+			position = { x=305 y=70 }
 			size = { width = 154 height = 56 }
 
 			background = {
@@ -104,6 +104,8 @@ guiTypes = {
 
 			@fixed_btn_mod_row_0 = 1
 			@fixed_btn_mod_row_1 = 300
+			@fixed_btn_mod_row_2 = 48
+			@fixed_btn_mod_row_3 = 252
 
 			# Code checks this position to know if module is in upper or low row to
 			# give the tooltip the correct anchor 
@@ -164,6 +166,52 @@ guiTypes = {
 				name = "pos_custom_module_slot_window_8"
 				position = { x=@fixed_btn_mod_col_5 y=@fixed_btn_mod_row_0 }
 			}
+			
+			positionType = {
+				name = "pos_custom_module_slot_window_9"
+				position = { x=@fixed_btn_mod_col_6 y=@fixed_btn_mod_row_0 }
+			}
+			
+			positionType = {
+				name = "pos_custom_module_slot_window_10"
+				position = { x=@fixed_btn_mod_col_3 y=@fixed_btn_mod_row_1 }
+			}
+			
+			positionType = {
+				name = "pos_custom_module_slot_window_11"
+				position = { x=@fixed_btn_mod_col_4 y=@fixed_btn_mod_row_1 }
+			}
+			
+			positionType = {
+				name = "pos_custom_module_slot_window_12"
+				position = { x=@fixed_btn_mod_col_5 y=@fixed_btn_mod_row_1 }
+			}
+			
+			positionType = {
+				name = "pos_custom_module_slot_window_13"
+				position = { x=@fixed_btn_mod_col_6 y=@fixed_btn_mod_row_1 }
+			}
+			
+			positionType = {
+				name = "pos_custom_module_slot_window_14"
+				position = { x=@fixed_btn_mod_col_0 y=@fixed_btn_mod_row_2 }
+			}
+			
+			positionType = {
+				name = "pos_custom_module_slot_window_15"
+				position = { x=@fixed_btn_mod_col_0 y=@fixed_btn_mod_row_3 }
+			}
+			
+			positionType = {
+				name = "pos_custom_module_slot_window_16"
+				position = { x=@fixed_btn_mod_col_5 y=@fixed_btn_mod_row_3 }
+			}
+			
+			positionType = {
+				name = "pos_custom_module_slot_window_17"
+				position = { x=@fixed_btn_mod_col_6 y=@fixed_btn_mod_row_3 }
+			}
+			
 
 			######################################################################
 			# Equipment upgrades
@@ -258,13 +306,13 @@ guiTypes = {
 		iconType = {
 			name = "tag_icon_bg"
 			spriteType = "GFX_role_icon_bg"
-			position = { x = 465 y = 143 }
+			position = { x = 465 y = 72 }
 			alwaystransparent = yes
 		}
 
 		buttonType = {
 			name = "niche_button"
-			position = { x = 474 y = 150 }
+			position = { x = 474 y = 78 }
 			spriteType = "GFX_niche_icon_strip"
 			clicksound = "ui_tank_designer_company_icon"
 			pdx_tooltip = "DESIGNER_SELECT_NICHE"
