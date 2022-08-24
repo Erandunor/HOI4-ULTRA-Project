@@ -250,6 +250,26 @@ equipment_modules = {
 	
 	########## 75 mm ############
 	
+	tank_infantry_support_75_howitzer = {
+		abbreviation = "mc1"
+		category = tank_main_armament_tier_2
+		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = anti_tank
+		forbid_equipment_type = anti_air
+		
+		add_stats = {
+			soft_attack = 15.5
+			hard_attack = 4.1
+			ap_attack = 31
+			build_cost_ic = 3
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+	}
+	
 	tank_medium_75_howitzer_1 = {
 		abbreviation = "mc1"
 		category = tank_main_armament_tier_3
@@ -557,6 +577,26 @@ equipment_modules = {
 	}
 	
 	########## 150 mm ############
+	
+	tank_infantry_support_150_howitzer = {
+		abbreviation = "sh1"
+		category = tank_main_armament_tier_4
+		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = anti_tank
+		forbid_equipment_type = anti_air
+		
+		add_stats = {
+			soft_attack = 35.6
+			hard_attack = 9.8
+			ap_attack = 71
+			build_cost_ic = 9
+			maximum_speed = 0
+			reliability = 0
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+	}
 	
 	tank_super_heavy_150_howitzer_1 = {
 		abbreviation = "sh1"

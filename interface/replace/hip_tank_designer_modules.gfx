@@ -133,6 +133,11 @@ spriteTypes = {
 ########### 75mm ############
 
 	spriteType = {
+		name = "GFX_EMI_tank_infantry_support_75_howitzer"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_howitzer.dds"
+	}
+
+	spriteType = {
 		name = "GFX_EMI_tank_medium_75_howitzer_1"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_howitzer.dds"
 	}
@@ -209,6 +214,10 @@ spriteTypes = {
 	}
 	
 ########### 150mm ############
+	spriteType = {
+		name = "GFX_EMI_tank_infantry_support_150_howitzer"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_howitzer.dds"
+	}
 
 	spriteType = {
 		name = "GFX_EMI_tank_super_heavy_150_howitzer_1"
