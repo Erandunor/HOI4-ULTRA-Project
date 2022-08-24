@@ -1,0 +1,146 @@
+equipment_modules = {
+
+	###################################################### Optics ################################################
+	
+	### Telescopes (optics) increase offensive potential, Periscopes increase defensive potential and later techs a bit offensive potential too
+	
+	####################### Telescopes #####################
+	
+	tank_optics_1 = {
+		abbreviation = "opt1"
+		category = tank_optics_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
+	
+	tank_optics_2 = {
+		abbreviation = "opt2"
+		category = tank_optics_module
+		parent = tank_optics_1
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
+	
+	tank_optics_3 = {
+		abbreviation = "opt3"
+		category = tank_optics_module
+		parent = tank_optics_2
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
+	
+	tank_optics_4 = {
+		abbreviation = "opt4"
+		category = tank_optics_module
+		parent = tank_optics_3
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
+	
+	tank_optics_5 = {
+		abbreviation = "opt5"
+		category = tank_optics_module
+		parent = tank_optics_4
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
+	
+	####################### Periscopes #####################
+	
+	tank_periscope_1 = {
+		abbreviation = "prs1"
+		category = tank_periscope_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
+	
+	tank_periscope_2 = {
+		abbreviation = "prs2"
+		category = tank_periscope_module
+		parent = tank_periscope_1
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
+	
+	tank_periscope_3 = {
+		abbreviation = "prs3"
+		category = tank_periscope_module
+		parent = tank_periscope_2
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
+	
+	tank_periscope_4 = {
+		abbreviation = "prs4"
+		category = tank_periscope_module
+		parent = tank_periscope_3
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
+
+
+
+}

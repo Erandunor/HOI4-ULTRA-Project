@@ -141,3 +141,29 @@ EQ_MOD_CAT_panzer_4_turret_type_TITLE:0 "§CPanzer IV§! §YTurret§!"
 
 tank_radio_4:0 "Modern Radio"
 tank_radio_4_desc:0 ""
+
+####### Optics #######
+
+EQ_MOD_CAT_tank_periscope_module_TITLE:0 "Periscope"
+EQ_MOD_CAT_tank_optics_module_TITLE:0 "Optics"
+
+
+tank_optics_1:0 "Basic Tank Optics"
+tank_optics_1_desc:0 ""
+tank_optics_2:0 "Early Tank Optics"
+tank_optics_2_desc:0 ""
+tank_optics_3:0 "Improved Tank Optics"
+tank_optics_3_desc:0 ""
+tank_optics_4:0 "Advanced Tank Optics"
+tank_optics_4_desc:0 ""
+tank_optics_5:0 "Modern Tank Optics"
+tank_optics_5_desc:0 ""
+
+tank_periscope_1:0 "Early Tank Periscope"
+tank_periscope_1_desc:0 ""
+tank_periscope_2:0 "Improved Tank Periscope"
+tank_periscope_2_desc:0 ""
+tank_periscope_3:0 "Advanced Tank Periscope"
+tank_periscope_3_desc:0 ""
+tank_periscope_4:0 "Modern Tank Periscope"
+tank_periscope_4_desc:0 ""

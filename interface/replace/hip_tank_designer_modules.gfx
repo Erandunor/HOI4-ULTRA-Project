@@ -3,8 +3,65 @@ spriteTypes = {
 ######################### Radio ##################################
 
 	spriteType = {
-		name = "GFX_tank_module_radio_4"
+		name = "GFX_EMI_tank_radio_4"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_radio_3.dds"
+	}
+	
+######################### Optics ##################################
+
+	spriteType = {
+		name = "GFX_EMI_tank_optics_module"
+		texturefile ="gfx/interface/technologies/tank_sight1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_optics_1"
+		texturefile ="gfx/interface/technologies/tank_sight1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_optics_2"
+		texturefile ="gfx/interface/technologies/tank_sight2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_optics_3"
+		texturefile ="gfx/interface/technologies/tank_sight3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_optics_4"
+		texturefile ="gfx/interface/technologies/tank_sight4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_optics_5"
+		texturefile ="gfx/interface/technologies/tank_sight5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_periscope_module"
+		texturefile ="gfx/interface/technologies/tankperiscope1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_periscope_1"
+		texturefile ="gfx/interface/technologies/tankperiscope1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_periscope_2"
+		texturefile ="gfx/interface/technologies/tankperiscope2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_periscope_3"
+		texturefile ="gfx/interface/technologies/tankperiscope3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_periscope_4"
+		texturefile ="gfx/interface/technologies/tankperiscope4.dds"
 	}
 
 

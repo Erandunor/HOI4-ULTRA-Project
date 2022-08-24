@@ -17,6 +17,11 @@ spriteTypes = {
 		name = "GFX_radio_tank_3_medium"
 		texturefile ="gfx/interface/technologies/tank_radio_module3.dds"
 	}
+	#Modern Tank Radio
+	SpriteType = {
+		name = "GFX_radio_tank_4_medium"
+		texturefile ="gfx/interface/technologies/tank_radio_module3.dds"
+	}
 	
 	
 ############################################################### Tank Optics ##########################################################################
