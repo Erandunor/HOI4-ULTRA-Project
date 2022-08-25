@@ -1,0 +1,26 @@
+spriteTypes = {
+
+######## Fixed Slot Icons
+
+	spriteType = { # Turret
+		name = "GFX_EMSI_turret_type_slot"
+		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons_red/battery.dds"
+	}
+	
+	spriteType = { # Gun
+		name = "GFX_EMSI_main_armament_slot"
+		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons_red/battery.dds"
+	}
+	
+	spriteType = { #Engine
+		name = "GFX_EMSI_engine_type_slot"
+		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons_red/engine.dds"
+	}
+	
+	spriteType = { #Armor
+		name = "GFX_EMSI_armor_type_slot"
+		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons_red/armor2.dds"
+	}
+
+
+}
