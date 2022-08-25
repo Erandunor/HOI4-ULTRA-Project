@@ -332,7 +332,11 @@ equipments = {
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_armor_10t_R
+					tank_armor_10t_R_1
+					tank_armor_10t_R_2
+					tank_armor_10t_R_3
+					tank_armor_10t_R_4
+					tank_armor_10t_R_5
 				}
 			}
 			
@@ -539,7 +543,11 @@ equipments = {
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_armor_10t_R
+					tank_armor_10t_R_1
+					tank_armor_10t_R_2
+					tank_armor_10t_R_3
+					tank_armor_10t_R_4
+					tank_armor_10t_R_5
 				}
 			}
 			
@@ -965,7 +973,13 @@ equipments = {
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_armor_20t_R
+					tank_armor_20t_R_1
+					tank_armor_20t_R_2
+					tank_armor_20t_R_3
+					tank_armor_20t_R_4
+					tank_armor_20t_R_5
+					tank_armor_20t_R_6
+					tank_armor_20t_R_7
 				}
 			}
 			
@@ -1162,7 +1176,13 @@ equipments = {
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_armor_20t_R
+					tank_armor_20t_R_1
+					tank_armor_20t_R_2
+					tank_armor_20t_R_3
+					tank_armor_20t_R_4
+					tank_armor_20t_R_5
+					tank_armor_20t_R_6
+					tank_armor_20t_R_7
 				}
 			}
 			
