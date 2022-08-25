@@ -120,7 +120,7 @@ equipments = {
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_armor_type
+					
 				}
 			}
 			
@@ -332,7 +332,7 @@ equipments = {
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_armor_type
+					tank_armor_10t_R
 				}
 			}
 			
@@ -539,7 +539,7 @@ equipments = {
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_armor_type
+					tank_armor_10t_R
 				}
 			}
 			
@@ -755,7 +755,7 @@ equipments = {
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_armor_type
+					
 				}
 			}
 			
@@ -965,7 +965,7 @@ equipments = {
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_armor_type
+					tank_armor_20t_R
 				}
 			}
 			
@@ -1162,7 +1162,7 @@ equipments = {
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_armor_type
+					tank_armor_20t_R
 				}
 			}
 			

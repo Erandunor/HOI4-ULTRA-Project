@@ -348,6 +348,136 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_super_heavy_cannon.dds"
 	}
 	
+######################### Armor Categories ##################################
+
+	spriteType = {
+		name = "GFX_EMI_tank_armor_10t_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_armor_20t_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	
+######################### Armor Modules ##################################
+
+############## Riveted #################
+
+####### 10t #######
+
+
+	spriteType = {
+		name = "GFX_EMI_tank_armor_10t_10x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_10t_20x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_10t_30x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_10t_40x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_10t_50x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_10t_60x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_10t_70x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_10t_80x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_10t_90x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_10t_100x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	
+####### 20t #######
+
+	spriteType = {
+		name = "GFX_EMI_tank_armor_20t_20x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_20t_30x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_20t_40x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_20t_50x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_20t_60x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_20t_70x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_20t_80x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_20t_90x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_20t_100x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_20t_110x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_20t_120x10_R"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_riveted_armor.dds"
+		legacy_lazy_load = no
+	}
+	
 ######################### Turrets - Nation Unique! #######################################
 
 

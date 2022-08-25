@@ -112,6 +112,60 @@ tank_super_heavy_150_howitzer_SPG_desc:0 "§RSPG Only!§!"
 tank_super_heavy_150_cannon_2:0 "150mm Cannon"
 tank_super_heavy_150_cannon_2_desc:0 ""
 
+##### Tank Armor #####
+
+### Riveted ###
+
+## 10t ##
+
+tank_armor_10t_10x10_R:0 "10mm Front - 10mm Side"
+tank_armor_10t_10x10_R_desc:0 ""
+tank_armor_10t_20x10_R:0 "20mm Front - 10mm Side"
+tank_armor_10t_20x10_R_desc:0 ""
+tank_armor_10t_30x10_R:0 "30mm Front - 10mm Side"
+tank_armor_10t_30x10_R_desc:0 ""
+tank_armor_10t_40x10_R:0 "40mm Front - 10mm Side"
+tank_armor_10t_40x10_R_desc:0 ""
+tank_armor_10t_50x10_R:0 "50mm Front - 10mm Side"
+tank_armor_10t_50x10_R_desc:0 ""
+tank_armor_10t_60x10_R:0 "60mm Front - 10mm Side"
+tank_armor_10t_60x10_R_desc:0 ""
+tank_armor_10t_70x10_R:0 "70mm Front - 10mm Side"
+tank_armor_10t_70x10_R_desc:0 ""
+tank_armor_10t_80x10_R:0 "80mm Front - 10mm Side"
+tank_armor_10t_80x10_R_desc:0 ""
+tank_armor_10t_90x10_R:0 "90mm Front - 10mm Side"
+tank_armor_10t_90x10_R_desc:0 ""
+tank_armor_10t_100x10_R:0 "100mm Front - 10mm Side"
+tank_armor_10t_100x10_R_desc:0 ""
+
+## 20t ##
+
+tank_armor_20t_20x10_R:0 "20mm Front - 10mm Side"
+tank_armor_20t_20x10_R_desc:0 ""
+tank_armor_20t_30x10_R:0 "30mm Front - 10mm Side"
+tank_armor_20t_30x10_R_desc:0 ""
+tank_armor_20t_40x10_R:0 "40mm Front - 10mm Side"
+tank_armor_20t_40x10_R_desc:0 ""
+tank_armor_20t_50x10_R:0 "50mm Front - 10mm Side"
+tank_armor_20t_50x10_R_desc:0 ""
+tank_armor_20t_60x10_R:0 "60mm Front - 10mm Side"
+tank_armor_20t_60x10_R_desc:0 ""
+tank_armor_20t_70x10_R:0 "70mm Front - 10mm Side"
+tank_armor_20t_70x10_R_desc:0 ""
+tank_armor_20t_80x10_R:0 "80mm Front - 10mm Side"
+tank_armor_20t_80x10_R_desc:0 ""
+tank_armor_20t_90x10_R:0 "90mm Front - 10mm Side"
+tank_armor_20t_90x10_R_desc:0 ""
+tank_armor_20t_100x10_R:0 "100mm Front - 10mm Side"
+tank_armor_20t_100x10_R_desc:0 ""
+tank_armor_20t_110x10_R:0 "110mm Front - 10mm Side"
+tank_armor_20t_110x10_R_desc:0 ""
+tank_armor_20t_120x10_R:0 "120mm Front - 10mm Side"
+tank_armor_20t_120x10_R_desc:0 ""
+
+
+
 
 ######### Turrets (unique) #########
 
@@ -162,6 +216,11 @@ EQ_MOD_CAT_tank_main_armament_tier_2_SPG_TITLE:0 "§GMedium§! SPG Gun"
 EQ_MOD_CAT_tank_main_armament_tier_3_SPG_TITLE:0 "§YHeavy§! SPG Gun"
 EQ_MOD_CAT_tank_main_armament_tier_4_SPG_TITLE:0 "§OSuper-Heavy§! SPG Gun"
 EQ_MOD_CAT_tank_main_armament_tier_5_SPG_TITLE:0 "§RUltra-heavy§! SPG Gun"
+
+### Armor categories
+
+EQ_MOD_CAT_tank_armor_10t_R_TITLE:0 "§Y10 Tons§! Armor"
+EQ_MOD_CAT_tank_armor_20t_R_TITLE:0 "§Y20 Tons§! Armor"
 
 ### Turrets's Categories
 

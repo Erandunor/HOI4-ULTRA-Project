@@ -485,7 +485,29 @@ technologies = {
 	
 	armor_tech_1 = {
 		enable_equipment_modules = {
+		
+			tank_armor_10t_10x10_R
+			tank_armor_10t_20x10_R
+			tank_armor_10t_30x10_R
+			tank_armor_10t_40x10_R
+			tank_armor_10t_50x10_R
+			tank_armor_10t_60x10_R
+			tank_armor_10t_70x10_R
+			tank_armor_10t_80x10_R
+			tank_armor_10t_90x10_R
+			tank_armor_10t_100x10_R
 			
+			tank_armor_20t_20x10_R
+			tank_armor_20t_30x10_R
+			tank_armor_20t_40x10_R
+			tank_armor_20t_50x10_R
+			tank_armor_20t_60x10_R
+			tank_armor_20t_70x10_R
+			tank_armor_20t_80x10_R
+			tank_armor_20t_90x10_R
+			tank_armor_20t_100x10_R
+			tank_armor_20t_110x10_R
+			tank_armor_20t_120x10_R
 		}
 
 		path = {
