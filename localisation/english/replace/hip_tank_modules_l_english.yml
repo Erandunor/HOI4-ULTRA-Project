@@ -2,25 +2,31 @@
 
 ##### Designer Slots #####
 
-
-EQ_MOD_SLOT_main_armament_slot_TITLE:0 "Main Armament"
 EQ_MOD_SLOT_turret_type_slot_TITLE:0 "Turret"
+EQ_MOD_SLOT_main_armament_slot_TITLE:0 "Main Armament"
+EQ_MOD_SLOT_tank_secondary_armament_slot_TITLE:0 "Secondary Armament"
+EQ_MOD_SLOT_tank_machine_gun_slot_TITLE:0 "Additional Machine Guns"
+EQ_MOD_SLOT_tank_shell_type_slot_TITLE:0 "Shell Type"
+
+EQ_MOD_SLOT_tank_optics_slot_TITLE:0 "Optics"
+EQ_MOD_SLOT_tank_periscope_slot_TITLE:0 "Periscope"
+EQ_MOD_SLOT_tank_radio_slot_TITLE:0 "Radio"
+
+EQ_MOD_SLOT_engine_type_slot_TITLE:0 "Engine"
 EQ_MOD_SLOT_suspension_type_slot_TITLE:0 "Suspension"
-EQ_MOD_SLOT_armor_type_slot_TITLE:0 "Armor Type"
-EQ_MOD_SLOT_engine_type_slot_TITLE:0 "Engine Type"
+EQ_MOD_SLOT_tank_fuel_storage_slot_TITLE:0 "Fuel Storage"
+
 EQ_MOD_SLOT_special_type_slot_1_TITLE:0 "Special Features"
 EQ_MOD_SLOT_special_type_slot_2_TITLE:0 "Special Features"
 EQ_MOD_SLOT_special_type_slot_3_TITLE:0 "Special Features"
+
+EQ_MOD_SLOT_armor_type_slot_TITLE:0 "Armor"
+EQ_MOD_SLOT_tank_armor_angle_slot_TITLE:0 "Armor Angle"
+
 EQ_MOD_SLOT_special_type_slot_4_TITLE:0 "Special Features"
-EQ_MOD_SLOT_special_type_slot_5_TITLE:0 "Special Features"
-EQ_MOD_SLOT_special_type_slot_6_TITLE:0 "Special Features"
-EQ_MOD_SLOT_special_type_slot_7_TITLE:0 "Special Features"
-EQ_MOD_SLOT_special_type_slot_8_TITLE:0 "Special Features"
-EQ_MOD_SLOT_special_type_slot_9_TITLE:0 "Special Features"
-EQ_MOD_SLOT_special_type_slot_10_TITLE:0 "Special Features"
-EQ_MOD_SLOT_special_type_slot_11_TITLE:0 "Special Features"
-EQ_MOD_SLOT_special_type_slot_12_TITLE:0 "Special Features"
-EQ_MOD_SLOT_special_type_slot_13_TITLE:0 "Special Features"
+
+EQ_MOD_SLOT_tank_production_method_slot_TITLE:0 "Production Method"
+
 
 ##### Tank Guns #####
 

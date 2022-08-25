@@ -68,6 +68,80 @@ guiTypes = {
 
 			}
 
+			################# MODULE SLOT: ULTRA's Additions #################
+			
+			containerWindowType = {
+				name = "tank_secondary_armament_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Todo ####
+			}
+			
+			containerWindowType = {
+				name = "tank_machine_gun_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Todo ####
+			}
+			
+			containerWindowType = {
+				name = "tank_shell_type_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Todo ####
+			}
+			
+			containerWindowType = {
+				name = "tank_optics_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Todo ####
+			}
+			
+			containerWindowType = {
+				name = "tank_periscope_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Todo ####
+			}
+			
+			containerWindowType = {
+				name = "tank_radio_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Todo ####
+			}
+			
+			containerWindowType = {
+				name = "tank_fuel_storage_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Todo ####
+			}
+			
+			containerWindowType = {
+				name = "tank_armor_angle_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Todo ####
+			}
+			
+			containerWindowType = {
+				name = "tank_production_method_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Todo ####
+			}
+			
 			################# MODULE SLOT: Special #################
 			containerWindowType = {
 				name = "special_type_slot_1"
