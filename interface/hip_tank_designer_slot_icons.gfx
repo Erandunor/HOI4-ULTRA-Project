@@ -59,7 +59,7 @@ spriteTypes = {
 	
 	spriteType = { #Armor Angle
 		name = "GFX_EMSI_tank_armor_angle_slot"
-		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons/armor2.dds"
+		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons_red/armor_angle.dds"
 	}
 	
 	
