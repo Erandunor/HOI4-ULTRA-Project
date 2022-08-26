@@ -419,6 +419,78 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
+######################### Shells ####################################
+
+########### Categories 
+
+	spriteType = {
+		name = "GFX_EMI_tank_shell_he_only_cat"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/hip_shell_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_shell_AP_only_cat"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/hip_shell_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_shell_APHE_cat"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/hip_shell_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_shell_sqz_bore_cat"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/hip_shell_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+########### Modules
+
+	spriteType = {
+		name = "GFX_EMI_tank_shell_he_only"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/hip_HE_shell.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_shell_AP_only"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/hip_AP_shell.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_shell_APHE"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/HIP_AP_HE.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_shell_APHE_HEAT"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/HIP_AP_HE_HEAT.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_shell_APHE_APCR"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/HIP_AP_HE_APCR.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_shell_APHE_APDS"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/HIP_AP_HE_APDS.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_shell_SQZ_BORE"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/HIP_squeeze_bore.dds"
+		legacy_lazy_load = no
+	}
+	
 ######################### Armor Categories ##################################
 
 	spriteType = {

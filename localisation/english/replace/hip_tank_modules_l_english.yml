@@ -131,6 +131,29 @@ tank_additional_machine_guns_7_desc:0 ""
 tank_additional_machine_guns_8:0 "§R8§! Additional §YMachine Gun§!"
 tank_additional_machine_guns_8_desc:0 ""
 
+######### Tank Shells ###########
+
+tank_shell_he_only:0 "High Explosive Only"
+tank_shell_he_only_desc:0 ""
+
+tank_shell_ap_only:0 "Armor Piercing Only"
+tank_shell_ap_only_desc:0 ""
+
+tank_shell_APHE:0 "AP & HE"
+tank_shell_APHE_desc:0 ""
+
+tank_shell_APHE_HEAT:0 "AP & HE + HEAT"
+tank_shell_APHE_HEAT_desc:0 ""
+
+tank_shell_APHE_APCR:0 "AP & HE + HVAP/APCR"
+tank_shell_APHE_APCR_desc:0 ""
+
+tank_shell_APHE_APDS:0 "AP & HE + HPDS"
+tank_shell_APHE_APDS_desc:0 ""
+
+tank_shell_SQZ_BORE:0 "Squeeze Bore"
+tank_shell_SQZ_BORE_desc:0 ""
+
 ##### Tank Armor #####
 
 ### Riveted ###
@@ -467,6 +490,13 @@ EQ_MOD_CAT_tank_xtra_mg_1_TITLE:0 "§G1-2§! Additional §YMachine Guns§!"
 EQ_MOD_CAT_tank_xtra_mg_2_TITLE:0 "§L3-4§! Additional §YMachine Guns§!"
 EQ_MOD_CAT_tank_xtra_mg_3_TITLE:0 "§O5-6§! Additional §YMachine Guns§!"
 EQ_MOD_CAT_tank_xtra_mg_4_TITLE:0 "§R7-8§! Additional §YMachine Guns§!"
+
+### Shell Categories 
+
+EQ_MOD_CAT_tank_shell_he_only_cat_TITLE:0 "High Explosive Shells Only"
+EQ_MOD_CAT_tank_shell_AP_only_cat_TITLE:0 "Armor Piercing Shells Only"
+EQ_MOD_CAT_tank_shell_APHE_cat_TITLE:0 "Mixed Shells"
+EQ_MOD_CAT_tank_shell_sqz_bore_cat_TITLE:0 "Squeeze Bore Shells"
 
 
 ### Turrets's Categories

@@ -17,6 +17,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons/secondaries.dds"
 	}
 	
+	spriteType = { # Shell
+		name = "GFX_EMSI_tank_shell_type_slot"
+		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons_red/tank_shell.dds"
+	}
+	
 	spriteType = { # MG
 		name = "GFX_EMSI_tank_machine_gun_slot"
 		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons/anti_air.dds"

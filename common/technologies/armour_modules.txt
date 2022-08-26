@@ -812,6 +812,16 @@ technologies = {
 		enable_equipment_modules = {
 			secondary_turret_small_cannon
 			tank_small_37_cannon_0
+			
+			#### Shell modules TEMP TODO : give them proper techs
+			
+			tank_shell_he_only
+			tank_shell_AP_only
+			tank_shell_APHE
+			tank_shell_APHE_HEAT
+			tank_shell_APHE_APCR
+			tank_shell_APHE_APDS
+			tank_shell_SQZ_BORE
 		}
 		
 		dependencies = {

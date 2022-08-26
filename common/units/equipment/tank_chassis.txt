@@ -267,8 +267,11 @@ equipments = {
 
 			tank_shell_type_slot = {
 				required = yes
-				allowed_module_categories = {
-					
+				allowed_module_categories = { 
+					tank_shell_he_only_cat #All categories unlocked for tests
+					tank_shell_AP_only_cat
+					tank_shell_APHE_cat
+					tank_shell_sqz_bore_cat
 				}
 			}
 
@@ -482,7 +485,10 @@ equipments = {
 			tank_shell_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_shell_he_only_cat #All categories unlocked for tests
+					tank_shell_AP_only_cat
+					tank_shell_APHE_cat
+					tank_shell_sqz_bore_cat
 				}
 			}
 
@@ -918,7 +924,10 @@ equipments = {
 			tank_shell_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_shell_he_only_cat #All categories unlocked for tests
+					tank_shell_AP_only_cat
+					tank_shell_APHE_cat
+					tank_shell_sqz_bore_cat
 				}
 			}
 
@@ -1124,7 +1133,10 @@ equipments = {
 			tank_shell_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_shell_he_only_cat #All categories unlocked for tests
+					tank_shell_AP_only_cat
+					tank_shell_APHE_cat
+					tank_shell_sqz_bore_cat
 				}
 			}
 
