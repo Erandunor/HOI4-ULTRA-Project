@@ -67,7 +67,7 @@ equipments = {
 			tank_periscope_slot = {
 				
 				allowed_module_categories = {
-					
+					tank_periscope_module
 				}
 			}
 			
@@ -285,7 +285,7 @@ equipments = {
 			tank_periscope_slot = {
 				
 				allowed_module_categories = {
-					
+					tank_periscope_module
 				}
 			}
 			
@@ -502,7 +502,7 @@ equipments = {
 			tank_periscope_slot = {
 				
 				allowed_module_categories = {
-					
+					tank_periscope_module
 				}
 			}
 			
@@ -725,7 +725,7 @@ equipments = {
 			tank_periscope_slot = {
 				
 				allowed_module_categories = {
-					
+					tank_periscope_module
 				}
 			}
 			
@@ -941,7 +941,7 @@ equipments = {
 			tank_periscope_slot = {
 				
 				allowed_module_categories = {
-					
+					tank_periscope_module
 				}
 			}
 			
@@ -1150,7 +1150,7 @@ equipments = {
 			tank_periscope_slot = {
 				
 				allowed_module_categories = {
-					
+					tank_periscope_module
 				}
 			}
 			
