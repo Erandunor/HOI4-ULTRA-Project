@@ -74,7 +74,7 @@ equipments = {
 			tank_radio_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_radio_module
 				}
 			}
 			
@@ -292,7 +292,7 @@ equipments = {
 			tank_radio_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_radio_module
 				}
 			}
 			
@@ -509,7 +509,7 @@ equipments = {
 			tank_radio_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_radio_module
 				}
 			}
 			
@@ -732,7 +732,7 @@ equipments = {
 			tank_radio_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_radio_module
 				}
 			}
 			
@@ -948,7 +948,7 @@ equipments = {
 			tank_radio_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_radio_module
 				}
 			}
 			
@@ -1157,7 +1157,7 @@ equipments = {
 			tank_radio_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_radio_module
 				}
 			}
 			

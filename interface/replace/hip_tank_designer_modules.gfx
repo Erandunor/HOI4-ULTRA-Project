@@ -3,6 +3,11 @@ spriteTypes = {
 ######################### Radio ##################################
 
 	spriteType = {
+		name = "GFX_EMI_tank_radio_0"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_radio_0.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_EMI_tank_radio_4"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_radio_3.dds"
 	}

@@ -510,6 +510,9 @@ EQ_MOD_CAT_panzer_4_turret_type_TITLE:0 "§CPanzer IV§! §YTurret§!"
 
 ####### Radio #######
 
+tank_radio_0:0 "No Radio"
+tank_radio_0_desc:0 ""
+
 tank_radio_4:0 "Modern Radio"
 tank_radio_4_desc:0 ""
 

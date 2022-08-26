@@ -39,7 +39,7 @@ spriteTypes = {
 	
 	spriteType = { # Radio
 		name = "GFX_EMSI_tank_radio_slot"
-		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons/radar.dds"
+		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons_red/radio.dds"
 	}
 	
 	spriteType = { #Engine

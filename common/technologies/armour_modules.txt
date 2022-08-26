@@ -813,8 +813,9 @@ technologies = {
 			secondary_turret_small_cannon
 			tank_small_37_cannon_0
 			
-			#### Initial "tier 0" tank techs
+			#### Initial "tier 0" tank modules
 			tank_optics_0
+			tank_radio_0
 			
 			#### Shell modules TEMP TODO : give them proper techs
 			
