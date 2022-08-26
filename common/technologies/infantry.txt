@@ -1262,8 +1262,16 @@ technologies = {
 		
 		enable_equipment_modules = {
 			tank_heavy_machine_gun
-			additional_machine_guns
 			secondary_turret_hmg
+			
+			tank_additional_machine_guns_1
+			tank_additional_machine_guns_2
+			tank_additional_machine_guns_3
+			tank_additional_machine_guns_4
+			tank_additional_machine_guns_5
+			tank_additional_machine_guns_6
+			tank_additional_machine_guns_7
+			tank_additional_machine_guns_8
 		}
 
 		path = {

@@ -348,6 +348,77 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_super_heavy_cannon.dds"
 	}
 	
+######################### Extra MG ####################
+
+######## Categories
+
+	spriteType = {
+		name = "GFX_EMI_tank_xtra_mg_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_additional_machine_guns.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_xtra_mg_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_additional_machine_guns.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_xtra_mg_3"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_additional_machine_guns.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_xtra_mg_4"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_additional_machine_guns.dds"
+		legacy_lazy_load = no
+	}
+	
+######### Modules
+
+	spriteType = {
+		name = "GFX_EMI_tank_additional_machine_guns_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_additional_machine_guns.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_additional_machine_guns_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_additional_machine_guns.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_additional_machine_guns_3"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_additional_machine_guns.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_additional_machine_guns_4"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_additional_machine_guns.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_additional_machine_guns_5"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_additional_machine_guns.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_additional_machine_guns_6"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_additional_machine_guns.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_additional_machine_guns_7"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_additional_machine_guns.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_additional_machine_guns_8"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_additional_machine_guns.dds"
+		legacy_lazy_load = no
+	}
+	
 ######################### Armor Categories ##################################
 
 	spriteType = {

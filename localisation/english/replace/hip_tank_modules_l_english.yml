@@ -112,6 +112,25 @@ tank_super_heavy_150_howitzer_SPG_desc:0 "§RSPG Only!§!"
 tank_super_heavy_150_cannon_2:0 "§R150§!mm §LCannon§!"
 tank_super_heavy_150_cannon_2_desc:0 ""
 
+######### Extra MG ###########
+
+tank_additional_machine_guns_1:0 "§B1§! Additional §YMachine Gun§!"
+tank_additional_machine_guns_1_desc:0 ""
+tank_additional_machine_guns_2:0 "§C2§! Additional §YMachine Gun§!"
+tank_additional_machine_guns_2_desc:0 ""
+tank_additional_machine_guns_3:0 "§G3§! Additional §YMachine Gun§!"
+tank_additional_machine_guns_3_desc:0 ""
+tank_additional_machine_guns_4:0 "§Y4§! Additional §YMachine Gun§!"
+tank_additional_machine_guns_4_desc:0 ""
+tank_additional_machine_guns_5:0 "§L5§! Additional §YMachine Gun§!"
+tank_additional_machine_guns_5_desc:0 ""
+tank_additional_machine_guns_6:0 "§O6§! Additional §YMachine Gun§!"
+tank_additional_machine_guns_6_desc:0 ""
+tank_additional_machine_guns_7:0 "§R7§! Additional §YMachine Gun§!"
+tank_additional_machine_guns_7_desc:0 ""
+tank_additional_machine_guns_8:0 "§R8§! Additional §YMachine Gun§!"
+tank_additional_machine_guns_8_desc:0 ""
+
 ##### Tank Armor #####
 
 ### Riveted ###
@@ -441,6 +460,13 @@ EQ_MOD_CAT_tank_armor_20t_R_7_TITLE:0 "§R120mm§! Front Armor"
 
 EQ_MOD_CAT_tank_engine_10t_G_TITLE:0 "§CGasoline§! Engine"
 EQ_MOD_CAT_tank_engine_20t_G_TITLE:0 "§CGasoline§! Engine"
+
+### Extra MG categories
+
+EQ_MOD_CAT_tank_xtra_mg_1_TITLE:0 "§G1-2§! Additional §YMachine Guns§!"
+EQ_MOD_CAT_tank_xtra_mg_2_TITLE:0 "§L3-4§! Additional §YMachine Guns§!"
+EQ_MOD_CAT_tank_xtra_mg_3_TITLE:0 "§O5-6§! Additional §YMachine Guns§!"
+EQ_MOD_CAT_tank_xtra_mg_4_TITLE:0 "§R7-8§! Additional §YMachine Guns§!"
 
 
 ### Turrets's Categories

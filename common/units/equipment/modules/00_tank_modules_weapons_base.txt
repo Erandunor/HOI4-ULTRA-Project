@@ -1,4 +1,158 @@
 equipment_modules = {
+
+	############################ Extra MG ############################
+
+	tank_additional_machine_guns_1 = {
+		abbreviation = "mg"
+		category = tank_xtra_mg_1
+		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
+
+		add_stats = {
+			soft_attack = 2
+			defense = 2
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
+	
+	tank_additional_machine_guns_2 = {
+		abbreviation = "mg"
+		category = tank_xtra_mg_1
+		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
+
+		add_stats = {
+			soft_attack = 2
+			defense = 2
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
+	
+	tank_additional_machine_guns_3 = {
+		abbreviation = "mg"
+		category = tank_xtra_mg_2
+		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
+
+		add_stats = {
+			soft_attack = 2
+			defense = 2
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
+	
+	tank_additional_machine_guns_4 = {
+		abbreviation = "mg"
+		category = tank_xtra_mg_2
+		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
+
+		add_stats = {
+			soft_attack = 2
+			defense = 2
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
+	
+	tank_additional_machine_guns_5 = {
+		abbreviation = "mg"
+		category = tank_xtra_mg_3
+		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
+
+		add_stats = {
+			soft_attack = 2
+			defense = 2
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
+	
+	tank_additional_machine_guns_6 = {
+		abbreviation = "mg"
+		category = tank_xtra_mg_3
+		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
+
+		add_stats = {
+			soft_attack = 2
+			defense = 2
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
+	
+	tank_additional_machine_guns_7 = {
+		abbreviation = "mg"
+		category = tank_xtra_mg_4
+		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
+
+		add_stats = {
+			soft_attack = 2
+			defense = 2
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
+	
+	tank_additional_machine_guns_8 = {
+		abbreviation = "mg"
+		category = tank_xtra_mg_4
+		sfx = sfx_ui_sd_module_turret
+		
+		forbid_equipment_type = anti_air
+		forbid_equipment_type = artillery
+
+		add_stats = {
+			soft_attack = 2
+			defense = 2
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
 	############################### Misc Weapons #####################################
 	
 	tank_heavy_machine_gun = {
@@ -45,22 +199,6 @@ equipment_modules = {
 			convert_cost_ic = 0.5
 		}
 		xp_cost = 1
-	}
-	
-	additional_machine_guns = {
-		abbreviation = "mg"
-		category = tank_special_module
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			soft_attack = 2
-			defense = 2
-			build_cost_ic = 0.5
-		}
-		xp_cost = 1
-		multiply_stats = {
-			
-		}
 	}
 	
 	secondary_turret_hmg = {
