@@ -136,8 +136,8 @@ tank_additional_machine_guns_8_desc:0 ""
 tank_shell_he_only:0 "High Explosive Only"
 tank_shell_he_only_desc:0 ""
 
-tank_shell_ap_only:0 "Armor Piercing Only"
-tank_shell_ap_only_desc:0 ""
+tank_shell_AP_only:0 "Armor Piercing Only"
+tank_shell_AP_only_desc:0 ""
 
 tank_shell_APHE:0 "AP & HE"
 tank_shell_APHE_desc:0 ""
