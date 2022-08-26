@@ -60,7 +60,7 @@ equipments = {
 			tank_optics_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_optics_module
 				}
 			}
 			
@@ -278,7 +278,7 @@ equipments = {
 			tank_optics_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_optics_module
 				}
 			}
 			
@@ -495,7 +495,7 @@ equipments = {
 			tank_optics_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_optics_module
 				}
 			}
 			
@@ -718,7 +718,7 @@ equipments = {
 			tank_optics_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_optics_module
 				}
 			}
 			
@@ -934,7 +934,7 @@ equipments = {
 			tank_optics_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_optics_module
 				}
 			}
 			
@@ -1143,7 +1143,7 @@ equipments = {
 			tank_optics_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_optics_module
 				}
 			}
 			

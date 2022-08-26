@@ -13,6 +13,11 @@ spriteTypes = {
 		name = "GFX_EMI_tank_optics_module"
 		texturefile ="gfx/interface/technologies/tank_sight1.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_optics_0"
+		texturefile ="gfx/interface/technologies/tank_sight0.dds"
+	}
 
 	spriteType = {
 		name = "GFX_EMI_tank_optics_1"

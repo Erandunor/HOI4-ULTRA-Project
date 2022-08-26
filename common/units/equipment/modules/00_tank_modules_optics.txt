@@ -6,6 +6,20 @@ equipment_modules = {
 	
 	####################### Telescopes #####################
 	
+	tank_optics_0 = {
+		abbreviation = "opt0"
+		category = tank_optics_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			
+		}
+		xp_cost = 1
+		multiply_stats = {
+		
+		}
+	}
+	
 	tank_optics_1 = {
 		abbreviation = "opt1"
 		category = tank_optics_module

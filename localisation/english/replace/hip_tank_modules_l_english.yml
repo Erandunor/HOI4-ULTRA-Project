@@ -518,7 +518,8 @@ tank_radio_4_desc:0 ""
 EQ_MOD_CAT_tank_periscope_module_TITLE:0 "Periscope"
 EQ_MOD_CAT_tank_optics_module_TITLE:0 "Optics"
 
-
+tank_optics_0:0 "No Tank Optics"
+tank_optics_0_desc:0 ""
 tank_optics_1:0 "Basic Tank Optics"
 tank_optics_1_desc:0 ""
 tank_optics_2:0 "Early Tank Optics"
