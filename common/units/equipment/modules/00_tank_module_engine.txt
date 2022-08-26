@@ -1,0 +1,220 @@
+equipment_modules = {
+
+##############################################Engine Modules #############################################################
+	
+	########################### Gasoline ########################
+	
+	############ 10t ############
+
+	
+	tank_engine_10t_50_G = {
+		abbreviation = "gaz"
+		category = tank_engine_10t_G
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		multiply_stats = {
+		}
+	}
+	
+	tank_engine_10t_75_G = {
+		abbreviation = "gaz"
+		category = tank_engine_10t_G
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		multiply_stats = {
+		}
+	}
+	
+	tank_engine_10t_100_G = {
+		abbreviation = "gaz"
+		category = tank_engine_10t_G
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		multiply_stats = {
+		}
+	}
+	
+	tank_engine_10t_125_G = {
+		abbreviation = "gaz"
+		category = tank_engine_10t_G
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		multiply_stats = {
+		}
+	}
+	
+	tank_engine_10t_150_G = {
+		abbreviation = "gaz"
+		category = tank_engine_10t_G
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		multiply_stats = {
+		}
+	}
+	
+	tank_engine_10t_175_G = {
+		abbreviation = "gaz"
+		category = tank_engine_10t_G
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		multiply_stats = {
+		}
+	}
+	
+	tank_engine_10t_200_G = {
+		abbreviation = "gaz"
+		category = tank_engine_10t_G
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		multiply_stats = {
+		}
+	}
+	
+	############ 20t ############
+	
+	tank_engine_20t_100_G = {
+		abbreviation = "gaz"
+		category = tank_engine_20t_G
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		multiply_stats = {
+		}
+	}
+	
+	tank_engine_20t_150_G = {
+		abbreviation = "gaz"
+		category = tank_engine_20t_G
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		multiply_stats = {
+		}
+	}
+	
+	tank_engine_20t_200_G = {
+		abbreviation = "gaz"
+		category = tank_engine_20t_G
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		multiply_stats = {
+		}
+	}
+	
+	tank_engine_20t_250_G = {
+		abbreviation = "gaz"
+		category = tank_engine_20t_G
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		multiply_stats = {
+		}
+	}
+	
+	tank_engine_20t_300_G = {
+		abbreviation = "gaz"
+		category = tank_engine_20t_G
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		multiply_stats = {
+		}
+	}
+	
+	tank_engine_20t_350_G = {
+		abbreviation = "gaz"
+		category = tank_engine_20t_G
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		multiply_stats = {
+		}
+	}
+	
+	tank_engine_20t_400_G = {
+		abbreviation = "gaz"
+		category = tank_engine_20t_G
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		multiply_stats = {
+		}
+	}
+	
+	tank_engine_20t_450_G = {
+		abbreviation = "gaz"
+		category = tank_engine_20t_G
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		multiply_stats = {
+		}
+	}
+	
+	tank_engine_20t_500_G = {
+		abbreviation = "gaz"
+		category = tank_engine_20t_G
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		multiply_stats = {
+		}
+	}
+	
+}

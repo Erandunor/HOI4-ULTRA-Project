@@ -35,7 +35,23 @@ technologies = {
 		}
 		
 		enable_equipment_modules = { 
-
+			tank_engine_10t_50_G
+			tank_engine_10t_75_G
+			tank_engine_10t_100_G
+			tank_engine_10t_125_G
+			tank_engine_10t_150_G
+			tank_engine_10t_175_G
+			tank_engine_10t_200_G
+			
+			tank_engine_20t_100_G
+			tank_engine_20t_150_G
+			tank_engine_20t_200_G
+			tank_engine_20t_250_G
+			tank_engine_20t_300_G
+			tank_engine_20t_350_G
+			tank_engine_20t_400_G
+			tank_engine_20t_450_G
+			tank_engine_20t_500_G
 		}
 
 		ai_will_do = {

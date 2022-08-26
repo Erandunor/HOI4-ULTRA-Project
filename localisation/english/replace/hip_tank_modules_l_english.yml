@@ -325,6 +325,50 @@ tank_armor_20t_120x120_R:0 "§R120§!mm §OFront§! - §R120§!mm §GSide§!"
 tank_armor_20t_120x120_R_desc:0 ""
 
 
+##### Tank Engine #####
+
+### Gasoline ###
+
+## 10t ##
+
+tank_engine_10t_50_G:0"§B50§!hp §CGasoline§! Engine"
+tank_engine_10t_50_G_desc:0 ""
+tank_engine_10t_75_G:0"§C75§!hp §CGasoline§! Engine"
+tank_engine_10t_75_G_desc:0 ""
+tank_engine_10t_100_G:0"§G100§!hp §CGasoline§! Engine"
+tank_engine_10t_100_G_desc:0 ""
+tank_engine_10t_125_G:0"§Y125§!hp §CGasoline§! Engine"
+tank_engine_10t_125_G_desc:0 ""
+tank_engine_10t_150_G:0"§L150§!hp §CGasoline§! Engine"
+tank_engine_10t_150_G_desc:0 ""
+tank_engine_10t_175_G:0"§O175§!hp §CGasoline§! Engine"
+tank_engine_10t_175_G_desc:0 ""
+tank_engine_10t_200_G:0"§R200§!hp §CGasoline§! Engine"
+tank_engine_10t_200_G_desc:0 ""
+
+
+## 20t ##
+
+tank_engine_20t_100_G:0 "§B100§!hp §CGasoline§! Engine"
+tank_engine_20t_100_G_desc:0 ""
+tank_engine_20t_150_G:0 "§C150§!hp §CGasoline§! Engine"
+tank_engine_20t_150_G_desc:0 ""
+tank_engine_20t_200_G:0 "§G200§!hp §CGasoline§! Engine"
+tank_engine_20t_200_G_desc:0 ""
+tank_engine_20t_250_G:0 "§G250§!hp §CGasoline§! Engine"
+tank_engine_20t_250_G_desc:0 ""
+tank_engine_20t_300_G:0 "§Y300§!hp §CGasoline§! Engine"
+tank_engine_20t_300_G_desc:0 ""
+tank_engine_20t_350_G:0 "§Y350§!hp §CGasoline§! Engine"
+tank_engine_20t_350_G_desc:0 ""
+tank_engine_20t_400_G:0 "§L400§!hp §CGasoline§! Engine"
+tank_engine_20t_400_G_desc:0 ""
+tank_engine_20t_450_G:0 "§O450§!hp §CGasoline§! Engine"
+tank_engine_20t_450_G_desc:0 ""
+tank_engine_20t_500_G:0 "§R500§!hp §CGasoline§! Engine"
+tank_engine_20t_500_G_desc:0 ""
+
+
 
 
 ######### Turrets (unique) #########
@@ -392,6 +436,12 @@ EQ_MOD_CAT_tank_armor_20t_R_4_TITLE:0 "§L90mm§! Front Armor"
 EQ_MOD_CAT_tank_armor_20t_R_5_TITLE:0 "§O100mm§! Front Armor"
 EQ_MOD_CAT_tank_armor_20t_R_6_TITLE:0 "§O110mm§! Front Armor"
 EQ_MOD_CAT_tank_armor_20t_R_7_TITLE:0 "§R120mm§! Front Armor"
+
+### Engine categories
+
+EQ_MOD_CAT_tank_engine_10t_G_TITLE:0 "§CGasoline§! Engine"
+EQ_MOD_CAT_tank_engine_20t_G_TITLE:0 "§CGasoline§! Engine"
+
 
 ### Turrets's Categories
 
