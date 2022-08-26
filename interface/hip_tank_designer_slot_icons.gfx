@@ -9,12 +9,12 @@ spriteTypes = {
 	
 	spriteType = { # Gun
 		name = "GFX_EMSI_main_armament_slot"
-		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons_red/battery.dds"
+		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons_red/tank_canon.dds"
 	}
 	
 	spriteType = { # Secondary Gun
 		name = "GFX_EMSI_tank_secondary_armament_slot"
-		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons/secondaries.dds"
+		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons/tank_secondary.dds"
 	}
 	
 	spriteType = { # Shell
@@ -24,7 +24,7 @@ spriteTypes = {
 	
 	spriteType = { # MG
 		name = "GFX_EMSI_tank_machine_gun_slot"
-		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons/anti_air.dds"
+		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons/machine_gun.dds"
 	}
 	
 	spriteType = { # Optics
@@ -47,6 +47,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons_red/engine.dds"
 	}
 	
+	spriteType = { #Engine
+		name = "GFX_EMSI_suspension_type_slot"
+		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons_red/suspension.dds"
+	}
+	
 	spriteType = { #Fuel Storage
 		name = "GFX_EMSI_tank_fuel_storage_slot"
 		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons/range.dds"
@@ -60,6 +65,11 @@ spriteTypes = {
 	spriteType = { #Armor Angle
 		name = "GFX_EMSI_tank_armor_angle_slot"
 		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons_red/armor_angle.dds"
+	}
+	
+	spriteType = { #Armor Angle
+		name = "GFX_EMSI_tank_production_method_slot"
+		textureFile = "gfx/interface/equipmentdesigner/module_slots/icons_red/production.dds"
 	}
 	
 	
