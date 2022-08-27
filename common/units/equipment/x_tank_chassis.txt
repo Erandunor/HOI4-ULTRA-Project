@@ -29,6 +29,14 @@ duplicate_archetypes = {
 		}
 	}
 	
+	infantry_tank_flame_chassis = {
+		archetype = modern_tank_chassis
+		type = { armor flame }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+		}
+	}
+	
 	# light_tank
 
 	light_tank_aa_chassis = {
@@ -116,6 +124,141 @@ duplicate_archetypes = {
 
 	medium_tank_amphibious_chassis = {
 		archetype = medium_tank_chassis
+		type = { armor amphibious }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+			#hardness = { set = 0.7 }
+		}
+	}
+	
+	#Heavies
+	
+	heavy_tank_aa_chassis = {
+		archetype = heavy_tank_chassis
+		type = { armor anti_air }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+			#hardness = { set = 0.65 }
+		}
+	}
+
+	heavy_tank_artillery_chassis = {
+		archetype = heavy_tank_chassis
+		type = { armor artillery }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+			#hardness = { set = 0.65 }
+		}
+	}
+	
+	heavy_assault_artillery_chassis = {
+		archetype = heavy_tank_chassis
+		type = { armor rocket }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+		}
+	}
+
+	heavy_tank_destroyer_chassis = {
+		archetype = heavy_tank_chassis
+		type = { armor anti_tank }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+		}
+	}
+
+	heavy_tank_amphibious_chassis = {
+		archetype = heavy_tank_chassis
+		type = { armor amphibious }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+			#hardness = { set = 0.7 }
+		}
+	}
+	
+	#Super-Heavies
+	
+	super_heavy_tank_aa_chassis = {
+		archetype = super_heavy_tank_chassis
+		type = { armor anti_air }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+			#hardness = { set = 0.65 }
+		}
+	}
+
+	super_heavy_tank_artillery_chassis = {
+		archetype = super_heavy_tank_chassis
+		type = { armor artillery }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+			#hardness = { set = 0.65 }
+		}
+	}
+	
+	super_heavy_assault_artillery_chassis = {
+		archetype = super_heavy_tank_chassis
+		type = { armor rocket }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+		}
+	}
+
+	super_heavy_tank_destroyer_chassis = {
+		archetype = super_heavy_tank_chassis
+		type = { armor anti_tank }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+		}
+	}
+
+	super_heavy_tank_amphibious_chassis = {
+		archetype = super_heavy_tank_chassis
+		type = { armor amphibious }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+			#hardness = { set = 0.7 }
+		}
+	}
+	
+	#Infantry Tank
+	
+	infantry_tank_aa_chassis = {
+		archetype = modern_tank_chassis
+		type = { armor anti_air }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+			#hardness = { set = 0.65 }
+		}
+	}
+
+	infantry_tank_artillery_chassis = {
+		archetype = modern_tank_chassis
+		type = { armor artillery }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+			#hardness = { set = 0.65 }
+		}
+	}
+	
+	infantry_assault_artillery_chassis = {
+		archetype = modern_tank_chassis
+		type = { armor rocket }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+		}
+	}
+
+	infantry_tank_destroyer_chassis = {
+		archetype = modern_tank_chassis
+		type = { armor anti_tank }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+		}
+	}
+
+	infantry_tank_amphibious_chassis = {
+		archetype = modern_tank_chassis
 		type = { armor amphibious }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
