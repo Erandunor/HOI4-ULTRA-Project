@@ -337,7 +337,99 @@ GER = {
 			}
 		}
 	}
+	
 	ger_medium_tank_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_light_td
+			 }
+		}
+		pool = {
+			icons = { 
+				GFX_GER_basic_light_tank_medium
+ 				GFX_GER_light_AAB
+ 				GFX_GER_light_AAB_camo
+ 				GFX_GER_light_AAC
+ 				GFX_GER_light_AAC_camo
+ 				GFX_GER_light_ABA
+ 				GFX_GER_light_ABA_camo
+ 				GFX_GER_light_ABB
+ 				GFX_GER_light_ABB_camo
+ 				GFX_GER_light_ABC
+ 				GFX_GER_light_ABC_camo
+ 				GFX_GER_light_ACA
+ 				GFX_GER_light_ACA_camo
+ 				GFX_GER_light_ACB
+ 				GFX_GER_light_ACB_camo
+ 				GFX_GER_light_ACC
+ 				GFX_GER_light_ACC_camo
+ 				GFX_GER_light_AA_tank_A
+				"gfx/interface/technologies/ger_light_0_panzer1.dds"
+				"gfx/interface/technologies/ger_light_1_aa_flakpanzer1.dds"
+				"gfx/interface/technologies/ger_light_1_spg_bison.dds"
+				"gfx/interface/technologies/ger_light_1_tdpanzerjäger1.dds"
+			 }
+			models = {
+				"GER_light_armor_entity"
+			}
+		}
+	}
+
+	ger_medium_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_light_td
+ 				GFX_GER_improved_light_art
+			 }
+		}
+		pool = {
+			icons = { 
+				GFX_GER_improved_light_tank_medium
+ 				GFX_GER_light_BAB
+ 				GFX_GER_light_BAB_camo
+ 				GFX_GER_light_BAC
+ 				GFX_GER_light_BAC_camo
+ 				GFX_GER_light_BBA
+ 				GFX_GER_light_BBA_camo
+ 				GFX_GER_light_BAA
+ 				GFX_GER_light_BAA_camo
+ 				GFX_GER_light_BBC
+ 				GFX_GER_light_BBC_camo
+ 				GFX_GER_light_BCA
+ 				GFX_GER_light_BCA_camo
+ 				GFX_GER_light_BCB
+ 				GFX_GER_light_BCB_camo
+ 				GFX_GER_light_BCC
+ 				GFX_GER_light_BCC_camo
+ 				GFX_GER_light_AA_tank_B
+				"gfx/interface/technologies/ger_light_1_panzer2a.dds"
+				"gfx/interface/technologies/ger_light_2_spg_geschützwagen2.dds"
+				"gfx/interface/technologies/ger_light_2_td_marder1.dds"
+				"gfx/interface/technologies/ger_light_2_panzer2f.dds"
+				"gfx/interface/technologies/ger_light_2_td_marder2.dds"
+				"gfx/interface/technologies/ger_light_4_panzer2luchs.dds"
+				"gfx/interface/technologies/ger_light_4_spg_wespe.dds"
+				"gfx/interface/technologies/ger_light_4_td_marder3.dds"
+			 }
+			models = {
+				"GER_light_armor_entity"
+			}
+		}
+	}
+	
+	ger_medium_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_medium_td
+ 				GFX_GER_basic_medium_art
+			 }
+		}
 		pool = {
 			icons = { 
 				GFX_GER_basic_medium_tank_medium
@@ -374,13 +466,14 @@ GER = {
 			}
 		}
 	}
-	ger_medium_tank_chassis_2 = {
+	ger_medium_tank_chassis_4 = {
 		pool = {
 			limit = { has_dlc = "Death or Dishonor" }
 			weight = 2
 			icons = { 
-				GFX_GER_basic_medium_td
- 				GFX_GER_basic_medium_art
+				GFX_GER_improved_medium_td
+ 				GFX_GER_improved_medium_art
+ 				GFX_GER_improved_medium_spaa
 			 }
 		}
 		pool = {
@@ -419,45 +512,6 @@ GER = {
 				
 				"GER_medium_armor_entity"
 				
-			}
-		}
-	}
-
-	medium_tank_chassis_2 = {
-		pool = {
-			limit = { has_dlc = "Death or Dishonor" }
-			weight = 2
-			icons = { 
-				GFX_GER_improved_medium_td
- 				GFX_GER_improved_medium_art
- 				GFX_GER_improved_medium_spaa
-			 }
-		}
-		pool = {
-			icons = { 
-				GFX_GER_improved_medium_tank_medium
- 				GFX_GER_medium_BAB
- 				GFX_GER_medium_BAB_camo
- 				GFX_GER_medium_BAC
- 				GFX_GER_medium_BAC_camo
- 				GFX_GER_medium_BBA
- 				GFX_GER_medium_BBA_camo
- 				GFX_GER_medium_BAA
- 				GFX_GER_medium_BAA_camo
- 				GFX_GER_medium_BBC
- 				GFX_GER_medium_BBC_camo
- 				GFX_GER_medium_BCA
- 				GFX_GER_medium_BCA_camo
- 				GFX_GER_medium_BCB
- 				GFX_GER_medium_BCB_camo
- 				GFX_GER_medium_BCC
-				# GFX_GER_medium_BCC_camo
- 				GFX_GER_medium_AA_B
-			 }
-			models = {
-				
-				
-				"GER_medium_armor_entity"
 			}
 		}
 	}
