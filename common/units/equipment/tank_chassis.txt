@@ -95,7 +95,7 @@ equipments = {
 			tank_fuel_storage_slot = {
 				
 				allowed_module_categories = {
-					
+					tank_fuel_module
 				}
 			}
 			
@@ -314,7 +314,7 @@ equipments = {
 			tank_fuel_storage_slot = {
 				
 				allowed_module_categories = {
-					
+					tank_fuel_module
 				}
 			}
 			
@@ -534,7 +534,7 @@ equipments = {
 			tank_fuel_storage_slot = {
 				
 				allowed_module_categories = {
-					
+					tank_fuel_module
 				}
 			}
 			
@@ -760,7 +760,7 @@ equipments = {
 			tank_fuel_storage_slot = {
 				
 				allowed_module_categories = {
-					
+					tank_fuel_module
 				}
 			}
 			
@@ -977,7 +977,7 @@ equipments = {
 			tank_fuel_storage_slot = {
 				
 				allowed_module_categories = {
-					
+					tank_fuel_module
 				}
 			}
 			
@@ -1190,7 +1190,7 @@ equipments = {
 			tank_fuel_storage_slot = {
 				
 				allowed_module_categories = {
-					
+					tank_fuel_module
 				}
 			}
 			

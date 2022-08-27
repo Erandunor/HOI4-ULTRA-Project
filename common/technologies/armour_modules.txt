@@ -843,6 +843,19 @@ technologies = {
 			wet_ammo_storage
 			tank_normal_production
 			tank_rushed_production
+			
+			#### Fuel modules TODO : put them elsewhere
+			
+			expanded_fuel_tank_1
+			expanded_fuel_tank_2
+			expanded_fuel_tank_3
+			expanded_fuel_tank_4
+			expanded_fuel_tank_5
+			expanded_fuel_tank_6
+			expanded_fuel_tank_7
+			expanded_fuel_tank_8
+			expanded_fuel_tank_9
+			expanded_fuel_tank_10
 		}
 		
 		dependencies = {

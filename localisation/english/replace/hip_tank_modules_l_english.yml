@@ -154,7 +154,30 @@ tank_shell_APHE_APDS_desc:0 ""
 tank_shell_SQZ_BORE:0 "Squeeze Bore"
 tank_shell_SQZ_BORE_desc:0 ""
 
-##### Tank Production Methos #####
+###### Fuel Tanks ######
+
+expanded_fuel_tank_1:0 "§B50§!L Extra Fuel Tank"
+expanded_fuel_tank_1_desc:0 ""
+expanded_fuel_tank_2:0 "§C100§!L Extra Fuel Tank"
+expanded_fuel_tank_2_desc:0 ""
+expanded_fuel_tank_3:0 "§C150§!L Extra Fuel Tank"
+expanded_fuel_tank_3_desc:0 ""
+expanded_fuel_tank_4:0 "§G200§!L Extra Fuel Tank"
+expanded_fuel_tank_4_desc:0 ""
+expanded_fuel_tank_5:0 "§G250§!L Extra Fuel Tank"
+expanded_fuel_tank_5_desc:0 ""
+expanded_fuel_tank_6:0 "§Y300§!L Extra Fuel Tank"
+expanded_fuel_tank_6_desc:0 ""
+expanded_fuel_tank_7:0 "§Y350§!L Extra Fuel Tank"
+expanded_fuel_tank_7_desc:0 ""
+expanded_fuel_tank_8:0 "§O400§!L Extra Fuel Tank"
+expanded_fuel_tank_8_desc:0 ""
+expanded_fuel_tank_9:0 "§O450§!L Extra Fuel Tank"
+expanded_fuel_tank_9_desc:0 ""
+expanded_fuel_tank_10:0 "§R500§!L Extra Fuel Tank"
+expanded_fuel_tank_10_desc:0 ""
+
+##### Tank Production Methods #####
 
 tank_normal_production:0 "§GNormal§! Production"
 tank_normal_production_desc:0 "Standart quality production"
@@ -497,6 +520,10 @@ EQ_MOD_CAT_tank_armor_straight_TITLE:0 "§OStraight§! Front Armor"
 
 EQ_MOD_CAT_tank_engine_10t_G_TITLE:0 "§CGasoline§! Engine"
 EQ_MOD_CAT_tank_engine_20t_G_TITLE:0 "§CGasoline§! Engine"
+
+### Fuel category
+
+EQ_MOD_CAT_tank_fuel_module_TITLE:0 "Extra Fuel Tank"
 
 ### Extra MG categories
 

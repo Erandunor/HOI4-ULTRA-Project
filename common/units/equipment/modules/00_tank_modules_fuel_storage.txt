@@ -1,0 +1,157 @@
+equipment_modules = {
+
+################################################ Fuel Storage ##########################################
+
+	### Increase fuel capacity and range (minor part of speed) 
+
+	expanded_fuel_tank_1 = {
+		abbreviation = "fuel"
+		category = tank_fuel_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			fuel_capacity = 50
+		}
+		xp_cost = 1
+		multiply_stats = {
+			maximum_speed = 0
+			build_cost_ic = 0
+		}
+	}
+	
+	expanded_fuel_tank_2 = {
+		abbreviation = "fuel"
+		category = tank_fuel_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			fuel_capacity = 100
+		}
+		xp_cost = 1
+		multiply_stats = {
+			maximum_speed = 0
+			build_cost_ic = 0
+		}
+	}
+	
+	expanded_fuel_tank_3 = {
+		abbreviation = "fuel"
+		category = tank_fuel_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			fuel_capacity = 150
+		}
+		xp_cost = 1
+		multiply_stats = {
+			maximum_speed = 0
+			build_cost_ic = 0
+		}
+	}
+	
+	expanded_fuel_tank_4 = {
+		abbreviation = "fuel"
+		category = tank_fuel_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			fuel_capacity = 200
+		}
+		xp_cost = 1
+		multiply_stats = {
+			maximum_speed = 0
+			build_cost_ic = 0
+		}
+	}
+	
+	expanded_fuel_tank_5 = {
+		abbreviation = "fuel"
+		category = tank_fuel_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			fuel_capacity = 250
+		}
+		xp_cost = 1
+		multiply_stats = {
+			maximum_speed = 0
+			build_cost_ic = 0
+		}
+	}
+	
+	expanded_fuel_tank_6 = {
+		abbreviation = "fuel"
+		category = tank_fuel_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			fuel_capacity = 300
+		}
+		xp_cost = 1
+		multiply_stats = {
+			maximum_speed = 0
+			build_cost_ic = 0
+		}
+	}
+	
+	expanded_fuel_tank_7 = {
+		abbreviation = "fuel"
+		category = tank_fuel_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			fuel_capacity = 350
+		}
+		xp_cost = 1
+		multiply_stats = {
+			maximum_speed = 0
+			build_cost_ic = 0
+		}
+	}
+	
+	expanded_fuel_tank_8 = {
+		abbreviation = "fuel"
+		category = tank_fuel_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			fuel_capacity = 400
+		}
+		xp_cost = 1
+		multiply_stats = {
+			maximum_speed = 0
+			build_cost_ic = 0
+		}
+	}
+	
+	expanded_fuel_tank_9 = {
+		abbreviation = "fuel"
+		category = tank_fuel_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			fuel_capacity = 450
+		}
+		xp_cost = 1
+		multiply_stats = {
+			maximum_speed = 0
+			build_cost_ic = 0
+		}
+	}
+	
+	expanded_fuel_tank_10 = {
+		abbreviation = "fuel"
+		category = tank_fuel_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			fuel_capacity = 450
+		}
+		xp_cost = 1
+		multiply_stats = {
+			maximum_speed = 0
+			build_cost_ic = 0
+		}
+	}
+
+}
