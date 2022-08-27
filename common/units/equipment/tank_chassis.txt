@@ -144,7 +144,7 @@ equipments = {
 			tank_production_method_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_production_module
 				}
 			}
 			
@@ -198,13 +198,14 @@ equipments = {
 			module = stabilizer
 			count < 2
 		}
-		#default_modules = {
-		#	main_armament_slot = empty
-		#	turret_type_slot = empty
-		#	suspension_type_slot = empty
-		#	armor_type_slot = empty
-		#	engine_type_slot = empty
-		#}
+		default_modules = {
+			main_armament_slot = empty
+			turret_type_slot = empty
+			suspension_type_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+			tank_production_method_slot = tank_normal_production
+		}
 
 		fuel_consumption = 0
 		maximum_speed = 4
@@ -368,7 +369,7 @@ equipments = {
 			tank_production_method_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_production_module
 				}
 			}
 		}
@@ -428,6 +429,7 @@ equipments = {
 			suspension_type_slot = empty
 			armor_type_slot = empty
 			engine_type_slot = empty
+			tank_production_method_slot = tank_normal_production
 		}
 		
 	}
@@ -587,7 +589,7 @@ equipments = {
 			tank_production_method_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_production_module
 				}
 			}
 		}
@@ -647,6 +649,7 @@ equipments = {
 			suspension_type_slot = empty
 			armor_type_slot = empty
 			engine_type_slot = empty
+			tank_production_method_slot = tank_normal_production
 		}
 		
 	}
@@ -806,7 +809,7 @@ equipments = {
 			tank_production_method_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_production_module
 				}
 			}
 			
@@ -859,13 +862,14 @@ equipments = {
 			module = stabilizer
 			count < 2
 		}
-		#default_modules = {
+		default_modules = {
 		#	main_armament_slot = empty
 		#	turret_type_slot = empty
 		#	suspension_type_slot = empty
 		#	armor_type_slot = tank_empty
 		#	engine_type_slot = empty
-		##}
+			tank_production_method_slot = tank_normal_production
+		}
 
 		fuel_consumption = 0
 		maximum_speed = 4
@@ -1030,7 +1034,7 @@ equipments = {
 			tank_production_method_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_production_module
 				}
 			}
 		}
@@ -1090,9 +1094,11 @@ equipments = {
 			suspension_type_slot = empty
 			armor_type_slot = empty
 			engine_type_slot = empty
+			tank_production_method_slot = tank_normal_production
 		}
 		
 	}
+	
 	
 	tank_ger_medium_chassis_2 = { #panzer IV
 		abbreviation = "pz4"
@@ -1241,7 +1247,7 @@ equipments = {
 			tank_production_method_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					tank_production_module
 				}
 			}
 		}
@@ -1301,6 +1307,7 @@ equipments = {
 			suspension_type_slot = empty
 			armor_type_slot = empty
 			engine_type_slot = empty
+			tank_production_method_slot = tank_normal_production
 		}
 		
 	}

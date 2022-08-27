@@ -841,7 +841,8 @@ technologies = {
 			smoke_launchers
 			extra_ammo_storage
 			wet_ammo_storage
-			
+			tank_normal_production
+			tank_rushed_production
 		}
 		
 		dependencies = {
