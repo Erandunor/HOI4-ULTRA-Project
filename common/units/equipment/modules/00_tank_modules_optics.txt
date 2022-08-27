@@ -16,7 +16,8 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-		
+			soft_attack = -0.25
+			hard_attack = -0.25
 		}
 	}
 	
@@ -30,8 +31,8 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			soft_attack = 0
-			hard_attack = 0
+			soft_attack = -0.20
+			hard_attack = -0.20
 		}
 	}
 	
@@ -46,8 +47,8 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			soft_attack = 0.045
-			hard_attack = 0.045
+			soft_attack = -0.15
+			hard_attack = -0.15
 			
 		}
 	}
@@ -63,8 +64,8 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			soft_attack = 0.09
-			hard_attack = 0.09
+			soft_attack = -0.10
+			hard_attack = -0.10
 			
 		}
 	}
@@ -80,8 +81,8 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			soft_attack = 0.135
-			hard_attack = 0.135
+			soft_attack = -0.05
+			hard_attack = -0.05
 		}
 	}
 	
@@ -96,11 +97,28 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
+			soft_attack = -0.00
+			hard_attack = -0.00
 			
 		}
 	}
 	
 	####################### Periscopes #####################
+	
+	tank_periscope_0 = {
+		abbreviation = "prs0"
+		category = tank_periscope_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 0.5
+		}
+		xp_cost = 1
+		multiply_stats = {
+			defense = -0.25
+			breakthrough = -0.25
+		}
+	}
 	
 	tank_periscope_1 = {
 		abbreviation = "prs1"
@@ -112,7 +130,8 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			
+			defense = -0.2
+			breakthrough = -0.2
 		}
 	}
 	
@@ -127,10 +146,8 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			defense = 0.045
-			breakthrough = 0.045
-			#max_organisation = 0.01
-			#default_morale = 0.01
+			defense = -0.15
+			breakthrough = -0.15
 		}
 	}
 	
@@ -145,10 +162,8 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			defense = 0.09
-			breakthrough = 0.09
-			#max_organisation = 0.02
-			#default_morale = 0.02
+			defense = -0.1
+			breakthrough = -0.1
 			
 		}
 	}
@@ -164,10 +179,8 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			defense = 0.135
-			breakthrough = 0.135
-			#max_organisation = 0.03
-			#default_morale = 0.03
+			defense = -0.05
+			breakthrough = -0.05
 		}
 	}
 

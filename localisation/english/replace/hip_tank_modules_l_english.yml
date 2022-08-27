@@ -553,6 +553,17 @@ EQ_MOD_CAT_panzer_3_turret_type_TITLE:0 "§CPanzer III§! §YTurret§!"
 EQ_MOD_CAT_panzer_4_turret_type_TITLE:0 "§CPanzer IV§! §YTurret§!"
 
 
+####### Armor Shape ######
+
+EQ_MOD_CAT_tank_armor_shape_panzer_1_TITLE:0 "Panzer 1 Hull Shape"
+tank_armor_panzer_1:0 "Panzer 1 Hull Shape"
+EQ_MOD_CAT_tank_armor_shape_panzer_2_TITLE:0 "Panzer 2 Hull Shape"
+tank_armor_panzer_2:0 "Panzer 2 Hull Shape"
+EQ_MOD_CAT_tank_armor_shape_panzer_3_TITLE:0 "Panzer 3 Hull Shape"
+tank_armor_panzer_3:0 "Panzer 3 Hull Shape"
+EQ_MOD_CAT_tank_armor_shape_panzer_4_TITLE:0 "Panzer 4 Hull Shape"
+tank_armor_panzer_4:0 "Panzer 4 Hull Shape"
+
 ####### Radio #######
 
 tank_radio_0:0 "No Radio"
@@ -579,11 +590,14 @@ tank_optics_4_desc:0 ""
 tank_optics_5:0 "Modern Tank Optics"
 tank_optics_5_desc:0 ""
 
-tank_periscope_1:0 "Early Tank Periscope"
+
+tank_periscope_0:0 "No Vision Devices"
+tank_periscope_0_desc:0 ""
+tank_periscope_1:0 "Early Vision Devices"
 tank_periscope_1_desc:0 ""
-tank_periscope_2:0 "Improved Tank Periscope"
+tank_periscope_2:0 "Improved Vision Devices"
 tank_periscope_2_desc:0 ""
-tank_periscope_3:0 "Advanced Tank Periscope"
+tank_periscope_3:0 "Advanced Vision Devices"
 tank_periscope_3_desc:0 ""
-tank_periscope_4:0 "Modern Tank Periscope"
+tank_periscope_4:0 "Modern Vision Devices"
 tank_periscope_4_desc:0 ""

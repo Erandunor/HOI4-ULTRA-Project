@@ -59,7 +59,7 @@ equipment_modules = {
 	
 	sloped_armor = {
 		abbreviation = "slop"
-		category = tank_armor_sloped
+		category = tank_armor_shape
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -74,7 +74,7 @@ equipment_modules = {
 	
 	straight_armor = {
 		abbreviation = "strt"
-		category = tank_armor_straight
+		category = tank_armor_shape
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -82,6 +82,78 @@ equipment_modules = {
 		dismantle_cost_ic = 1
 		xp_cost = 10
 		multiply_stats = {
+			
+		}
+	}
+	
+	tank_armor_panzer_1 = {
+		abbreviation = "strt"
+		category = tank_armor_shape_panzer_1
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+		
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 10
+		multiply_stats = {
+			armor_value = 0.09
+			defense = 0.09
+			breakthrough = 0.09
+			
+		}
+	}
+	
+	tank_armor_panzer_2 = {
+		abbreviation = "strt"
+		category = tank_armor_shape_panzer_2
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+		
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 10
+		multiply_stats = {
+			armor_value = 0.05
+			defense = 0.02
+			breakthrough = 0.02
+			
+		}
+	}
+	
+	tank_armor_panzer_3 = {
+		abbreviation = "strt"
+		category = tank_armor_shape_panzer_3
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+		
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 10
+		multiply_stats = {
+			armor_value = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+			
+		}
+	}
+	
+	tank_armor_panzer_4 = {
+		abbreviation = "strt"
+		category = tank_armor_shape_panzer_4
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+		
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 10
+		multiply_stats = {
+			armor_value = 0.01
+			defense = 0.01
+			breakthrough = 0.01
 			
 		}
 	}
@@ -121,9 +193,14 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 10
+			defense = 4.2
+			breakthrough = 5.25
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
+			
+			
 		}
 	}
 	
@@ -134,6 +211,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 20
+			defense = 6.3
+			breakthrough = 7.87
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -147,6 +227,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 20
+			defense = 8.4
+			breakthrough = 10.5
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -160,6 +243,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 30
+			defense = 8.4
+			breakthrough = 10.5
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -173,6 +259,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 30
+			defense = 10.5
+			breakthrough = 13.12
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -186,6 +275,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 30
+			defense = 12.6
+			breakthrough = 15.75
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -199,6 +291,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 40
+			defense = 12.6
+			breakthrough = 15.75
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -212,6 +307,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 40
+			defense = 14.7
+			breakthrough = 18.37
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -225,6 +323,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 40
+			defense = 16.8
+			breakthrough = 21
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -241,6 +342,10 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+		
+			armor_value = 50
+			defense = 14.7
+			breakthrough = 18.37
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -254,6 +359,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 50
+			defense = 16.8
+			breakthrough = 21
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -267,6 +375,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 50
+			defense = 18.9
+			breakthrough = 23.62
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -280,6 +391,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 50
+			defense = 21
+			breakthrough = 26.25
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -293,6 +407,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 60
+			defense = 18.9
+			breakthrough = 23.62
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -306,6 +423,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 60
+			defense = 21
+			breakthrough = 26.25
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -319,6 +439,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 60
+			defense = 23.1
+			breakthrough = 28.87
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -332,6 +455,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 60
+			defense = 25.2
+			breakthrough = 31.5
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -347,6 +473,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 70
+			defense = 21
+			breakthrough = 26.25
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -360,6 +489,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 70
+			defense = 23.1
+			breakthrough = 28.87
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -373,6 +505,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 70
+			defense = 25.2
+			breakthrough = 31.5
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -386,6 +521,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 70
+			defense = 27.3
+			breakthrough = 34.12
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -399,6 +537,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 70
+			defense = 29.4
+			breakthrough = 36.75
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -413,6 +554,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 80
+			defense = 25.2
+			breakthrough = 31.5
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -426,6 +570,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 80
+			defense = 27.3
+			breakthrough = 34.12
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -439,6 +586,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 80
+			defense = 29.4
+			breakthrough = 36.75
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -452,6 +602,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 80
+			defense = 31.5
+			breakthrough = 39.37
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -465,6 +618,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 80
+			defense = 33.6
+			breakthrough = 42
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -480,6 +636,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 90
+			defense = 27.3
+			breakthrough = 34.12
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -493,6 +652,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 90
+			defense = 29.4
+			breakthrough = 36.75
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -506,6 +668,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 90
+			defense = 31.5
+			breakthrough = 39.37
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -519,6 +684,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 90
+			defense = 33.6
+			breakthrough = 42
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -532,6 +700,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 90
+			defense = 35.7
+			breakthrough = 44.62
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -545,6 +716,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 90
+			defense = 37.8
+			breakthrough = 47.25
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -560,6 +734,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 100
+			defense = 31.5
+			breakthrough = 39.37
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -573,6 +750,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 100
+			defense = 33.6
+			breakthrough = 42
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -586,6 +766,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 100
+			defense = 35.7
+			breakthrough = 44.62
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -599,6 +782,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 100
+			defense = 37.8
+			breakthrough = 47.25
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -612,6 +798,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 100
+			defense = 39.9
+			breakthrough = 49.87
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -625,6 +814,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 100
+			defense = 42
+			breakthrough = 52.5
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -642,6 +834,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 20
+			defense = 6.3
+			breakthrough = 7.87
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -655,6 +850,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 20
+			defense = 8.4
+			breakthrough = 10.5
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -668,6 +866,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 30
+			defense = 10.5
+			breakthrough = 13.12
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -681,6 +882,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 30
+			defense = 12.6
+			breakthrough = 15.75
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -694,6 +898,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 40
+			defense = 12.6
+			breakthrough = 15.75
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -707,6 +914,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 40
+			defense = 14.7
+			breakthrough = 18.37
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -720,6 +930,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 40
+			defense = 16.8
+			breakthrough = 21
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -736,6 +949,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 50
+			defense = 14.7
+			breakthrough = 18.37
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -749,6 +965,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 50
+			defense = 16.8
+			breakthrough = 21
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -762,6 +981,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 50
+			defense = 18.9
+			breakthrough = 23.62
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -775,6 +997,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 50
+			defense = 21
+			breakthrough = 26.25
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -788,6 +1013,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 60
+			defense = 18.9
+			breakthrough = 23.62
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -801,6 +1029,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 60
+			defense = 21
+			breakthrough = 26.25
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -814,6 +1045,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 60
+			defense = 23.1
+			breakthrough = 28.87
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -827,6 +1061,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 60
+			defense = 25.2
+			breakthrough = 31.5
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -842,6 +1079,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 70
+			defense = 21
+			breakthrough = 26.25
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -855,6 +1095,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 70
+			defense = 23.1
+			breakthrough = 28.87
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -868,6 +1111,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 70
+			defense = 25.2
+			breakthrough = 31.5
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -881,6 +1127,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 70
+			defense = 27.3
+			breakthrough = 34.12
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -894,6 +1143,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 70
+			defense = 29.4
+			breakthrough = 36.75
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -908,6 +1160,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 80
+			defense = 25.2
+			breakthrough = 31.5
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -921,6 +1176,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 80
+			defense = 27.3
+			breakthrough = 34.12
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -934,6 +1192,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 80
+			defense = 29.4
+			breakthrough = 36.75
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -947,6 +1208,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 80
+			defense = 31.5
+			breakthrough = 39.37
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -960,6 +1224,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 80
+			defense = 33.6
+			breakthrough = 42
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -975,6 +1242,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 90
+			defense = 27.3
+			breakthrough = 34.12
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -988,6 +1258,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 90
+			defense = 29.4
+			breakthrough = 36.75
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1001,6 +1274,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 90
+			defense = 31.5
+			breakthrough = 39.37
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1014,6 +1290,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 90
+			defense = 33.6
+			breakthrough = 42
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1027,6 +1306,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 90
+			defense = 35.7
+			breakthrough = 44.62
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1040,6 +1322,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 90
+			defense = 37.8
+			breakthrough = 47.25
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1055,6 +1340,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 100
+			defense = 31.5
+			breakthrough = 39.37
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1068,6 +1356,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 100
+			defense = 33.6
+			breakthrough = 42
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1081,6 +1372,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 100
+			defense = 35.7
+			breakthrough = 44.62
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1094,6 +1388,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 100
+			defense = 37.8
+			breakthrough = 47.25
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1107,6 +1404,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 100
+			defense = 39.9
+			breakthrough = 49.87
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1120,6 +1420,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 100
+			defense = 42
+			breakthrough = 52.5
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1135,6 +1438,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 110
+			defense = 33.6
+			breakthrough = 42
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1148,6 +1454,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 110
+			defense = 35.7
+			breakthrough = 44.62
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1161,6 +1470,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 110
+			defense = 37.8
+			breakthrough = 47.25
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1174,6 +1486,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 110
+			defense = 39.9
+			breakthrough = 49.87
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1187,6 +1502,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 110
+			defense = 42
+			breakthrough = 52.5
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1200,6 +1518,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 110
+			defense = 44.1
+			breakthrough = 55.12
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1213,6 +1534,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 110
+			defense = 46.2
+			breakthrough = 57.75
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1228,6 +1552,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 120
+			defense = 37.8
+			breakthrough = 47.25
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1241,6 +1568,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 120
+			defense = 39.9
+			breakthrough = 49.87
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1254,6 +1584,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 120
+			defense = 42
+			breakthrough = 52.5
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1267,6 +1600,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 120
+			defense = 44.1
+			breakthrough = 55.12
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1280,6 +1616,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 120
+			defense = 46.2
+			breakthrough = 57.75
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1293,6 +1632,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 120
+			defense = 48.3
+			breakthrough = 60.37
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
@@ -1306,6 +1648,9 @@ equipment_modules = {
 		xp_cost = 8
 
 		add_stats = {
+			armor_value = 120
+			defense = 50.4
+			breakthrough = 63
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {

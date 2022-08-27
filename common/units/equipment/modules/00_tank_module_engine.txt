@@ -17,6 +17,11 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
+			soft_attack = -0.22
+			hard_attack = -0.22
+			defense = -0.22
+			breakthrough = -0.22
+			maximum_speed = -0.22
 		}
 	}
 	
@@ -30,6 +35,11 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
+			soft_attack = -0.05
+			hard_attack = -0.05
+			defense = -0.05
+			breakthrough = -0.05
+			maximum_speed = -0.05
 		}
 	}
 	
@@ -43,6 +53,11 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+			defense = 0.1
+			breakthrough = 0.1
+			maximum_speed = 0.1
 		}
 	}
 	
@@ -56,6 +71,11 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
+			soft_attack = 0.23
+			hard_attack = 0.23
+			defense = 0.23
+			breakthrough = 0.23
+			maximum_speed = 0.23
 		}
 	}
 	
@@ -69,6 +89,11 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
+			soft_attack = 0.35
+			hard_attack = 0.35
+			defense = 0.35
+			breakthrough = 0.35
+			maximum_speed = 0.35
 		}
 	}
 	
@@ -82,6 +107,11 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
+			soft_attack = 0.46
+			hard_attack = 0.46
+			defense = 0.46
+			breakthrough = 0.46
+			maximum_speed = 0.46
 		}
 	}
 	
@@ -95,6 +125,11 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
+			soft_attack = 0.55
+			hard_attack = 0.55
+			defense = 0.55
+			breakthrough = 0.55
+			maximum_speed = 0.55
 		}
 	}
 	
@@ -110,6 +145,11 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
+			soft_attack = -0.22
+			hard_attack = -0.22
+			defense = -0.22
+			breakthrough = -0.22
+			maximum_speed = -0.22
 		}
 	}
 	
@@ -123,6 +163,11 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
+			soft_attack = -0.05
+			hard_attack = -0.05
+			defense = -0.05
+			breakthrough = -0.05
+			maximum_speed = -0.05
 		}
 	}
 	
@@ -136,6 +181,11 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+			defense = 0.1
+			breakthrough = 0.1
+			maximum_speed = 0.1
 		}
 	}
 	
@@ -149,6 +199,11 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
+			soft_attack = 0.23
+			hard_attack = 0.23
+			defense = 0.23
+			breakthrough = 0.23
+			maximum_speed = 0.23
 		}
 	}
 	
@@ -162,6 +217,11 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
+			soft_attack = 0.35
+			hard_attack = 0.35
+			defense = 0.35
+			breakthrough = 0.35
+			maximum_speed = 0.35
 		}
 	}
 	
@@ -175,6 +235,11 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
+			soft_attack = 0.46
+			hard_attack = 0.46
+			defense = 0.46
+			breakthrough = 0.46
+			maximum_speed = 0.46
 		}
 	}
 	
@@ -188,6 +253,11 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
+			soft_attack = 0.55
+			hard_attack = 0.55
+			defense = 0.55
+			breakthrough = 0.55
+			maximum_speed = 0.55
 		}
 	}
 	
@@ -201,6 +271,11 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
+			soft_attack = 0.65
+			hard_attack = 0.65
+			defense = 0.65
+			breakthrough = 0.65
+			maximum_speed = 0.65
 		}
 	}
 	
@@ -214,6 +289,11 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 		multiply_stats = {
+			soft_attack = 0.75
+			hard_attack = 0.75
+			defense = 0.75
+			breakthrough = 0.75
+			maximum_speed = 0.75
 		}
 	}
 	

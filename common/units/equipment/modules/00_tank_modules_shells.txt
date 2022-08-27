@@ -26,7 +26,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			
+			soft_attack = -1
 		}
 	}
 	

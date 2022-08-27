@@ -65,7 +65,7 @@ equipments = {
 			}
 			
 			tank_periscope_slot = {
-				
+				required = yes
 				allowed_module_categories = {
 					tank_periscope_module
 				}
@@ -93,7 +93,7 @@ equipments = {
 			}
 			
 			tank_fuel_storage_slot = {
-				
+				required = yes
 				allowed_module_categories = {
 					tank_fuel_module
 				}
@@ -208,11 +208,11 @@ equipments = {
 		}
 
 		fuel_consumption = 0
-		maximum_speed = 4
+		maximum_speed = 5
 		build_cost_ic = 1
 		reliability = 0.8
 		hardness = 0.8
-		armor_value = 5
+		armor_value = 0
 		resources = {
 			steel = 1
 		}
@@ -252,7 +252,7 @@ equipments = {
 			tank_secondary_armament_slot = {
 				
 				allowed_module_categories = {
-					tank_secondary_turret
+					#tank_secondary_turret
 				}
 			}
 
@@ -353,9 +353,7 @@ equipments = {
 			tank_armor_angle_slot = {
 				required = yes
 				allowed_module_categories = {
-					#Both categories for testing
-					tank_armor_sloped
-					tank_armor_straight
+					tank_armor_shape_panzer_1
 				}
 			}
 			
@@ -457,7 +455,7 @@ equipments = {
 			turret_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					panzer_2_turret_type
+					#panzer_2_turret_type
 				}
 			}
 			
@@ -573,9 +571,7 @@ equipments = {
 			tank_armor_angle_slot = {
 				required = yes
 				allowed_module_categories = {
-					#Both categories for testing
-					tank_armor_sloped
-					tank_armor_straight
+					tank_armor_shape_panzer_2
 				}
 			}
 			
@@ -872,10 +868,10 @@ equipments = {
 		}
 
 		fuel_consumption = 0
-		maximum_speed = 4
+		maximum_speed = 5
 		build_cost_ic = 2
 		reliability = 1
-		armor_value = 15
+		armor_value = 0
 		hardness = 0.85
 		resources = {
 			steel = 1
@@ -915,7 +911,7 @@ equipments = {
 			tank_secondary_armament_slot = {
 				
 				allowed_module_categories = {
-					tank_secondary_turret
+					#tank_secondary_turret
 				}
 			}
 
@@ -947,7 +943,7 @@ equipments = {
 			}
 			
 			tank_periscope_slot = {
-				
+				required = yes
 				allowed_module_categories = {
 					tank_periscope_module
 				}
@@ -1018,9 +1014,7 @@ equipments = {
 			tank_armor_angle_slot = {
 				required = yes
 				allowed_module_categories = {
-					#Both categories for testing
-					tank_armor_sloped
-					tank_armor_straight
+					tank_armor_shape_panzer_3
 				}
 			}
 			
@@ -1128,7 +1122,7 @@ equipments = {
 			tank_secondary_armament_slot = {
 				
 				allowed_module_categories = {
-					tank_secondary_turret
+					#tank_secondary_turret
 				}
 			}
 
@@ -1231,9 +1225,7 @@ equipments = {
 			tank_armor_angle_slot = {
 				required = yes
 				allowed_module_categories = {
-					#Both categories for testing
-					tank_armor_sloped
-					tank_armor_straight
+					tank_armor_shape_panzer_4
 				}
 			}
 			

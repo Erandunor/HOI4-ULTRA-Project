@@ -3471,6 +3471,7 @@ technologies = {
 		enable_equipment_modules = {
 			tank_panzer_1_turret
 			tank_panzer_1_open_superstructure_turret #to get its own tech/subtech later
+			tank_armor_panzer_1
 		}
 
 		path = {
@@ -3532,6 +3533,7 @@ technologies = {
 		enable_equipment_modules = {
 			tank_panzer_2_turret
 			tank_panzer_2_open_superstructure_turret #to get its own tech/subtech later
+			tank_armor_panzer_2
 		}
 
 		path = {
@@ -3598,6 +3600,7 @@ technologies = {
 			tank_panzer_3_turret
 			tank_panzer_3_open_superstructure_turret #to get its own tech/subtech later
 			tank_panzer_3_fixed_superstructure_turret #to get its own tech/subtech later
+			tank_armor_panzer_3
 		}
 
 		sub_technologies = {
@@ -3655,6 +3658,7 @@ technologies = {
 			tank_panzer_4_turret
 			tank_panzer_4_open_superstructure_turret  #to get its own tech/subtech later
 			tank_panzer_4_fixed_superstructure_turret  #to get its own tech/subtech later
+			tank_armor_panzer_4
 		}
 
 		sub_technologies = {

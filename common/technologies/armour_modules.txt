@@ -815,6 +815,7 @@ technologies = {
 			
 			#### Initial "tier 0" tank modules
 			tank_optics_0
+			tank_periscope_0
 			tank_radio_0
 			
 			#### Armor angles

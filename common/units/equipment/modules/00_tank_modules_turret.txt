@@ -24,7 +24,10 @@ equipment_modules = {
 		dismantle_cost_ic = 0.5
 		xp_cost = 2
 		multiply_stats = {
-			
+			soft_attack = -0.185
+			hard_attack = -0.185
+			defense = -0.185
+			breakthrough = -0.185
 		}
 	}
 	
@@ -91,6 +94,10 @@ equipment_modules = {
 		dismantle_cost_ic = 0.5
 		xp_cost = 2
 		multiply_stats = {
+			soft_attack = -0.185
+			hard_attack = -0.185
+			defense = -0.185
+			breakthrough = -0.185
 			
 		}
 	}
@@ -163,7 +170,10 @@ equipment_modules = {
 		dismantle_cost_ic = 0.5
 		xp_cost = 2
 		multiply_stats = {
-			
+			soft_attack = -0.06
+			hard_attack = -0.06
+			defense = -0.06
+			breakthrough = -0.06
 		}
 	}
 	
@@ -275,6 +285,10 @@ equipment_modules = {
 		dismantle_cost_ic = 0.5
 		xp_cost = 2
 		multiply_stats = {
+			soft_attack = -0.06
+			hard_attack = -0.06
+			defense = -0.06
+			breakthrough = -0.06
 			
 		}
 	}

@@ -3,6 +3,7 @@ equipment_modules = {
 ################################################ Fuel Storage ##########################################
 
 	### Increase fuel capacity and range (minor part of speed) 
+	## every level = 50km
 
 	expanded_fuel_tank_1 = {
 		abbreviation = "fuel"
@@ -14,7 +15,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			maximum_speed = 0
+			maximum_speed = -0.43
 			build_cost_ic = 0
 		}
 	}
@@ -29,7 +30,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			maximum_speed = 0
+			maximum_speed = -0.2
 			build_cost_ic = 0
 		}
 	}
@@ -44,7 +45,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			maximum_speed = 0
+			maximum_speed = -0.02
 			build_cost_ic = 0
 		}
 	}
@@ -59,7 +60,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			maximum_speed = 0
+			maximum_speed = 0.13
 			build_cost_ic = 0
 		}
 	}
@@ -74,7 +75,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			maximum_speed = 0
+			maximum_speed = 0.26
 			build_cost_ic = 0
 		}
 	}
@@ -89,7 +90,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			maximum_speed = 0
+			maximum_speed = 0.38
 			build_cost_ic = 0
 		}
 	}
@@ -104,7 +105,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			maximum_speed = 0
+			maximum_speed = 0.5
 			build_cost_ic = 0
 		}
 	}
@@ -119,7 +120,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			maximum_speed = 0
+			maximum_speed = 0.6
 			build_cost_ic = 0
 		}
 	}
@@ -134,7 +135,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			maximum_speed = 0
+			maximum_speed = 0.69
 			build_cost_ic = 0
 		}
 	}
@@ -149,7 +150,7 @@ equipment_modules = {
 		}
 		xp_cost = 1
 		multiply_stats = {
-			maximum_speed = 0
+			maximum_speed = 0.78
 			build_cost_ic = 0
 		}
 	}
