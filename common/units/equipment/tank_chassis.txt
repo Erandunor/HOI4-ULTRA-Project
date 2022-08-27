@@ -423,11 +423,16 @@ equipments = {
 		}
 		default_modules = {
 			main_armament_slot = empty
+			tank_shell_type_slot = tank_shell_APHE
 			turret_type_slot = tank_panzer_1_turret
-			suspension_type_slot = empty
-			armor_type_slot = empty
-			engine_type_slot = empty
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_armor_10t_10x10_R
+			engine_type_slot = tank_engine_10t_100_G
 			tank_production_method_slot = tank_normal_production
+			tank_armor_angle_slot = tank_armor_panzer_1
+			tank_radio_slot = tank_radio_0
+			tank_periscope_slot = tank_periscope_0
+			tank_optics_slot = tank_optics_0
 		}
 		
 	}
@@ -641,11 +646,16 @@ equipments = {
 		}
 		default_modules = {
 			main_armament_slot = empty
+			tank_shell_type_slot = tank_shell_APHE
 			turret_type_slot = tank_panzer_2_turret
-			suspension_type_slot = empty
-			armor_type_slot = empty
-			engine_type_slot = empty
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_armor_10t_20x10_R
+			engine_type_slot = tank_engine_10t_200_G
 			tank_production_method_slot = tank_normal_production
+			tank_armor_angle_slot = tank_armor_panzer_2
+			tank_radio_slot = tank_radio_0
+			tank_periscope_slot = tank_periscope_0
+			tank_optics_slot = tank_optics_0
 		}
 		
 	}
@@ -697,7 +707,6 @@ equipments = {
 			tank_secondary_armament_slot = {
 				
 				allowed_module_categories = {
-					tank_secondary_turret
 				}
 			}
 
@@ -1084,11 +1093,16 @@ equipments = {
 		}
 		default_modules = {
 			main_armament_slot = empty
+			tank_shell_type_slot = tank_shell_APHE
 			turret_type_slot = tank_panzer_3_turret
-			suspension_type_slot = empty
-			armor_type_slot = empty
-			engine_type_slot = empty
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_armor_10t_20x10_R
+			engine_type_slot = tank_engine_10t_200_G
 			tank_production_method_slot = tank_normal_production
+			tank_armor_angle_slot = tank_armor_panzer_3
+			tank_radio_slot = tank_radio_0
+			tank_periscope_slot = tank_periscope_0
+			tank_optics_slot = tank_optics_0
 		}
 		
 	}
@@ -1295,11 +1309,16 @@ equipments = {
 		}
 		default_modules = {
 			main_armament_slot = empty
+			tank_shell_type_slot = tank_shell_APHE
 			turret_type_slot = tank_panzer_4_turret
-			suspension_type_slot = empty
-			armor_type_slot = empty
-			engine_type_slot = empty
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_armor_10t_20x10_R
+			engine_type_slot = tank_engine_10t_200_G
 			tank_production_method_slot = tank_normal_production
+			tank_armor_angle_slot = tank_armor_panzer_4
+			tank_radio_slot = tank_radio_0
+			tank_periscope_slot = tank_periscope_0
+			tank_optics_slot = tank_optics_0
 		}
 		
 	}
