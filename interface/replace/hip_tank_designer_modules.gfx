@@ -565,7 +565,25 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
+	spriteType = {
+		name = "GFX_EMI_tank_armor_sloped"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_sloped_armor.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_armor_straight"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/hip_armor_no_angle.dds"
+		legacy_lazy_load = no
+	}
+	
 ######################### Armor Modules ##################################
+
+	spriteType = {
+		name = "GFX_EMI_straight_armor"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/hip_armor_no_angle.dds"
+		legacy_lazy_load = no
+	}
 
 ############## Riveted #################
 

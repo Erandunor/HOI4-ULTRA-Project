@@ -817,6 +817,10 @@ technologies = {
 			tank_optics_0
 			tank_radio_0
 			
+			#### Armor angles
+			sloped_armor
+			straight_armor
+			
 			#### Shell modules TEMP TODO : give them proper techs
 			
 			tank_shell_he_only
@@ -826,6 +830,18 @@ technologies = {
 			tank_shell_APHE_APCR
 			tank_shell_APHE_APDS
 			tank_shell_SQZ_BORE
+			
+			#Because I'm lazy for now TODO : copy this for each starting tank of each country
+			tank_torsion_bar_suspension
+			tank_christie_suspension
+			tank_bogie_suspension
+			tank_interleaved_suspension
+			tank_wheeled_suspension
+			tank_half_track_suspension
+			smoke_launchers
+			extra_ammo_storage
+			wet_ammo_storage
+			
 		}
 		
 		dependencies = {

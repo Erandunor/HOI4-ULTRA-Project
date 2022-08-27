@@ -352,7 +352,9 @@ equipments = {
 			tank_armor_angle_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					#Both categories for testing
+					tank_armor_sloped
+					tank_armor_straight
 				}
 			}
 			
@@ -569,7 +571,9 @@ equipments = {
 			tank_armor_angle_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					#Both categories for testing
+					tank_armor_sloped
+					tank_armor_straight
 				}
 			}
 			
@@ -1010,7 +1014,9 @@ equipments = {
 			tank_armor_angle_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					#Both categories for testing
+					tank_armor_sloped
+					tank_armor_straight
 				}
 			}
 			
@@ -1219,7 +1225,9 @@ equipments = {
 			tank_armor_angle_slot = {
 				required = yes
 				allowed_module_categories = {
-					
+					#Both categories for testing
+					tank_armor_sloped
+					tank_armor_straight
 				}
 			}
 			

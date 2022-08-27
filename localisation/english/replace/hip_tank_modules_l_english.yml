@@ -156,6 +156,9 @@ tank_shell_SQZ_BORE_desc:0 ""
 
 ##### Tank Armor #####
 
+straight_armor:0 "Straight Front Armor"
+straight_armor_desc:0 "Allows to maximise Space"
+
 ### Riveted ###
 
 ## 10t ##
@@ -478,6 +481,9 @@ EQ_MOD_CAT_tank_armor_20t_R_4_TITLE:0 "§L90mm§! Front Armor"
 EQ_MOD_CAT_tank_armor_20t_R_5_TITLE:0 "§O100mm§! Front Armor"
 EQ_MOD_CAT_tank_armor_20t_R_6_TITLE:0 "§O110mm§! Front Armor"
 EQ_MOD_CAT_tank_armor_20t_R_7_TITLE:0 "§R120mm§! Front Armor"
+
+EQ_MOD_CAT_tank_armor_sloped_TITLE:0 "§CSloped§! Front Armor"
+EQ_MOD_CAT_tank_armor_straight_TITLE:0 "§OStraight§! Front Armor"
 
 ### Engine categories
 

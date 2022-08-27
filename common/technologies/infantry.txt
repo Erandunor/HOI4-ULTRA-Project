@@ -1524,19 +1524,6 @@ technologies = {
 			motorized_equipment_1
 		}
 		
-		enable_equipment_modules = { #Because I'm lazy for now TODO : copy this for each starting tank of each country
-			tank_torsion_bar_suspension
-			tank_christie_suspension
-			tank_bogie_suspension
-			tank_interleaved_suspension
-			tank_wheeled_suspension
-			tank_half_track_suspension
-			smoke_launchers
-			extra_ammo_storage
-			wet_ammo_storage
-			sloped_armor
-		}
-
 		on_research_complete_limit = {
 			NOT = {
 				has_template_containing_unit = motorized
