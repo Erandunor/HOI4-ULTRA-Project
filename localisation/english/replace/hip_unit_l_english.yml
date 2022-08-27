@@ -53,7 +53,20 @@ infantry:0 "Light Infantry"
  DIV_HQ_mot_desc:0 "The Divisional Headquarter is the commanding unit of a divisions. §RWithout HQ a division is likely to shatter quickly under ennemi fire! §!"
  
  engineer:0 "Engineer Regiment"
+ 
+ medium_armor:0 "Battle Tank"
+ medium_armor_desc:0 "Battle tanks are reasonably agile multi-purpose tanks which are able to take on many roles such as scouts, support, or even front-line tanks."
+ 
+ medium_sp_artillery:0 "SP Artillery"
+ medium_sp_artillery_short:0 "SPG"
+ medium_sp_artillery_desc:0 "An artillery cannon mounted on a tank chassis, an SPG packs respectable firepower while still being quite mobile."
+ 
+ medium_tank_destroyer:0 "Tank Destroyer"
+ medium_tank_destroyer_short:0 "Tank Destroyer"
+ medium_tank_destroyer_desc:0 "Tank Destroyers are tanks with a larger than normal gun in a fixed mounting in place of a turret. Tank Destroyers are based on the chassis of Battle Tanks, meaning they are fairly mobile and carry respectable firepower."
 
+ medium_sp_anti_air_:0 "SP Anti-Air"
+ medium_sp_anti_air_desc:0 "Mobile anti-air artillery mounted on a tank chassis."
 
  
  ### All artillery can be transported by trucks and used in mobile divisions ###
