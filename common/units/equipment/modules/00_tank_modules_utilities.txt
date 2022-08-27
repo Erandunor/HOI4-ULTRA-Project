@@ -1,5 +1,31 @@
 equipment_modules = {
 
+	################################################ Production Method ##########################################
+	
+	tank_normal_production = {
+		abbreviation = "norm"
+		category = tank_production_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			
+		}
+		xp_cost = 1
+
+	}
+	
+	tank_rushed_production = {
+		abbreviation = "rush"
+		category = tank_production_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			
+		}
+		xp_cost = 1
+
+	}
+
 	################################################ Misc #################################################
 	
 	amphibious_drive = {

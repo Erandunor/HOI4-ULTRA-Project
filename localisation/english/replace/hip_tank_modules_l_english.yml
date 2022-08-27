@@ -154,6 +154,14 @@ tank_shell_APHE_APDS_desc:0 ""
 tank_shell_SQZ_BORE:0 "Squeeze Bore"
 tank_shell_SQZ_BORE_desc:0 ""
 
+##### Tank Production Methos #####
+
+tank_normal_production:0 "§GNormal§! Production"
+tank_normal_production_desc:0 "Standart quality production"
+
+tank_rushed_production:0 "§RRushed§! Production"
+tank_rushed_production_desc:0 "We need tanks NOW! \NSkiping various quality controls during the production process will considerably increase production output but the overall quality will suffer."
+
 ##### Tank Armor #####
 
 straight_armor:0 "Straight Front Armor"
@@ -503,6 +511,10 @@ EQ_MOD_CAT_tank_shell_he_only_cat_TITLE:0 "High Explosive Shells Only"
 EQ_MOD_CAT_tank_shell_AP_only_cat_TITLE:0 "Armor Piercing Shells Only"
 EQ_MOD_CAT_tank_shell_APHE_cat_TITLE:0 "Mixed Shells"
 EQ_MOD_CAT_tank_shell_sqz_bore_cat_TITLE:0 "Squeeze Bore Shells"
+
+### Production Category
+
+EQ_MOD_CAT_tank_production_module_TITLE:0 "Production Method"
 
 
 ### Turrets's Categories

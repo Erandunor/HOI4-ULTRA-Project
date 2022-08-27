@@ -1,5 +1,19 @@
 spriteTypes = {
 
+######################### Production Category #########################
+
+########################## Production Method #######################
+
+	spriteType = {
+		name = "GFX_EMI_tank_normal_production"
+		textureFile = "gfx/interface/officer_corp/spirits/spirit_idea_embrace_the_future.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_rushed_production"
+		textureFile = "gfx/interface/officer_corp/spirits/spirit_idea_maneuver_warfare.dds"
+	}
+
 ######################### Radio ##################################
 
 	spriteType = {
