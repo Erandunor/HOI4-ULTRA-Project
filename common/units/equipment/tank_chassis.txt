@@ -225,7 +225,7 @@ equipments = {
 	
 	######################################### Germany Lights ###########################################
 	
-	tank_ger_light_chassis_1 = { #panzer I
+	ger_light_tank_chassis_1 = { #panzer I
 		abbreviation = "pz1"
 		visual_level = 0
 		year = 1922
@@ -437,22 +437,22 @@ equipments = {
 		
 	}
 	
-	tank_ger_ghost_light_chassis_1 = {
+	ghost_ger_light_tank_chassis_1 = {
 		year = 1936
 
 		archetype = light_tank_chassis
 		priority = 10
-		parent = tank_ger_light_chassis_1
+		parent = ger_light_tank_chassis_1
 		visual_level = 0
 		is_convertable = no
 	}
 	
-	tank_ger_light_chassis_2 = { #panzer II
+	ger_light_tank_chassis_2 = { #panzer II
 		abbreviation = "pz2"
 		visual_level = 0
 		year = 1937
 		archetype = light_tank_chassis
-		parent = tank_ger_ghost_light_chassis_1
+		parent = ghost_ger_light_tank_chassis_1
 		priority = 2000
 		is_convertable = yes
 		
@@ -660,12 +660,12 @@ equipments = {
 		
 	}
 	
-	tank_ger_ghost_light_chassis_2 = {
+	ghost_ger_light_tank_chassis_2 = {
 		year = 1936
 
 		archetype = light_tank_chassis
 		priority = 10
-		parent = tank_ger_light_chassis_2
+		parent = ger_light_tank_chassis_2
 		visual_level = 0
 		is_convertable = no
 	}
@@ -892,12 +892,12 @@ equipments = {
 	
 	################################################# German Mediums #############################################
 	
-	tank_ger_medium_chassis_1 = { #panzer III
+	ger_medium_tank_chassis_1 = { #panzer III
 		abbreviation = "pz3"
 		visual_level = 0
 		year = 1938
 		archetype = medium_tank_chassis
-		parent = tank_ger_ghost_light_chassis_2
+		parent = ghost_ger_light_tank_chassis_2
 		priority = 2000
 		is_convertable = yes
 		
@@ -1108,12 +1108,12 @@ equipments = {
 	}
 	
 	
-	tank_ger_medium_chassis_2 = { #panzer IV
+	ger_medium_tank_chassis_2 = { #panzer IV
 		abbreviation = "pz4"
 		visual_level = 0
 		year = 1938
 		archetype = medium_tank_chassis
-		parent = tank_ger_ghost_light_chassis_2
+		parent = ghost_ger_light_tank_chassis_2
 		priority = 2000
 		is_convertable = yes
 		

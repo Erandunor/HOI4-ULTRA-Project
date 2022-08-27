@@ -112,6 +112,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_EMI_tank_periscope_0"
+		texturefile ="gfx/interface/technologies/tankperiscope0.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_EMI_tank_periscope_1"
 		texturefile ="gfx/interface/technologies/tankperiscope1.dds"
 	}
@@ -1229,6 +1234,32 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_gasoline_engine.dds"
 		legacy_lazy_load = no
 	}
+
+	
+############################ Armor Shape - Nation Unique! ###############################
+
+#### Germany ####
+
+spriteType = { # Panzer I
+	name = "GFX_EMI_tank_armor_panzer_1"
+	textureFile = "gfx/interface/equipmentdesigner/tanks/modules/hip_tank_shape.dds"
+}
+
+spriteType = { # Panzer II
+	name = "GFX_EMI_tank_armor_panzer_2"
+	textureFile = "gfx/interface/equipmentdesigner/tanks/modules/hip_tank_shape.dds"
+}
+
+spriteType = { # Panzer III
+	name = "GFX_EMI_tank_armor_panzer_3"
+	textureFile = "gfx/interface/equipmentdesigner/tanks/modules/hip_tank_shape.dds"
+}
+
+spriteType = { # Panzer IV
+	name = "GFX_EMI_tank_armor_panzer_4"
+	textureFile = "gfx/interface/equipmentdesigner/tanks/modules/hip_tank_shape.dds"
+}
+
 	
 ######################### Turrets - Nation Unique! #######################################
 
