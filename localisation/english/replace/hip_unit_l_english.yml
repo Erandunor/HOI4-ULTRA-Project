@@ -82,8 +82,8 @@ infantry:0 "Light Infantry"
  infantry_tank_flame:0 "Infantry Tank based Flame Tank"
  infantry_tank_flame_desc:0 "An Infantry Tank carrying a Flame Launcher"
  
- infantry_assault_artillery:0 "Infantry Tank based Assault Gun"
- infantry_assault_artillery_desc:0 ""
+ infantry_tank_assault_artillery:0 "Infantry Tank based Assault Gun"
+ infantry_tank_assault_artillery_desc:0 ""
 
  
  ### All artillery can be transported by trucks and used in mobile divisions ###
