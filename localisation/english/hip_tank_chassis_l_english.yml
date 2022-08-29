@@ -30,6 +30,11 @@
     ger_medium_tank_chassis_4_short:0 "Panzer IV"
     ger_medium_tank_chassis_4_desc:0 "The Panzer IV was a heavy medium tank armed with a 7.5-cm-KwK 37 L/24. With the first combat-capable version entering production in 1938, the Panzer IV supported the other tanks with anti-infantry fire from its short-barreled main gun, mostly firing high explosive ammunition. It was almost useless against other tanks though."
 
+    ger_medium_tank_chassis_5:0 "1943  @GER  Medium Tank"
+    GER_ger_medium_tank_chassis_5:0 "Panzerkampfwagen V Panther Chassis
+    ger_medium_tank_chassis_5_short:0 "Panther"
+    ger_medium_tank_chassis_5_desc:0 "The Panther was a medium tank armed with a 7.5-cm-KwK 42 L/70. Introduced in 1943 to finally counter the Soviet T-34, the Panther was a supreme vehicle for its time, finally featuring angled armor, an excellent gun and very broad tracks. Able to pierce any enemy tank, combined with its heavy armor and good mobility it was a very strong tank but suffered from a problematic engine as also high production costs."
+
     
     
     

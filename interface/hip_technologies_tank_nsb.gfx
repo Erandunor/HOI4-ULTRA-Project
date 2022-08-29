@@ -29,6 +29,10 @@ spriteTypes = {
 		name = "GFX_ger_medium_tank_chassis_4_medium"
 		texturefile = "gfx/interface/technologies/GER_medium_tank_chassis_2.dds"
 	}
+	spriteType = { #Panther
+		name = "GFX_ger_medium_tank_chassis_5_medium"
+		texturefile = "gfx/interface/technologies/GER_medium_tank_chassis_3.dds"
+	}
 
 
 

@@ -497,6 +497,15 @@ tank_panzer_4_open_superstructure_turret_desc:0 ""
 tank_panzer_4_fixed_superstructure_turret:0 "Panzer IV Fixed Superstructure"
 tank_panzer_4_fixed_superstructure_turret_desc:0 ""
 
+tank_panther_turret:0 "Panther Turret"
+tank_panther_turret_desc:0 ""
+tank_panther_turret_2:0 "8.8cm Schmalturm Turret"
+tank_panther_turret_2_desc:0 ""
+tank_panther_open_superstructure_turret:0 "Panther Open Superstructure"
+tank_panther_open_superstructure_turret_desc:0 ""
+tank_panther_fixed_superstructure_turret:0 "Panther Fixed Superstructure"
+tank_panther_fixed_superstructure_turret_desc:0 ""
+
 
 
 
@@ -573,22 +582,32 @@ EQ_MOD_CAT_panzer_1_turret_type_TITLE:0 "§CPanzer I§! §YTurret§!"
 EQ_MOD_CAT_panzer_2_turret_type_TITLE:0 "§CPanzer II§! §YTurret§!"
 EQ_MOD_CAT_panzer_3_turret_type_TITLE:0 "§CPanzer III§! §YTurret§!"
 EQ_MOD_CAT_panzer_4_turret_type_TITLE:0 "§CPanzer IV§! §YTurret§!"
+EQ_MOD_CAT_panther_turret_type_TITLE:0 "§CPanther§! §YTurret§!"
 
 
 ####### Armor Shape ######
 
+## Germany
+
 EQ_MOD_CAT_tank_armor_shape_panzer_1_TITLE:0 "Panzer 1 Hull Shape"
 tank_armor_panzer_1:0 "Panzer 1 Hull Shape"
 tank_armor_panzer_1_desc:0 "Panzer 1 Hull Shape"
+
 EQ_MOD_CAT_tank_armor_shape_panzer_2_TITLE:0 "Panzer 2 Hull Shape"
 tank_armor_panzer_2:0 "Panzer 2 Hull Shape"
 tank_armor_panzer_2_desc:0 "Panzer 2 Hull Shape"
+
 EQ_MOD_CAT_tank_armor_shape_panzer_3_TITLE:0 "Panzer 3 Hull Shape"
 tank_armor_panzer_3:0 "Panzer 3 Hull Shape"
 tank_armor_panzer_3_desc:0 "Panzer 3 Hull Shape"
+
 EQ_MOD_CAT_tank_armor_shape_panzer_4_TITLE:0 "Panzer 4 Hull Shape"
 tank_armor_panzer_4:0 "Panzer 4 Hull Shape"
 tank_armor_panzer_4_desc:0 "Panzer 4 Hull Shape"
+
+EQ_MOD_CAT_tank_armor_shape_panther_TITLE:0 "Panther Hull Shape"
+tank_armor_panther:0 "Panther Hull Shape"
+tank_armor_panther_desc:0 "panther Hull Shape"
 
 ####### Radio #######
 

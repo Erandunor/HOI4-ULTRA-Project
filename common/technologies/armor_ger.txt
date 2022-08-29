@@ -3608,6 +3608,11 @@ technologies = {
 		sub_technologies = {
 			
 		}
+		
+		path = {
+			leads_to_tech = ger_medium_tank_chassis_5
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2.5
 		start_year = 1938
@@ -3666,6 +3671,11 @@ technologies = {
 		sub_technologies = {
 			
 		}
+		
+		path = {
+			leads_to_tech = ger_medium_tank_chassis_5
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2.5
 		start_year = 1938
@@ -3690,6 +3700,123 @@ technologies = {
 			modifier = {
 				factor = 35
 				date > "1940.1.1"
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						original_tag = GER
+						has_country_flag = german_technologies_tree_flag
+					}
+				}
+			}
+		}
+		
+		categories = {
+			major_technologies
+			armor
+			cat_medium_armor
+		}
+	}
+	
+	ger_medium_tank_chassis_5 = { #Panther
+
+		enable_equipments = {
+			ger_medium_tank_chassis_5
+		}
+		enable_equipment_modules = {
+			tank_panther_turret
+			tank_panther_open_superstructure_turret  #to get its own tech/subtech later
+			tank_panther_fixed_superstructure_turret  #to get its own tech/subtech later
+			tank_armor_panther
+		}
+
+		sub_technologies = {
+			
+		}
+		
+		path = {
+			leads_to_tech = tank_panther_turret_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+		start_year = 1943
+		folder = {
+			name = ger_armour_folder
+			position = {
+				x = 11
+				y = @1943
+			}
+		}
+
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 35
+				date > "1943.1.1"
+			}
+			modifier = {
+				factor = 35
+				date > "1944.1.1"
+			}
+			modifier = {
+				factor = 35
+				date > "1945.1.1"
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						original_tag = GER
+						has_country_flag = german_technologies_tree_flag
+					}
+				}
+			}
+		}
+		
+		categories = {
+			major_technologies
+			armor
+			cat_medium_armor
+		}
+	}
+	
+	tank_panther_turret_2 = { #8mm Schmalturm
+
+		
+		enable_equipment_modules = {
+			tank_panther_turret_2
+			
+		}
+
+		sub_technologies = {
+			
+		}
+
+		research_cost = 1
+		start_year = 1945
+		folder = {
+			name = ger_armour_folder
+			position = {
+				x = 11
+				y = @1945
+			}
+		}
+
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 35
+				date > "1945.1.1"
+			}
+			modifier = {
+				factor = 35
+				date > "1946.1.1"
+			}
+			modifier = {
+				factor = 35
+				date > "1947.1.1"
 			}
 			modifier = {
 				factor = 0

@@ -339,6 +339,16 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
+################################################################## Turrets ####################################################################
+
+	#88mm Schmalturm
+	
+	spriteType = {
+		name = "GFX_tank_panther_turret_2_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_three_man_turret.dds"
+		legacy_lazy_load = no
+	}
+	
 }
 
 

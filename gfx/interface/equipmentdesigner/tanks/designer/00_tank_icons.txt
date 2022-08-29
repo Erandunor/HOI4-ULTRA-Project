@@ -516,7 +516,7 @@ GER = {
 		}
 	}
 
-	medium_tank_chassis_3 = {
+	ger_medium_tank_chassis_5 = {
 		pool = {
 			limit = { has_dlc = "Death or Dishonor" }
 			weight = 2
@@ -544,6 +544,20 @@ GER = {
  				GFX_GER_medium_CAA_camo
  				GFX_GER_medium_AA_C
  				GFX_GER_advanced_medium_tank_medium
+				"gfx/interface/technologies/ger_modern_1_panther.dds"
+				"gfx/interface/technologies/GER_medium_panther-ausf-f-fixed-1.dds"
+				"gfx/interface/technologies/GER_medium_panzer_vf_panther.dds"
+				"gfx/interface/technologies/GER_medium_panzer_vg_panther.dds"
+				"gfx/interface/technologies/GER_medium_tank_Panther_F_8.8cm.dds"
+				"gfx/interface/technologies/GER_medium_tank_Panther_II_8.8cm.dds"
+				"gfx/interface/technologies/ger_modern_2_5_td_jagdpanther_2.dds"
+				"gfx/interface/technologies/ger_modern_2_aa_coelian.dds"
+				"gfx/interface/technologies/ger_modern_2_spg_GWpanther.dds"
+				"gfx/interface/technologies/ger_modern_2_td_jagdpanther.dds"
+				"gfx/interface/technologies/ger_modern_3_5_td_panzerjager_panther.dds"
+				"gfx/interface/technologies/ger_modern_3_td_skorpion.dds"
+				"gfx/interface/technologies/ger_modern_4_panther2.dds"
+				"gfx/interface/technologies/ger_modern_4_panther288mm.dds"
 			 }
 			models = {
 				"GER_medium_armor_entity"

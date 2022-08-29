@@ -1260,6 +1260,11 @@ spriteType = { # Panzer IV
 	textureFile = "gfx/interface/equipmentdesigner/tanks/modules/hip_tank_shape.dds"
 }
 
+spriteType = { # Panther
+	name = "GFX_EMI_tank_armor_panther"
+	textureFile = "gfx/interface/equipmentdesigner/tanks/modules/hip_tank_shape.dds"
+}
+
 	
 ######################### Turrets - Nation Unique! #######################################
 
@@ -1315,6 +1320,26 @@ spriteType = { # Panzer IV
 	spriteType = {
 		name = "GFX_EMI_tank_panzer_4_fixed_superstructure_turret"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_fixed_superstructure.dds"
+	}
+	
+	spriteType = { # Panther
+		name = "GFX_EMI_tank_panther_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_three_man_turret.dds"
+	}
+	
+	spriteType = { #
+		name = "GFX_EMI_tank_panther_turret_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_three_man_turret.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_panther_open_superstructure_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_fixed_superstructure.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_panther_fixed_superstructure_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_fixed_superstructure.dds"
 	}
 
 }

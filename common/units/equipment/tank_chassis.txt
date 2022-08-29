@@ -2417,8 +2417,8 @@ equipments = {
 			tank_shell_type_slot = tank_shell_APHE
 			turret_type_slot = tank_panzer_3_turret
 			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_armor_10t_20x10_R
-			engine_type_slot = tank_engine_10t_200_G
+			armor_type_slot = tank_armor_20t_20x10_R
+			engine_type_slot = tank_engine_20t_200_G
 			tank_production_method_slot = tank_normal_production
 			tank_armor_angle_slot = tank_armor_panzer_3
 			tank_radio_slot = tank_radio_0
@@ -2643,8 +2643,8 @@ equipments = {
 			tank_shell_type_slot = tank_shell_APHE
 			turret_type_slot = tank_panzer_4_turret
 			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_armor_10t_20x10_R
-			engine_type_slot = tank_engine_10t_200_G
+			armor_type_slot = tank_armor_20t_20x10_R
+			engine_type_slot = tank_engine_20t_200_G
 			tank_production_method_slot = tank_normal_production
 			tank_armor_angle_slot = tank_armor_panzer_4
 			tank_radio_slot = tank_radio_0
@@ -2652,6 +2652,241 @@ equipments = {
 			tank_optics_slot = tank_optics_0
 		}
 		
+	}
+	
+	ghost_ger_medium_tank_chassis_4 = {
+		year = 1936
+
+		archetype = medium_tank_chassis
+		priority = 10
+		parent = ger_medium_tank_chassis_4
+		visual_level = 0
+		is_convertable = no
+	}
+	
+	ger_medium_tank_chassis_5 = { #panther
+		abbreviation = "pz5"
+		visual_level = 0
+		year = 1943
+		archetype = medium_tank_chassis
+		parent = ghost_ger_medium_tank_chassis_4
+		priority = 2000
+		is_convertable = yes
+		
+		module_slots = {
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					panther_turret_type
+				}
+			}
+			
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_small_main_armament
+					tank_flamethrower
+				}
+			}
+			
+			tank_secondary_armament_slot = {
+				
+				allowed_module_categories = {
+					#tank_secondary_turret
+				}
+			}
+
+			tank_machine_gun_slot = {
+				
+				allowed_module_categories = {
+					tank_xtra_mg_1
+					tank_xtra_mg_2
+					tank_xtra_mg_3
+					tank_xtra_mg_4
+				}
+			}
+
+			tank_shell_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_shell_he_only_cat #All categories unlocked for tests
+					tank_shell_AP_only_cat
+					tank_shell_APHE_cat
+					tank_shell_sqz_bore_cat
+				}
+			}
+
+			tank_optics_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_optics_module
+				}
+			}
+			
+			tank_periscope_slot = {
+				
+				allowed_module_categories = {
+					tank_periscope_module
+				}
+			}
+			
+			tank_radio_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_radio_module
+				}
+			}
+			
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_engine_20t_G
+				}
+			}
+
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_suspension_type
+				}
+			}
+			
+			tank_fuel_storage_slot = {
+				
+				allowed_module_categories = {
+					tank_fuel_module
+				}
+			}
+			
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+				}
+			}
+			
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+				}
+			}
+			
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+				}
+			}
+			
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_armor_20t_R_1
+					tank_armor_20t_R_2
+					tank_armor_20t_R_3
+					tank_armor_20t_R_4
+					tank_armor_20t_R_5
+					tank_armor_20t_R_6
+					tank_armor_20t_R_7
+				}
+			}
+			
+			tank_armor_angle_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_armor_shape_panzer_4
+				}
+			}
+			
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+				}
+			}
+			
+			tank_production_method_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_production_module
+				}
+			}
+		}
+		
+		module_count_limit = {
+			module = sloped_armor
+			count < 2
+		}	
+		module_count_limit = {
+			category = tank_radio_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 2
+		}
+		module_count_limit = {
+			module = amphibious_drive
+			count < 2
+		}
+
+		module_count_limit = {
+			module = wet_ammo_storage
+			count < 2
+		}
+
+		module_count_limit = {
+			module = squeezebore_adaptor
+			count < 2
+		}
+
+		module_count_limit = {
+			module = armor_skirts
+			count < 2
+		}
+
+		module_count_limit = {
+			module = dozer_blade
+			count < 2
+		}
+
+		module_count_limit = {
+			module = easy_maintenance
+			count < 2
+		}
+		module_count_limit = {
+			module = auto_loader
+			count < 2
+		}
+		module_count_limit = {
+			module = stabilizer
+			count < 2
+		}
+		default_modules = {
+			main_armament_slot = empty
+			tank_shell_type_slot = tank_shell_APHE
+			turret_type_slot = tank_panzer_4_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_armor_20t_20x10_R
+			engine_type_slot = tank_engine_20t_200_G
+			tank_production_method_slot = tank_normal_production
+			tank_armor_angle_slot = tank_armor_panzer_4
+			tank_radio_slot = tank_radio_0
+			tank_periscope_slot = tank_periscope_0
+			tank_optics_slot = tank_optics_0
+		}
+		
+	}
+	
+	ghost_ger_medium_tank_chassis_5 = {
+		year = 1936
+
+		archetype = medium_tank_chassis
+		priority = 10
+		parent = ger_medium_tank_chassis_5
+		visual_level = 0
+		is_convertable = no
 	}
 	
 	########################################## Leftovers ######################################

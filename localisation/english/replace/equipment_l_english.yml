@@ -808,4 +808,47 @@
  medium_tank_assault_chassisger_medium_tank_chassis_4_desc:0 "The Sturmpanzer IV was a heavy assault gun armed with a 15-cm-sIG StuH 43 L/12, developed in 1943. While the StuH 42 was an excellent assault gun, it did not have as high a firepower as it was sometimes needed. This vehicle did, pairing a devastating gun with very heavy armor to breach even the strongest fortifications. It was somewhat slow though."
  
  
+ ########## Panther
+  
+ medium_tank_artillery_equipmentger_medium_tank_chassis_5:0 "@GER SPG"
+ GER_medium_tank_artillery_equipmentger_medium_tank_chassis_5:0 "Geschützwagen Panther"
+ medium_tank_artillery_equipmentger_medium_tank_chassis_5_short:0 "GW Panther"
+ medium_tank_artillery_equipmentger_medium_tank_chassis_5_desc:0 "The Geschützwagen Panther was a medium self-propelled artillery armed with a 15-cm-sFH 43. Developed in 1944, this armored artillery vehicle was the definitive answer to the ever increasing need of long-range fire support required by the German mobile combined arms doctrine, defensively and offensively."
+
+ medium_tank_artillery_chassisger_medium_tank_chassis_5:0 "@GER SPG"
+ GER_medium_tank_artillery_chassisger_medium_tank_chassis_5:0 "Geschützwagen Panther"
+ medium_tank_artillery_chassisger_medium_tank_chassis_5_short:0 "GW Panther"
+ medium_tank_artillery_chassisger_medium_tank_chassis_5_desc:0 "The Geschützwagen Panther was a medium self-propelled artillery armed with a 15-cm-sFH 43. Developed in 1944, this armored artillery vehicle was the definitive answer to the ever increasing need of long-range fire support required by the German mobile combined arms doctrine, defensively and offensively."
+
+ medium_tank_destroyer_equipmentger_medium_tank_chassis_5:0 "@GER TD"
+ GER_medium_tank_destroyer_equipmentger_medium_tank_chassis_5:0 "Jagdpanzer V Jagdpanther"
+ medium_tank_destroyer_equipmentger_medium_tank_chassis_5_short:0 "Jagdpanther"
+ medium_tank_destroyer_equipmentger_medium_tank_chassis_5_desc:0 "The Jagdpanzer V was a medium tank destroyer armed with a 8.8-cm-PjK 43 L/71. First produced in January 1944, this beast of a dedicated tank hunter featured extremely sloped frontal armor, very high mobility and devastating firepower to become the ultimate anti-tank vehicle of its time. It was quite costly though and suffered from somewhat low reliability."
+    
+ medium_tank_destroyer_chassisger_medium_tank_chassis_5:0 "@GER TD"
+ GER_medium_tank_destroyer_chassisger_medium_tank_chassis_5:0 "Jagdpanzer V Jagdpanther"
+ medium_tank_destroyer_chassisger_medium_tank_chassis_5_short:0 "Jagdpanther"
+ medium_tank_destroyer_chassisger_medium_tank_chassis_5_desc:0 "The Jagdpanzer V was a medium tank destroyer armed with a 8.8-cm-PjK 43 L/71. First produced in January 1944, this beast of a dedicated tank hunter featured extremely sloped frontal armor, very high mobility and devastating firepower to become the ultimate anti-tank vehicle of its time. It was quite costly though and suffered from somewhat low reliability."
+    
+ medium_tank_aa_equipmentger_medium_tank_chassis_5:0 "@GER SPAA"
+ GER_medium_tank_aa_equipmentger_medium_tank_chassis_5:0 "Flakpanzer V Coelian"
+ medium_tank_aa_equipmentger_medium_tank_chassis_5_short:0 "Coelian"
+ medium_tank_aa_equipmentger_medium_tank_chassis_5_desc:0 "The Flakpanzer V was a medium self-propelled anti-air armed with a 3.7-cm-Flak 341 designed in 1944. Built on the very good Panther chassis, it was a quite well armored if somewhat overengineered vehicle and probably a bit big for its not that strong armament."
+ 
+ medium_tank_aa_chassisger_medium_tank_chassis_5:0 "@GER SPAA"
+ GER_medium_tank_aa_chassisger_medium_tank_chassis_5:0 "Flakpanzer V Coelian"
+ medium_tank_aa_chassisger_medium_tank_chassis_5_short:0 "Coelian"
+ medium_tank_aa_chassisger_medium_tank_chassis_5_desc:0 "The Flakpanzer V was a medium self-propelled anti-air armed with a 3.7-cm-Flak 341 designed in 1944. Built on the very good Panther chassis, it was a quite well armored if somewhat overengineered vehicle and probably a bit big for its not that strong armament."
+ 
+ medium_tank_assault_equipmentger_medium_tank_chassis_5:0 "@GER Assault Gun"
+ GER_medium_tank_assault_equipmentger_medium_tank_chassis_5:0 "Sturmpanzer IV Brummbär"
+ medium_tank_assault_equipmentger_medium_tank_chassis_5_short:0 "Brummbär"
+ medium_tank_assault_equipmentger_medium_tank_chassis_5_desc:0 "The Sturmpanzer IV was a heavy assault gun armed with a 15-cm-sIG StuH 43 L/12, developed in 1943. While the StuH 42 was an excellent assault gun, it did not have as high a firepower as it was sometimes needed. This vehicle did, pairing a devastating gun with very heavy armor to breach even the strongest fortifications. It was somewhat slow though."
+  
+ medium_tank_assault_chassisger_medium_tank_chassis_5:0 "@GER Assault Gun"
+ GER_medium_tank_assault_chassisger_medium_tank_chassis_5:0 "Sturmpanzer V Sturmpanther"
+ medium_tank_assault_chassisger_medium_tank_chassis_5_short:0 "Sturmpanther"
+ medium_tank_assault_chassisger_medium_tank_chassis_5_desc:0 "Assault Gun on a Panther Chassis"
+ 
+ 
  
