@@ -47,36 +47,211 @@
   
   ######## Panzer I
   
+  light_tank_artillery_equipmentger_light_tank_chassis_1:0 "@GER Light SPG"
   GER_light_tank_artillery_equipmentger_light_tank_chassis_1:0 "Sturmpanzer I Bison"
-  GER_light_tank_artillery_equipmentger_light_tank_chassis_1_short:0 "Bison"
-  GER_light_tank_artillery_equipmentger_light_tank_chassis_1_desc:0 "Towed guns which were assigned to the infantry gun companies of motorized infantry regiments had difficulties keeping up with tanks during combat. The easiest solution was to modify a spare tank chassis to carry it into battle. In the case of the Bison, it uses the chassis of the Panzer I."
+  light_tank_artillery_equipmentger_light_tank_chassis_1_short:0 "Bison"
+  light_tank_artillery_equipmentger_light_tank_chassis_1_desc:0 "Towed guns which were assigned to the infantry gun companies of motorized infantry regiments had difficulties keeping up with tanks during combat. The easiest solution was to modify a spare tank chassis to carry it into battle. In the case of the Bison, it uses the chassis of the Panzer I."
  
+  light_tank_artillery_chassisger_light_tank_chassis_1:0 "@GER Light SPG"
   GER_light_tank_artillery_chassisger_light_tank_chassis_1:0 "Sturmpanzer I Bison"
-  GER_light_tank_artillery_chassisger_light_tank_chassis_1_short:0 "Bison"
-  GER_light_tank_artillery_chassisger_light_tank_chassis_1_desc:0 "Towed guns which were assigned to the infantry gun companies of motorized infantry regiments had difficulties keeping up with tanks during combat. The easiest solution was to modify a spare tank chassis to carry it into battle. In the case of the Bison, it uses the chassis of the Panzer I."
- 
+  light_tank_artillery_chassisger_light_tank_chassis_1_short:0 "Bison"
+  light_tank_artillery_chassisger_light_tank_chassis_1_desc:0 "Towed guns which were assigned to the infantry gun companies of motorized infantry regiments had difficulties keeping up with tanks during combat. The easiest solution was to modify a spare tank chassis to carry it into battle. In the case of the Bison, it uses the chassis of the Panzer I."
+  
+  medium_tank_artillery_equipmentger_medium_tank_chassis_1:0 "@GER SPG"
   GER_medium_tank_artillery_equipmentger_medium_tank_chassis_1:0 "Sturmpanzer I Bison"
-  GER_medium_tank_artillery_equipmentger_medium_tank_chassis_1_short:0 "Bison"
-  GER_medium_tank_artillery_equipmentger_medium_tank_chassis_1_desc:0 "Towed guns which were assigned to the infantry gun companies of motorized infantry regiments had difficulties keeping up with tanks during combat. The easiest solution was to modify a spare tank chassis to carry it into battle. In the case of the Bison, it uses the chassis of the Panzer I."
- 
+  medium_tank_artillery_equipmentger_medium_tank_chassis_1_short:0 "Bison"
+  medium_tank_artillery_equipmentger_medium_tank_chassis_1_desc:0 "Towed guns which were assigned to the infantry gun companies of motorized infantry regiments had difficulties keeping up with tanks during combat. The easiest solution was to modify a spare tank chassis to carry it into battle. In the case of the Bison, it uses the chassis of the Panzer I."
+   
+  medium_tank_artillery_chassisger_medium_tank_chassis_1:0 "@GER SPG"
   GER_medium_tank_artillery_chassisger_medium_tank_chassis_1:0 "Sturmpanzer I Bison"
-  GER_medium_tank_artillery_chassisger_medium_tank_chassis_1_short:0 "Bison"
-  GER_medium_tank_artillery_chassisger_medium_tank_chassis_1_desc:0 "Towed guns which were assigned to the infantry gun companies of motorized infantry regiments had difficulties keeping up with tanks during combat. The easiest solution was to modify a spare tank chassis to carry it into battle. In the case of the Bison, it uses the chassis of the Panzer I."
- 
+  medium_tank_artillery_chassisger_medium_tank_chassis_1_short:0 "Bison"
+  medium_tank_artillery_chassisger_medium_tank_chassis_1_desc:0 "Towed guns which were assigned to the infantry gun companies of motorized infantry regiments had difficulties keeping up with tanks during combat. The easiest solution was to modify a spare tank chassis to carry it into battle. In the case of the Bison, it uses the chassis of the Panzer I."
+  
+  light_tank_destroyer_equipmentger_light_tank_chassis_1:0 "@GER Light TD"
+  GER_light_tank_destroyer_equipmentger_light_tank_chassis_1:0 "Panzerjäger I"
+  light_tank_destroyer_equipmentger_light_tank_chassis_1_short:0 "Panzerjäger I"
+  light_tank_destroyer_equipmentger_light_tank_chassis_1_desc:0 "The Panzerjäger I was the first dedicated German light tank destroyer, armed with a Czech 4.7-cm-Pak 36(t) L/43. A 1940 attempt to convert the obsolete Panzer I into a more useful vehicle it could penetrate tanks of its era but had serious reliability issues due to the added weight of the gun. The armor was lacking and only thick enough to resist small arms fire."
+  
+  light_tank_destroyer_chassisger_light_tank_chassis_1:0 "@GER Light TD"
+  GER_light_tank_destroyer_chassisger_light_tank_chassis_1:0 "Panzerjäger I"
+  light_tank_destroyer_chassisger_light_tank_chassis_1_short:0 "Panzerjäger I"
+  light_tank_destroyer_chassisger_light_tank_chassis_1_desc:0 "The Panzerjäger I was the first dedicated German light tank destroyer, armed with a Czech 4.7-cm-Pak 36(t) L/43. A 1940 attempt to convert the obsolete Panzer I into a more useful vehicle it could penetrate tanks of its era but had serious reliability issues due to the added weight of the gun. The armor was lacking and only thick enough to resist small arms fire."
+  
+  medium_tank_destroyer_equipmentger_medium_tank_chassis_1:0 "@GER TD"
+  GER_medium_tank_destroyer_equipmentger_medium_tank_chassis_1:0 "Panzerjäger I"
+  medium_tank_destroyer_equipmentger_medium_tank_chassis_1_short:0 "Panzerjäger I"
+  medium_tank_destroyer_equipmentger_medium_tank_chassis_1_desc:0 "The Panzerjäger I was the first dedicated German light tank destroyer, armed with a Czech 4.7-cm-Pak 36(t) L/43. A 1940 attempt to convert the obsolete Panzer I into a more useful vehicle it could penetrate tanks of its era but had serious reliability issues due to the added weight of the gun. The armor was lacking and only thick enough to resist small arms fire."
+  
+  medium_tank_destroyer_chassisger_medium_tank_chassis_1:0 "@GER TD"
+  GER_medium_tank_destroyer_chassisger_medium_tank_chassis_1:0 "Panzerjäger I"
+  medium_tank_destroyer_chassisger_medium_tank_chassis_1_short:0 "Panzerjäger I"
+  medium_tank_destroyer_chassisger_medium_tank_chassis_1_desc:0 "The Panzerjäger I was the first dedicated German light tank destroyer, armed with a Czech 4.7-cm-Pak 36(t) L/43. A 1940 attempt to convert the obsolete Panzer I into a more useful vehicle it could penetrate tanks of its era but had serious reliability issues due to the added weight of the gun. The armor was lacking and only thick enough to resist small arms fire."
+  
+  light_tank_aa_equipmentger_light_tank_chassis_1:0 "@GER Light SPAA"
+  GER_light_tank_aa_equipmentger_light_tank_chassis_1:0 "Flakpanzer I"
+  light_tank_aa_equipmentger_light_tank_chassis_1_short:0 "Flakpanzer I"
+  light_tank_aa_equipmentger_light_tank_chassis_1_desc:0 "The Flakpanzer I was a light self-propelled anti air armed with a 2-cm-Flak 38. Since motorized AA wasn’t sufficiently armored, the Heereswaffenamt designed this vehicle in 1940. Though reliable, its gun wasn’t very effective against aircraft and the completely open turret gave little to no cover for its crew."
+  
+  light_tank_aa_chassisger_light_tank_chassis_1:0 "@GER Light SPAA"
+  GER_light_tank_aa_chassisger_light_tank_chassis_1:0 "Flakpanzer I"
+  light_tank_aa_chassisger_light_tank_chassis_1_short:0 "Flakpanzer I"
+  light_tank_aa_chassisger_light_tank_chassis_1_desc:0 "The Flakpanzer I was a light self-propelled anti air armed with a 2-cm-Flak 38. Since motorized AA wasn’t sufficiently armored, the Heereswaffenamt designed this vehicle in 1940. Though reliable, its gun wasn’t very effective against aircraft and the completely open turret gave little to no cover for its crew."
+  
+  medium_tank_aa_equipmentger_medium_tank_chassis_1:0 "@GER SPAA"
+  GER_medium_tank_aa_equipmentger_medium_tank_chassis_1:0 "Flakpanzer I"
+  medium_tank_aa_equipmentger_medium_tank_chassis_1_short:0 "Flakpanzer I"
+  medium_tank_aa_equipmentger_medium_tank_chassis_1_desc:0 "The Flakpanzer I was a light self-propelled anti air armed with a 2-cm-Flak 38. Since motorized AA wasn’t sufficiently armored, the Heereswaffenamt designed this vehicle in 1940. Though reliable, its gun wasn’t very effective against aircraft and the completely open turret gave little to no cover for its crew."
+  
+  medium_tank_aa_chassisger_medium_tank_chassis_1:0 "@GER SPAA"
+  GER_medium_tank_aa_chassisger_medium_tank_chassis_1:0 "Flakpanzer I"
+  medium_tank_aa_chassisger_medium_tank_chassis_1_short:0 "Flakpanzer I"
+  medium_tank_aa_chassisger_medium_tank_chassis_1_desc:0 "The Flakpanzer I was a light self-propelled anti air armed with a 2-cm-Flak 38. Since motorized AA wasn’t sufficiently armored, the Heereswaffenamt designed this vehicle in 1940. Though reliable, its gun wasn’t very effective against aircraft and the completely open turret gave little to no cover for its crew."
+
   ######## Panzer II
- 
+  
+  light_tank_artillery_equipmentger_light_tank_chassis_2:0 "@GER Light SPG"
   GER_light_tank_artillery_equipmentger_light_tank_chassis_2:0 "Sd. Kfz. 124 Wespe"
-  GER_light_tank_artillery_equipmentger_light_tank_chassis_2_short:0 "Wespe"
-  GER_light_tank_artillery_equipmentger_light_tank_chassis_2_desc:0 "The Sd.Kfz. 124 Wespe (German for Wasp), was a German self-propelled artillery vehicle based on a modified Panzer II chassis."
+  light_tank_artillery_equipmentger_light_tank_chassis_2_short:0 "Wespe"
+  light_tank_artillery_equipmentger_light_tank_chassis_2_desc:0 "The Sd.Kfz. 124 Wespe (German for Wasp), was a German self-propelled artillery vehicle based on a modified Panzer II chassis."
   
+  light_tank_artillery_chassisger_light_tank_chassis_2:0 "@GER Light SPG"
   GER_light_tank_artillery_chassisger_light_tank_chassis_2:0 "Sd. Kfz. 124 Wespe"
-  GER_light_tank_artillery_chassisger_light_tank_chassis_2_short:0 "Wespe"
-  GER_light_tank_artillery_chassisger_light_tank_chassis_2_desc:0 "The Sd.Kfz. 124 Wespe (German for Wasp), was a German self-propelled artillery vehicle based on a modified Panzer II chassis."
+  light_tank_artillery_chassisger_light_tank_chassis_2_short:0 "Wespe"
+  light_tank_artillery_chassisger_light_tank_chassis_2_desc:0 "The Sd.Kfz. 124 Wespe (German for Wasp), was a German self-propelled artillery vehicle based on a modified Panzer II chassis."
   
+  medium_tank_artillery_equipmentger_medium_tank_chassis_2:0 "@GER SPG"
   GER_medium_tank_artillery_equipmentger_medium_tank_chassis_2:0 "Sd. Kfz. 124 Wespe"
-  GER_medium_tank_artillery_equipmentger_medium_tank_chassis_2_short:0 "Wespe"
-  GER_medium_tank_artillery_equipmentger_medium_tank_chassis_2_desc:0 "The Sd.Kfz. 124 Wespe (German for Wasp), was a German self-propelled artillery vehicle based on a modified Panzer II chassis."
+  medium_tank_artillery_equipmentger_medium_tank_chassis_2_short:0 "Wespe"
+  medium_tank_artillery_equipmentger_medium_tank_chassis_2_desc:0 "The Sd.Kfz. 124 Wespe (German for Wasp), was a German self-propelled artillery vehicle based on a modified Panzer II chassis."
   
+  medium_tank_artillery_chassisger_medium_tank_chassis_2:0 "@GER SPG"
   GER_medium_tank_artillery_chassisger_medium_tank_chassis_2:0 "Sd. Kfz. 124 Wespe"
-  GER_medium_tank_artillery_chassisger_medium_tank_chassis_2_short:0 "Wespe"
-  GER_medium_tank_artillery_chassisger_medium_tank_chassis_2_desc:0 "The Sd.Kfz. 124 Wespe (German for Wasp), was a German self-propelled artillery vehicle based on a modified Panzer II chassis."
+  medium_tank_artillery_chassisger_medium_tank_chassis_2_short:0 "Wespe"
+  medium_tank_artillery_chassisger_medium_tank_chassis_2_desc:0 "The Sd.Kfz. 124 Wespe (German for Wasp), was a German self-propelled artillery vehicle based on a modified Panzer II chassis."
+  
+  light_tank_destroyer_equipmentger_light_tank_chassis_2:0 "@GER Light TD"
+  GER_light_tank_destroyer_equipmentger_light_tank_chassis_2:0 "Marder I"
+  light_tank_destroyer_equipmentger_light_tank_chassis_2_short:0 "Marder I"
+  light_tank_destroyer_equipmentger_light_tank_chassis_2_desc:0 "The Marder I light tank destroyer was armed with either a 7.5-cm-Pak 40 or a captured Soviet 76mm M1942 gun redesignated 7.62-cm-Feldkanone 288(r). Developed in 1942 on the initiative of Major Alfred Becker, the need for heavier and mobile anti-tank firepower after encountering modern Soviet tanks warranted the conversion of a variety of captured French vehicles into just good enough tank destroyers."
+  
+  light_tank_destroyer_chassisger_light_tank_chassis_2:0 "@GER Light TD"
+  GER_light_tank_destroyer_chassisger_light_tank_chassis_2:0 "Marder I"
+  light_tank_destroyer_chassisger_light_tank_chassis_2_short:0 "Marder I"
+  light_tank_destroyer_chassisger_light_tank_chassis_2_desc:0 "The Marder I light tank destroyer was armed with either a 7.5-cm-Pak 40 or a captured Soviet 76mm M1942 gun redesignated 7.62-cm-Feldkanone 288(r). Developed in 1942 on the initiative of Major Alfred Becker, the need for heavier and mobile anti-tank firepower after encountering modern Soviet tanks warranted the conversion of a variety of captured French vehicles into just good enough tank destroyers."
+ 
+  medium_tank_destroyer_equipmentger_medium_tank_chassis_2:0 "@GER TD"
+  GER_medium_tank_destroyer_equipmentger_medium_tank_chassis_2:0 "Marder I"
+  medium_tank_destroyer_equipmentger_medium_tank_chassis_2_short:0 "Marder I"
+  medium_tank_destroyer_equipmentger_medium_tank_chassis_2_desc:0 "The Marder I light tank destroyer was armed with either a 7.5-cm-Pak 40 or a captured Soviet 76mm M1942 gun redesignated 7.62-cm-Feldkanone 288(r). Developed in 1942 on the initiative of Major Alfred Becker, the need for heavier and mobile anti-tank firepower after encountering modern Soviet tanks warranted the conversion of a variety of captured French vehicles into just good enough tank destroyers."
+  
+  medium_tank_destroyer_chassisger_medium_tank_chassis_2:0 "@GER TD"
+  GER_medium_tank_destroyer_chassisger_medium_tank_chassis_2:0 "Marder I"
+  medium_tank_destroyer_chassisger_medium_tank_chassis_2_short:0 "Marder I"
+  medium_tank_destroyer_chassisger_medium_tank_chassis_2_desc:0 "The Marder I light tank destroyer was armed with either a 7.5-cm-Pak 40 or a captured Soviet 76mm M1942 gun redesignated 7.62-cm-Feldkanone 288(r). Developed in 1942 on the initiative of Major Alfred Becker, the need for heavier and mobile anti-tank firepower after encountering modern Soviet tanks warranted the conversion of a variety of captured French vehicles into just good enough tank destroyers."
+  
+  light_tank_aa_equipmentger_light_tank_chassis_2:0 "@GER Light SPAA"
+  GER_light_tank_aa_equipmentger_light_tank_chassis_2:0 "Flakpanzer II"
+  light_tank_aa_equipmentger_light_tank_chassis_2_short:0 "Flakpanzer II"
+  light_tank_aa_equipmentger_light_tank_chassis_2_desc:0"Self Propelled Anti-Air on a Panzer II chassis"
+  
+  light_tank_aa_chassisger_light_tank_chassis_2:0 "@GER Light SPAA"
+  GER_light_tank_aa_chassisger_light_tank_chassis_2:0 "Flakpanzer II"
+  light_tank_aa_chassisger_light_tank_chassis_2_short:0 "Flakpanzer II"
+  light_tank_aa_chassisger_light_tank_chassis_2_desc:0 "Self Propelled Anti-Air on a Panzer II chassis"
+  
+  medium_tank_aa_equipmentger_medium_tank_chassis_2:0 "@GER SPAA"
+  GER_medium_tank_aa_equipmentger_medium_tank_chassis_2:0 "Flakpanzer II"
+  medium_tank_aa_equipmentger_medium_tank_chassis_2_short:0 "Flakpanzer II"
+  medium_tank_aa_equipmentger_medium_tank_chassis_2_desc:0 "Self Propelled Anti-Air on a Panzer II chassis"
+  
+  medium_tank_aa_chassisger_medium_tank_chassis_2:0 "@GER SPAA"
+  GER_medium_tank_aa_chassisger_medium_tank_chassis_2:0 "Flakpanzer II"
+  medium_tank_aa_chassisger_medium_tank_chassis_2_short:0 "Flakpanzer II"
+  medium_tank_aa_chassisger_medium_tank_chassis_2_desc:0 "Self Propelled Anti-Air on a Panzer II chassis"
+  
+  ########## Panzer III
+  
+  medium_tank_artillery_equipmentger_medium_tank_chassis_3:0 "@GER SPG"
+  GER_medium_tank_artillery_equipmentger_medium_tank_chassis_3:0 "Hummel"
+  medium_tank_artillery_equipmentger_medium_tank_chassis_3_short:0 "Hummel"
+  medium_tank_artillery_equipmentger_medium_tank_chassis_3_desc:0 "The Hummel was a medium self-propelled artillery armed with a 15-cm-sFH 18. Developed in 1942 with parts from both the Panzer III and IV, it was arguably the best armored artillery of its time. Featuring a devastating gun, high mobility and a reliable and easily to produce chassis, it was a very good addition for the artillery battalions of German mobile formations despite its improvised nature."
+   
+  medium_tank_artillery_chassisger_medium_tank_chassis_3:0 "@GER SPG"
+  GER_medium_tank_artillery_chassisger_medium_tank_chassis_3:0 "Hummel"
+  medium_tank_artillery_chassisger_medium_tank_chassis_3_short:0 "Hummel"
+  medium_tank_artillery_chassisger_medium_tank_chassis_3_desc:0 "The Hummel was a medium self-propelled artillery armed with a 15-cm-sFH 18. Developed in 1942 with parts from both the Panzer III and IV, it was arguably the best armored artillery of its time. Featuring a devastating gun, high mobility and a reliable and easily to produce chassis, it was a very good addition for the artillery battalions of German mobile formations despite its improvised nature."
+  
+  medium_tank_destroyer_equipmentger_medium_tank_chassis_3:0 "@GER TD"
+  GER_medium_tank_destroyer_equipmentger_medium_tank_chassis_3:0 "Sturmgeschütz III Ausf. F"
+  medium_tank_destroyer_equipmentger_medium_tank_chassis_3_short:0 "StuG III F"
+  medium_tank_destroyer_equipmentger_medium_tank_chassis_3_desc:0 "The StuG III F was a medium tank destroyer armed with a 7.5-cm-StuK 40 L/43. Entering production in 1942, the StuG III F was a direct result of encountering heavily armored Soviet tanks. Largely omitting its infantry support role, this cheap, reliable and hard-hitting tank hunter was capable of piercing most enemy tanks, massively increasing the combat capability of anti-tank units."
+  
+  medium_tank_destroyer_chassisger_medium_tank_chassis_3:0 "@GER TD"
+  GER_medium_tank_destroyer_chassisger_medium_tank_chassis_3:0 "Sturmgeschütz III Ausf. F"
+  medium_tank_destroyer_chassisger_medium_tank_chassis_3_short:0 "StuG III F"
+  medium_tank_destroyer_chassisger_medium_tank_chassis_3_desc:0 "The StuG III F was a medium tank destroyer armed with a 7.5-cm-StuK 40 L/43. Entering production in 1942, the StuG III F was a direct result of encountering heavily armored Soviet tanks. Largely omitting its infantry support role, this cheap, reliable and hard-hitting tank hunter was capable of piercing most enemy tanks, massively increasing the combat capability of anti-tank units."
+  
+  medium_tank_aa_equipmentger_medium_tank_chassis_3:0 "@GER SPAA"
+  GER_medium_tank_aa_equipmentger_medium_tank_chassis_3:0 "Flakpanzer III Möbelwagen"
+  medium_tank_aa_equipmentger_medium_tank_chassis_3_short:0 "Möbelwagen"
+  medium_tank_aa_equipmentger_medium_tank_chassis_3_desc:0 "The Flakpanzer III was a medium self-propelled anti-air armed with a 3.7-cm Flak 43 L/89, developed in 1943. Due to the increasing aerial combat impact, armored anti-air vehicles had become a necessity. This vehicle might have been a stopgap solution but nonetheless an improvement over regular anti-air units."
+    
+  medium_tank_aa_chassisger_medium_tank_chassis_3:0 "@GER SPAA"
+  GER_medium_tank_aa_chassisger_medium_tank_chassis_3:0 "Flakpanzer III Möbelwagen"
+  medium_tank_aa_chassisger_medium_tank_chassis_3_short:0 "Möbelwagen"
+  medium_tank_aa_chassisger_medium_tank_chassis_3_desc:0 "The Flakpanzer III was a medium self-propelled anti-air armed with a 3.7-cm Flak 43 L/89, developed in 1943. Due to the increasing aerial combat impact, armored anti-air vehicles had become a necessity. This vehicle might have been a stopgap solution but nonetheless an improvement over regular anti-air units."
+  
+  medium_tank_assault_equipmentger_medium_tank_chassis_3:0 "@GER Assault Gun"
+  GER_medium_tank_assault_equipmentger_medium_tank_chassis_3:0 "Sturmgeschütz III Ausf. A"
+  medium_tank_assault_equipmentger_medium_tank_chassis_3_short:0 "StuG III A"
+  medium_tank_assault_equipmentger_medium_tank_chassis_3_desc:0 "The StuG III A was a medium assault gun armed with a 7.5-cm-StuK 37 L/24, first produced in 1940. An idea by then colonel Erich von Manstein, the StuG III was the first assault gun of the world, optimized and very well suited to support the infantry in frontal assaults on fortified positions with direct fire support at close distance, omitting the turret for heavier frontal armor."
+
+  medium_tank_assault_chassisger_medium_tank_chassis_3:0 "@GER Assault Gun"
+  GER_medium_tank_assault_chassisger_medium_tank_chassis_3:0 "Sturmgeschütz III Ausf. A"
+  medium_tank_assault_chassisger_medium_tank_chassis_3_short:0 "StuG III A"
+  medium_tank_assault_chassisger_medium_tank_chassis_3_desc:0 "The StuG III A was a medium assault gun armed with a 7.5-cm-StuK 37 L/24, first produced in 1940. An idea by then colonel Erich von Manstein, the StuG III was the first assault gun of the world, optimized and very well suited to support the infantry in frontal assaults on fortified positions with direct fire support at close distance, omitting the turret for heavier frontal armor."
+
+  ########## Panzer IV
+  
+  medium_tank_artillery_equipmentger_medium_tank_chassis_4:0 "@GER SPG"
+  GER_medium_tank_artillery_equipmentger_medium_tank_chassis_4:0 "Hummel"
+  medium_tank_artillery_equipmentger_medium_tank_chassis_4_short:0 "Hummel"
+  medium_tank_artillery_equipmentger_medium_tank_chassis_4_desc:0 "The Hummel was a medium self-propelled artillery armed with a 15-cm-sFH 18. Developed in 1942 with parts from both the Panzer III and IV, it was arguably the best armored artillery of its time. Featuring a devastating gun, high mobility and a reliable and easily to produce chassis, it was a very good addition for the artillery battalions of German mobile formations despite its improvised nature."
+   
+  medium_tank_artillery_chassisger_medium_tank_chassis_4:0 "@GER SPG"
+  GER_medium_tank_artillery_chassisger_medium_tank_chassis_4:0 "Hummel"
+  medium_tank_artillery_chassisger_medium_tank_chassis_4_short:0 "Hummel"
+  medium_tank_artillery_chassisger_medium_tank_chassis_4_desc:0 "The Hummel was a medium self-propelled artillery armed with a 15-cm-sFH 18. Developed in 1942 with parts from both the Panzer III and IV, it was arguably the best armored artillery of its time. Featuring a devastating gun, high mobility and a reliable and easily to produce chassis, it was a very good addition for the artillery battalions of German mobile formations despite its improvised nature."
+  
+  medium_tank_destroyer_equipmentger_medium_tank_chassis_4:0 "@GER TD"
+  GER_medium_tank_destroyer_equipmentger_medium_tank_chassis_4:0 "Jagdpanzer IV"
+  medium_tank_destroyer_equipmentger_medium_tank_chassis_4_short:0 "Jagdpanzer IV"
+  medium_tank_destroyer_equipmentger_medium_tank_chassis_4_desc:0 "The Jagdpanzer IV was a medium tank destroyer armed with a 7.5-cm-Pak 39 L/48. Developed in 1943 to replace both the StuG III and IV as dedicated anti-tank vehicle, it featured increased and highly sloped frontal armor while removing the turret of the regular model, resulting in a cost-effective vehicle with a low silhouette well suited for anti-tank ambush tactics."
+
+  medium_tank_destroyer_chassisger_medium_tank_chassis_4:0 "@GER TD"
+  GER_medium_tank_destroyer_chassisger_medium_tank_chassis_4:0 "Jagdpanzer IV"
+  medium_tank_destroyer_chassisger_medium_tank_chassis_4_short:0 "Jagdpanzer IV"
+  medium_tank_destroyer_chassisger_medium_tank_chassis_4_desc:0 "The Jagdpanzer IV was a medium tank destroyer armed with a 7.5-cm-Pak 39 L/48. Developed in 1943 to replace both the StuG III and IV as dedicated anti-tank vehicle, it featured increased and highly sloped frontal armor while removing the turret of the regular model, resulting in a cost-effective vehicle with a low silhouette well suited for anti-tank ambush tactics."
+
+  medium_tank_aa_equipmentger_medium_tank_chassis_4:0 "@GER SPAA"
+  GER_medium_tank_aa_equipmentger_medium_tank_chassis_4:0 "Flakpanzer IV Ostwind"
+  medium_tank_aa_equipmentger_medium_tank_chassis_4_short:0 "Ostwind"
+  medium_tank_aa_equipmentger_medium_tank_chassis_4_desc:0 "The Ostwind was a medium self-propelled anti-air armed with a 3.7-cm Flak 43 L/89, developed in 1944. Since the Möbelwagen failed to provide adequate protection for its crew, this vehicle was designed. Now featuring a proper, if open-topped turret for the gun, the Ostwind was a dangerous foe for every plane in its range."
+
+  medium_tank_aa_chassisger_medium_tank_chassis_4:0 "@GER SPAA"
+  GER_medium_tank_aa_chassisger_medium_tank_chassis_4:0 "Flakpanzer IV Ostwind"
+  medium_tank_aa_chassisger_medium_tank_chassis_4_short:0 "Ostwind"
+  medium_tank_aa_chassisger_medium_tank_chassis_4_desc:0 "The Ostwind was a medium self-propelled anti-air armed with a 3.7-cm Flak 43 L/89, developed in 1944. Since the Möbelwagen failed to provide adequate protection for its crew, this vehicle was designed. Now featuring a proper, if open-topped turret for the gun, the Ostwind was a dangerous foe for every plane in its range."
+
+  medium_tank_assault_equipmentger_medium_tank_chassis_4:0 "@GER Assault Gun"
+  GER_medium_tank_assault_equipmentger_medium_tank_chassis_4:0 "Sturmpanzer IV Brummbär"
+  medium_tank_assault_equipmentger_medium_tank_chassis_4_short:0 "Brummbär"
+  medium_tank_assault_equipmentger_medium_tank_chassis_4_desc:0 "The Sturmpanzer IV was a heavy assault gun armed with a 15-cm-sIG StuH 43 L/12, developed in 1943. While the StuH 42 was an excellent assault gun, it did not have as high a firepower as it was sometimes needed. This vehicle did, pairing a devastating gun with very heavy armor to breach even the strongest fortifications. It was somewhat slow though."
+  
+  medium_tank_assault_chassisger_medium_tank_chassis_4:0 "@GER Assault Gun"
+  GER_medium_tank_assault_chassisger_medium_tank_chassis_4:0 "Sturmpanzer IV Brummbär"
+  medium_tank_assault_chassisger_medium_tank_chassis_4_short:0 "Brummbär"
+  medium_tank_assault_chassisger_medium_tank_chassis_4_desc:0 "The Sturmpanzer IV was a heavy assault gun armed with a 15-cm-sIG StuH 43 L/12, developed in 1943. While the StuH 42 was an excellent assault gun, it did not have as high a firepower as it was sometimes needed. This vehicle did, pairing a devastating gun with very heavy armor to breach even the strongest fortifications. It was somewhat slow though."
+  
+  
+  
