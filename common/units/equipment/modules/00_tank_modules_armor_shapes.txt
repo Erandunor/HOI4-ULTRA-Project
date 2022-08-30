@@ -1,0 +1,97 @@
+equipment_modules = {
+
+	########################################## Shape ######################################
+	
+	############ Germany ############
+	
+	tank_armor_panzer_1 = {
+		abbreviation = "strt"
+		category = tank_armor_shape_panzer_1
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+		
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 10
+		multiply_stats = {
+			armor_value = 0.09
+			defense = 0.09
+			breakthrough = 0.09
+			
+		}
+	}
+	
+	tank_armor_panzer_2 = {
+		abbreviation = "strt"
+		category = tank_armor_shape_panzer_2
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+		
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 10
+		multiply_stats = {
+			armor_value = 0.05
+			defense = 0.02
+			breakthrough = 0.02
+			
+		}
+	}
+	
+	tank_armor_panzer_3 = {
+		abbreviation = "strt"
+		category = tank_armor_shape_panzer_3
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+		
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 10
+		multiply_stats = {
+			armor_value = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+			
+		}
+	}
+	
+	tank_armor_panzer_4 = {
+		abbreviation = "strt"
+		category = tank_armor_shape_panzer_4
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+		
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 10
+		multiply_stats = {
+			armor_value = 0.01
+			defense = 0.01
+			breakthrough = 0.01
+			
+		}
+	}
+	
+	tank_armor_panther = {
+		abbreviation = "strt"
+		category = tank_armor_shape_panther
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+		
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 10
+		multiply_stats = {
+			armor_value = 0.01
+			defense = 0.01
+			breakthrough = 0.01
+			
+		}
+	}
+
+}
